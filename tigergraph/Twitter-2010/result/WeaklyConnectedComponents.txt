@@ -1,0 +1,64 @@
+[2021-01-22 09:53:45] [INFO]	-- Start WCC
+[2021-01-22 09:57:20] [DEBUG]		1	Schedule: 100.00%	Time: 3m 34s 279ms 775us 686ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":1,"loop_count":16}]}
+[2021-01-22 09:57:20] [INFO]	-- Result Statistics
+[2021-01-22 09:57:20] [INFO]	minTime: 3m 34s 279ms 775us 686ns(214279.78ms)
+[2021-01-22 09:57:20] [INFO]	maxTime: 3m 34s 279ms 775us 686ns(214279.78ms)
+[2021-01-22 09:57:20] [INFO]	AvgTime: 3m 34s 279ms 775us 686ns(214279.78ms)
+[2021-01-22 09:57:20] [INFO]	P99: 3m 34s 279ms 775us 686ns(214279.78ms)
+[2021-01-22 09:57:20] [INFO]	P999: 3m 34s 279ms 775us 686ns(214279.78ms)
+[2021-01-22 09:57:20] [INFO]	Throughput: 0.00
+[2021-01-22 09:57:20] [INFO]	SuccessNum: 1
+[2021-01-22 09:57:20] [INFO]	SuccessRate: 100.00%
+[2021-01-22 09:57:20] [INFO]	ErrorNum: 0
+[2021-01-22 09:57:20] [INFO]	ErrorRate: 0.00%
+[2021-01-22 09:57:20] [INFO]	TimeoutNum: 0
+[2021-01-22 09:57:20] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 09:57:20] [INFO]	-- End WCC
+[2021-01-22 09:57:20] [INFO]	-- Start WCC
+[2021-01-22 10:00:55] [DEBUG]		1	Schedule: 100.00%	Time: 3m 34s 947ms 764us 342ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":1,"loop_count":16}]}
+[2021-01-22 10:00:55] [INFO]	-- Result Statistics
+[2021-01-22 10:00:55] [INFO]	minTime: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:00:55] [INFO]	maxTime: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:00:55] [INFO]	AvgTime: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:00:55] [INFO]	P99: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:00:55] [INFO]	P999: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:00:55] [INFO]	Throughput: 0.00
+[2021-01-22 10:00:55] [INFO]	SuccessNum: 1
+[2021-01-22 10:00:55] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:00:55] [INFO]	ErrorNum: 0
+[2021-01-22 10:00:55] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:00:55] [INFO]	TimeoutNum: 0
+[2021-01-22 10:00:55] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:00:55] [INFO]	-- End WCC
+[2021-01-22 10:00:55] [INFO]	-- Start WCC
+[2021-01-22 10:04:29] [DEBUG]		1	Schedule: 100.00%	Time: 3m 34s 335ms 70us 612ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":1,"loop_count":16}]}
+[2021-01-22 10:04:29] [INFO]	-- Result Statistics
+[2021-01-22 10:04:29] [INFO]	minTime: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	maxTime: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	AvgTime: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	P99: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	P999: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	Throughput: 0.00
+[2021-01-22 10:04:29] [INFO]	SuccessNum: 1
+[2021-01-22 10:04:29] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:04:29] [INFO]	ErrorNum: 0
+[2021-01-22 10:04:29] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:04:29] [INFO]	TimeoutNum: 0
+[2021-01-22 10:04:29] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:04:29] [INFO]	-- End WCC
+[2021-01-22 10:04:29] [INFO]	***********************
+[2021-01-22 10:04:29] [INFO]	** Summary of WCC Test 2 - 3
+[2021-01-22 10:04:29] [INFO]	minTime: 3m 34s 335ms 70us 612ns(214335.07ms)
+[2021-01-22 10:04:29] [INFO]	maxTime: 3m 34s 947ms 764us 342ns(214947.76ms)
+[2021-01-22 10:04:29] [INFO]	AvgTime: 3m 34s 641ms 417us 477ns(214641.42ms)
+[2021-01-22 10:04:29] [INFO]	P99: 3m 34s 941ms 637us 404ns(214941.64ms)
+[2021-01-22 10:04:29] [INFO]	P999: 3m 34s 947ms 151us 648ns(214947.15ms)
+[2021-01-22 10:04:29] [INFO]	Throughput: 0.00
+[2021-01-22 10:04:29] [INFO]	SuccessNum: 2
+[2021-01-22 10:04:29] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:04:29] [INFO]	ErrorNum: 0
+[2021-01-22 10:04:29] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:04:29] [INFO]	TimeoutNum: 0
+[2021-01-22 10:04:29] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:04:29] [INFO]	***********************
+[2021-01-22 10:04:29] [INFO]

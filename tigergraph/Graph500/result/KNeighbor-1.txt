@@ -1,0 +1,117 @@
+[2021-01-26 14:46:34] [INFO]	-- Start KNeighbor - 1
+[2021-01-26 14:46:35] [DEBUG]		1	Schedule: 1.00%	Time: 596ms 543us 193ns	Sample: [442899, 1]	Result VertexCount:996
+[2021-01-26 14:46:35] [DEBUG]		2	Schedule: 2.00%	Time: 273ms 553us 593ns	Sample: [2242915, 1]	Result VertexCount:985
+[2021-01-26 14:46:36] [DEBUG]		3	Schedule: 3.00%	Time: 444ms 127us 953ns	Sample: [3021079, 1]	Result VertexCount:983
+[2021-01-26 14:46:36] [DEBUG]		4	Schedule: 4.00%	Time: 441ms 181us 542ns	Sample: [1616525, 1]	Result VertexCount:984
+[2021-01-26 14:46:37] [DEBUG]		5	Schedule: 5.00%	Time: 459ms 910us 108ns	Sample: [1651340, 1]	Result VertexCount:983
+[2021-01-26 14:46:37] [DEBUG]		6	Schedule: 6.00%	Time: 248ms 905us 1ns	Sample: [4070, 1]	Result VertexCount:991
+[2021-01-26 14:46:37] [DEBUG]		7	Schedule: 7.00%	Time: 435ms 535us 434ns	Sample: [3140312, 1]	Result VertexCount:986
+[2021-01-26 14:46:38] [DEBUG]		8	Schedule: 8.00%	Time: 221ms 156us 31ns	Sample: [3170761, 1]	Result VertexCount:989
+[2021-01-26 14:46:38] [DEBUG]		9	Schedule: 9.00%	Time: 426ms 193us 827ns	Sample: [2248329, 1]	Result VertexCount:984
+[2021-01-26 14:46:38] [DEBUG]		10	Schedule: 10.00%	Time: 422ms 561us 509ns	Sample: [2744194, 1]	Result VertexCount:987
+[2021-01-26 14:46:39] [DEBUG]		11	Schedule: 11.00%	Time: 221ms 678us 149ns	Sample: [133559, 1]	Result VertexCount:988
+[2021-01-26 14:46:39] [DEBUG]		12	Schedule: 12.00%	Time: 221ms 317us 722ns	Sample: [147961, 1]	Result VertexCount:985
+[2021-01-26 14:46:39] [DEBUG]		13	Schedule: 13.00%	Time: 425ms 867us 75ns	Sample: [74589, 1]	Result VertexCount:995
+[2021-01-26 14:46:40] [DEBUG]		14	Schedule: 14.00%	Time: 224ms 688us 455ns	Sample: [411406, 1]	Result VertexCount:987
+[2021-01-26 14:46:40] [DEBUG]		15	Schedule: 15.00%	Time: 221ms 401us 349ns	Sample: [3596292, 1]	Result VertexCount:981
+[2021-01-26 14:46:40] [DEBUG]		16	Schedule: 16.00%	Time: 424ms 287us 4ns	Sample: [1439578, 1]	Result VertexCount:990
+[2021-01-26 14:46:41] [DEBUG]		17	Schedule: 17.00%	Time: 420ms 905us 569ns	Sample: [3351226, 1]	Result VertexCount:988
+[2021-01-26 14:46:41] [DEBUG]		18	Schedule: 18.00%	Time: 220ms 915us 628ns	Sample: [3362013, 1]	Result VertexCount:988
+[2021-01-26 14:46:41] [DEBUG]		19	Schedule: 19.00%	Time: 421ms 286us 212ns	Sample: [496250, 1]	Result VertexCount:979
+[2021-01-26 14:46:42] [DEBUG]		20	Schedule: 20.00%	Time: 422ms 804us 395ns	Sample: [3676386, 1]	Result VertexCount:988
+[2021-01-26 14:46:42] [DEBUG]		21	Schedule: 21.00%	Time: 420ms 345us 683ns	Sample: [1085590, 1]	Result VertexCount:989
+[2021-01-26 14:46:43] [DEBUG]		22	Schedule: 22.00%	Time: 420ms 970us 216ns	Sample: [4138145, 1]	Result VertexCount:984
+[2021-01-26 14:46:43] [DEBUG]		23	Schedule: 23.00%	Time: 421ms 580us 449ns	Sample: [3428366, 1]	Result VertexCount:990
+[2021-01-26 14:46:43] [DEBUG]		24	Schedule: 24.00%	Time: 420ms 723us 325ns	Sample: [562261, 1]	Result VertexCount:975
+[2021-01-26 14:46:44] [DEBUG]		25	Schedule: 25.00%	Time: 223ms 120us 543ns	Sample: [1581776, 1]	Result VertexCount:983
+[2021-01-26 14:46:44] [DEBUG]		26	Schedule: 26.00%	Time: 421ms 968us 259ns	Sample: [313509, 1]	Result VertexCount:977
+[2021-01-26 14:46:44] [DEBUG]		27	Schedule: 27.00%	Time: 222ms 812us 493ns	Sample: [3266920, 1]	Result VertexCount:988
+[2021-01-26 14:46:45] [DEBUG]		28	Schedule: 28.00%	Time: 423ms 559us 615ns	Sample: [3992019, 1]	Result VertexCount:986
+[2021-01-26 14:46:45] [DEBUG]		29	Schedule: 29.00%	Time: 230ms 416us 234ns	Sample: [1119819, 1]	Result VertexCount:992
+[2021-01-26 14:46:45] [DEBUG]		30	Schedule: 30.00%	Time: 427ms 418us 68ns	Sample: [3784989, 1]	Result VertexCount:986
+[2021-01-26 14:46:46] [DEBUG]		31	Schedule: 31.00%	Time: 227ms 403us 914ns	Sample: [2124529, 1]	Result VertexCount:976
+[2021-01-26 14:46:46] [DEBUG]		32	Schedule: 32.00%	Time: 434ms 153us 317ns	Sample: [3838556, 1]	Result VertexCount:983
+[2021-01-26 14:46:46] [DEBUG]		33	Schedule: 33.00%	Time: 436ms 735us 937ns	Sample: [2691386, 1]	Result VertexCount:979
+[2021-01-26 14:46:47] [DEBUG]		34	Schedule: 34.00%	Time: 439ms 723us 561ns	Sample: [3875856, 1]	Result VertexCount:987
+[2021-01-26 14:46:47] [DEBUG]		35	Schedule: 35.00%	Time: 228ms 884us 628ns	Sample: [2448392, 1]	Result VertexCount:992
+[2021-01-26 14:46:48] [DEBUG]		36	Schedule: 36.00%	Time: 457ms 504us 142ns	Sample: [1753205, 1]	Result VertexCount:986
+[2021-01-26 14:46:48] [DEBUG]		37	Schedule: 37.00%	Time: 442ms 917us 478ns	Sample: [2214137, 1]	Result VertexCount:980
+[2021-01-26 14:46:48] [DEBUG]		38	Schedule: 38.00%	Time: 432ms 872us 819ns	Sample: [1092052, 1]	Result VertexCount:987
+[2021-01-26 14:46:49] [DEBUG]		39	Schedule: 39.00%	Time: 229ms 138us 788ns	Sample: [1301273, 1]	Result VertexCount:991
+[2021-01-26 14:46:49] [DEBUG]		40	Schedule: 40.00%	Time: 230ms 50us 189ns	Sample: [360233, 1]	Result VertexCount:986
+[2021-01-26 14:46:49] [DEBUG]		41	Schedule: 41.00%	Time: 430ms 327us 923ns	Sample: [3981039, 1]	Result VertexCount:990
+[2021-01-26 14:46:50] [DEBUG]		42	Schedule: 42.00%	Time: 229ms 474us 541ns	Sample: [3729830, 1]	Result VertexCount:983
+[2021-01-26 14:46:50] [DEBUG]		43	Schedule: 43.00%	Time: 247ms 729us 163ns	Sample: [1150112, 1]	Result VertexCount:983
+[2021-01-26 14:46:50] [DEBUG]		44	Schedule: 44.00%	Time: 238ms 653us 710ns	Sample: [3578617, 1]	Result VertexCount:988
+[2021-01-26 14:46:50] [DEBUG]		45	Schedule: 45.00%	Time: 420ms 43us 370ns	Sample: [1697058, 1]	Result VertexCount:992
+[2021-01-26 14:46:51] [DEBUG]		46	Schedule: 46.00%	Time: 421ms 959us 332ns	Sample: [4057366, 1]	Result VertexCount:987
+[2021-01-26 14:46:51] [DEBUG]		47	Schedule: 47.00%	Time: 422ms 681us 364ns	Sample: [1447485, 1]	Result VertexCount:976
+[2021-01-26 14:46:52] [DEBUG]		48	Schedule: 48.00%	Time: 427ms 184us 395ns	Sample: [4095651, 1]	Result VertexCount:985
+[2021-01-26 14:46:52] [DEBUG]		49	Schedule: 49.00%	Time: 228ms 612us 651ns	Sample: [989612, 1]	Result VertexCount:989
+[2021-01-26 14:46:52] [DEBUG]		50	Schedule: 50.00%	Time: 457ms 99us 291ns	Sample: [2519560, 1]	Result VertexCount:984
+[2021-01-26 14:46:53] [DEBUG]		51	Schedule: 51.00%	Time: 435ms 690us 382ns	Sample: [2381923, 1]	Result VertexCount:974
+[2021-01-26 14:46:53] [DEBUG]		52	Schedule: 52.00%	Time: 436ms 668us 876ns	Sample: [2224995, 1]	Result VertexCount:977
+[2021-01-26 14:46:54] [DEBUG]		53	Schedule: 53.00%	Time: 271ms 127us 505ns	Sample: [2240519, 1]	Result VertexCount:983
+[2021-01-26 14:46:54] [DEBUG]		54	Schedule: 54.00%	Time: 430ms 217us 281ns	Sample: [1569483, 1]	Result VertexCount:981
+[2021-01-26 14:46:54] [DEBUG]		55	Schedule: 55.00%	Time: 422ms 78us 607ns	Sample: [1875854, 1]	Result VertexCount:983
+[2021-01-26 14:46:55] [DEBUG]		56	Schedule: 56.00%	Time: 422ms 66us 351ns	Sample: [11430, 1]	Result VertexCount:982
+[2021-01-26 14:46:55] [DEBUG]		57	Schedule: 57.00%	Time: 420ms 712us 817ns	Sample: [2352420, 1]	Result VertexCount:986
+[2021-01-26 14:46:56] [DEBUG]		58	Schedule: 58.00%	Time: 224ms 980us 457ns	Sample: [2802488, 1]	Result VertexCount:981
+[2021-01-26 14:46:56] [DEBUG]		59	Schedule: 59.00%	Time: 427ms 368us 203ns	Sample: [697848, 1]	Result VertexCount:989
+[2021-01-26 14:46:56] [DEBUG]		60	Schedule: 60.00%	Time: 419ms 537us 656ns	Sample: [3384351, 1]	Result VertexCount:981
+[2021-01-26 14:46:57] [DEBUG]		61	Schedule: 61.00%	Time: 424ms 632us 98ns	Sample: [3684243, 1]	Result VertexCount:983
+[2021-01-26 14:46:57] [DEBUG]		62	Schedule: 62.00%	Time: 420ms 20us 381ns	Sample: [3751113, 1]	Result VertexCount:987
+[2021-01-26 14:46:58] [DEBUG]		63	Schedule: 63.00%	Time: 426ms 78us 83ns	Sample: [3797512, 1]	Result VertexCount:985
+[2021-01-26 14:46:58] [DEBUG]		64	Schedule: 64.00%	Time: 423ms 848us 248ns	Sample: [1626967, 1]	Result VertexCount:979
+[2021-01-26 14:46:58] [DEBUG]		65	Schedule: 65.00%	Time: 427ms 100us 253ns	Sample: [2896556, 1]	Result VertexCount:976
+[2021-01-26 14:46:59] [DEBUG]		66	Schedule: 66.00%	Time: 428ms 991us 225ns	Sample: [702375, 1]	Result VertexCount:985
+[2021-01-26 14:46:59] [DEBUG]		67	Schedule: 67.00%	Time: 419ms 958us 336ns	Sample: [2443025, 1]	Result VertexCount:978
+[2021-01-26 14:47:00] [DEBUG]		68	Schedule: 68.00%	Time: 422ms 723us 649ns	Sample: [1747701, 1]	Result VertexCount:985
+[2021-01-26 14:47:00] [DEBUG]		69	Schedule: 69.00%	Time: 219ms 999us 647ns	Sample: [2233712, 1]	Result VertexCount:981
+[2021-01-26 14:47:00] [DEBUG]		70	Schedule: 70.00%	Time: 419ms 710us 445ns	Sample: [2961838, 1]	Result VertexCount:979
+[2021-01-26 14:47:01] [DEBUG]		71	Schedule: 71.00%	Time: 419ms 691us 795ns	Sample: [1541817, 1]	Result VertexCount:981
+[2021-01-26 14:47:01] [DEBUG]		72	Schedule: 72.00%	Time: 420ms 257us 984ns	Sample: [87404, 1]	Result VertexCount:983
+[2021-01-26 14:47:02] [DEBUG]		73	Schedule: 73.00%	Time: 420ms 264us 888ns	Sample: [3552807, 1]	Result VertexCount:990
+[2021-01-26 14:47:02] [DEBUG]		74	Schedule: 74.00%	Time: 422ms 59us 267ns	Sample: [695740, 1]	Result VertexCount:983
+[2021-01-26 14:47:02] [DEBUG]		75	Schedule: 75.00%	Time: 221ms 648us 996ns	Sample: [3865239, 1]	Result VertexCount:979
+[2021-01-26 14:47:03] [DEBUG]		76	Schedule: 76.00%	Time: 431ms 741us 314ns	Sample: [2072639, 1]	Result VertexCount:985
+[2021-01-26 14:47:03] [DEBUG]		77	Schedule: 77.00%	Time: 446ms 143us 734ns	Sample: [3304042, 1]	Result VertexCount:977
+[2021-01-26 14:47:04] [DEBUG]		78	Schedule: 78.00%	Time: 427ms 703us 867ns	Sample: [1046316, 1]	Result VertexCount:979
+[2021-01-26 14:47:04] [DEBUG]		79	Schedule: 79.00%	Time: 237ms 24us 600ns	Sample: [4171185, 1]	Result VertexCount:975
+[2021-01-26 14:47:04] [DEBUG]		80	Schedule: 80.00%	Time: 242ms 934us 347ns	Sample: [4182639, 1]	Result VertexCount:984
+[2021-01-26 14:47:04] [DEBUG]		81	Schedule: 81.00%	Time: 243ms 25us 824ns	Sample: [2512254, 1]	Result VertexCount:988
+[2021-01-26 14:47:05] [DEBUG]		82	Schedule: 82.00%	Time: 494ms 741us 776ns	Sample: [3990575, 1]	Result VertexCount:986
+[2021-01-26 14:47:05] [DEBUG]		83	Schedule: 83.00%	Time: 436ms 769us 26ns	Sample: [3739033, 1]	Result VertexCount:979
+[2021-01-26 14:47:06] [DEBUG]		84	Schedule: 84.00%	Time: 444ms 606us 564ns	Sample: [2347618, 1]	Result VertexCount:983
+[2021-01-26 14:47:06] [DEBUG]		85	Schedule: 85.00%	Time: 430ms 537us 68ns	Sample: [2372811, 1]	Result VertexCount:987
+[2021-01-26 14:47:06] [DEBUG]		86	Schedule: 86.00%	Time: 238ms 75us 852ns	Sample: [1663739, 1]	Result VertexCount:981
+[2021-01-26 14:47:07] [DEBUG]		87	Schedule: 87.00%	Time: 229ms 722us 109ns	Sample: [246503, 1]	Result VertexCount:979
+[2021-01-26 14:47:07] [DEBUG]		88	Schedule: 88.00%	Time: 229ms 408us 204ns	Sample: [963713, 1]	Result VertexCount:978
+[2021-01-26 14:47:07] [DEBUG]		89	Schedule: 89.00%	Time: 427ms 681us 436ns	Sample: [3149432, 1]	Result VertexCount:978
+[2021-01-26 14:47:08] [DEBUG]		90	Schedule: 90.00%	Time: 447ms 715us 267ns	Sample: [3602331, 1]	Result VertexCount:981
+[2021-01-26 14:47:08] [DEBUG]		91	Schedule: 91.00%	Time: 431ms 159us 652ns	Sample: [747094, 1]	Result VertexCount:974
+[2021-01-26 14:47:08] [DEBUG]		92	Schedule: 92.00%	Time: 251ms 416us 412ns	Sample: [758632, 1]	Result VertexCount:985
+[2021-01-26 14:47:09] [DEBUG]		93	Schedule: 93.00%	Time: 427ms 964us 826ns	Sample: [3439013, 1]	Result VertexCount:978
+[2021-01-26 14:47:09] [DEBUG]		94	Schedule: 94.00%	Time: 430ms 783us 460ns	Sample: [2033658, 1]	Result VertexCount:978
+[2021-01-26 14:47:10] [DEBUG]		95	Schedule: 95.00%	Time: 238ms 963us 916ns	Sample: [3203835, 1]	Result VertexCount:982
+[2021-01-26 14:47:10] [DEBUG]		96	Schedule: 96.00%	Time: 236ms 614us 556ns	Sample: [3719896, 1]	Result VertexCount:984
+[2021-01-26 14:47:10] [DEBUG]		97	Schedule: 97.00%	Time: 426ms 874us 642ns	Sample: [2389252, 1]	Result VertexCount:975
+[2021-01-26 14:47:10] [DEBUG]		98	Schedule: 98.00%	Time: 222ms 489us 389ns	Sample: [413837, 1]	Result VertexCount:981
+[2021-01-26 14:47:11] [DEBUG]		99	Schedule: 99.00%	Time: 221ms 314us 268ns	Sample: [2866172, 1]	Result VertexCount:976
+[2021-01-26 14:47:11] [DEBUG]		100	Schedule: 100.00%	Time: 420ms 596us 609ns	Sample: [1461949, 1]	Result VertexCount:984
+[2021-01-26 14:47:11] [INFO]	-- Result Statistics
+[2021-01-26 14:47:11] [INFO]	minTime: 219ms 999us 647ns(220.00ms)
+[2021-01-26 14:47:11] [INFO]	maxTime: 596ms 543us 193ns(596.54ms)
+[2021-01-26 14:47:11] [INFO]	AvgTime: 364ms 743us 272ns(364.74ms)
+[2021-01-26 14:47:11] [INFO]	P99: 495ms 759us 790ns(495.76ms)
+[2021-01-26 14:47:11] [INFO]	P999: 586ms 464us 852ns(586.46ms)
+[2021-01-26 14:47:11] [INFO]	Throughput: 2.73
+[2021-01-26 14:47:11] [INFO]	SuccessNum: 100
+[2021-01-26 14:47:11] [INFO]	SuccessRate: 100.00%
+[2021-01-26 14:47:11] [INFO]	ErrorNum: 0
+[2021-01-26 14:47:11] [INFO]	ErrorRate: 0.00%
+[2021-01-26 14:47:11] [INFO]	TimeoutNum: 0
+[2021-01-26 14:47:11] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 14:47:11] [INFO]	KNeighbor-1 Average: 983.59
+[2021-01-26 14:47:11] [INFO]	-- End KNeighbor - 1
+[2021-01-26 14:47:11] [INFO]

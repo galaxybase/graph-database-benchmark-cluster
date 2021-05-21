@@ -1,0 +1,16 @@
+[2021-02-04 22:40:50] [INFO]	-- Start ConnectedComponents
+[2021-02-04 22:41:34] [DEBUG]		1	Schedule: 100.00%	Time: 44s 784ms 977us 351ns	Sample: 	Result 结果数：0
+[2021-02-04 22:41:34] [INFO]	-- Result Statistics
+[2021-02-04 22:41:34] [INFO]	minTime: 44s 784ms 977us 351ns(44784.98ms)
+[2021-02-04 22:41:34] [INFO]	maxTime: 44s 784ms 977us 351ns(44784.98ms)
+[2021-02-04 22:41:34] [INFO]	AvgTime: 44s 784ms 977us 351ns(44784.98ms)
+[2021-02-04 22:41:34] [INFO]	P99: 44s 784ms 977us 351ns(44784.98ms)
+[2021-02-04 22:41:34] [INFO]	P999: 44s 784ms 977us 351ns(44784.98ms)
+[2021-02-04 22:41:34] [INFO]	Throughput: 0.02
+[2021-02-04 22:41:34] [INFO]	SuccessNum: 1
+[2021-02-04 22:41:34] [INFO]	SuccessRate: 100.00%
+[2021-02-04 22:41:34] [INFO]	ErrorNum: 0
+[2021-02-04 22:41:34] [INFO]	ErrorRate: 0.00%
+[2021-02-04 22:41:34] [INFO]	TimeoutNum: 0
+[2021-02-04 22:41:34] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 22:41:34] [INFO]	-- End ConnectedComponents

@@ -1,0 +1,64 @@
+[2021-01-22 10:04:29] [INFO]	-- Start PageRank
+[2021-01-22 10:08:02] [DEBUG]		1	Schedule: 100.00%	Time: 3m 33s 158ms 388us 160ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[]}]}
+[2021-01-22 10:08:02] [INFO]	-- Result Statistics
+[2021-01-22 10:08:02] [INFO]	minTime: 3m 33s 158ms 388us 160ns(213158.39ms)
+[2021-01-22 10:08:02] [INFO]	maxTime: 3m 33s 158ms 388us 160ns(213158.39ms)
+[2021-01-22 10:08:02] [INFO]	AvgTime: 3m 33s 158ms 388us 160ns(213158.39ms)
+[2021-01-22 10:08:02] [INFO]	P99: 3m 33s 158ms 388us 160ns(213158.39ms)
+[2021-01-22 10:08:02] [INFO]	P999: 3m 33s 158ms 388us 160ns(213158.39ms)
+[2021-01-22 10:08:02] [INFO]	Throughput: 0.00
+[2021-01-22 10:08:02] [INFO]	SuccessNum: 1
+[2021-01-22 10:08:02] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:08:02] [INFO]	ErrorNum: 0
+[2021-01-22 10:08:02] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:08:02] [INFO]	TimeoutNum: 0
+[2021-01-22 10:08:02] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:08:02] [INFO]	-- End PageRank
+[2021-01-22 10:08:02] [INFO]	-- Start PageRank
+[2021-01-22 10:11:44] [DEBUG]		1	Schedule: 100.00%	Time: 3m 41s 872ms 144us 374ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[]}]}
+[2021-01-22 10:11:44] [INFO]	-- Result Statistics
+[2021-01-22 10:11:44] [INFO]	minTime: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:11:44] [INFO]	maxTime: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:11:44] [INFO]	AvgTime: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:11:44] [INFO]	P99: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:11:44] [INFO]	P999: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:11:44] [INFO]	Throughput: 0.00
+[2021-01-22 10:11:44] [INFO]	SuccessNum: 1
+[2021-01-22 10:11:44] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:11:44] [INFO]	ErrorNum: 0
+[2021-01-22 10:11:44] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:11:44] [INFO]	TimeoutNum: 0
+[2021-01-22 10:11:44] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:11:44] [INFO]	-- End PageRank
+[2021-01-22 10:11:44] [INFO]	-- Start PageRank
+[2021-01-22 10:15:18] [DEBUG]		1	Schedule: 100.00%	Time: 3m 33s 406ms 747us 451ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[]}]}
+[2021-01-22 10:15:18] [INFO]	-- Result Statistics
+[2021-01-22 10:15:18] [INFO]	minTime: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	maxTime: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	AvgTime: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	P99: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	P999: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	Throughput: 0.00
+[2021-01-22 10:15:18] [INFO]	SuccessNum: 1
+[2021-01-22 10:15:18] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:15:18] [INFO]	ErrorNum: 0
+[2021-01-22 10:15:18] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:15:18] [INFO]	TimeoutNum: 0
+[2021-01-22 10:15:18] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:15:18] [INFO]	-- End PageRank
+[2021-01-22 10:15:18] [INFO]	***********************
+[2021-01-22 10:15:18] [INFO]	** Summary of PageRank Test 2 - 3
+[2021-01-22 10:15:18] [INFO]	minTime: 3m 33s 406ms 747us 451ns(213406.75ms)
+[2021-01-22 10:15:18] [INFO]	maxTime: 3m 41s 872ms 144us 374ns(221872.14ms)
+[2021-01-22 10:15:18] [INFO]	AvgTime: 3m 37s 639ms 445us 912ns(217639.45ms)
+[2021-01-22 10:15:18] [INFO]	P99: 3m 41s 787ms 490us 404ns(221787.49ms)
+[2021-01-22 10:15:18] [INFO]	P999: 3m 41s 863ms 678us 977ns(221863.68ms)
+[2021-01-22 10:15:18] [INFO]	Throughput: 0.00
+[2021-01-22 10:15:18] [INFO]	SuccessNum: 2
+[2021-01-22 10:15:18] [INFO]	SuccessRate: 100.00%
+[2021-01-22 10:15:18] [INFO]	ErrorNum: 0
+[2021-01-22 10:15:18] [INFO]	ErrorRate: 0.00%
+[2021-01-22 10:15:18] [INFO]	TimeoutNum: 0
+[2021-01-22 10:15:18] [INFO]	TimeoutRate: 0.00%
+[2021-01-22 10:15:18] [INFO]	***********************
+[2021-01-22 10:15:18] [INFO]

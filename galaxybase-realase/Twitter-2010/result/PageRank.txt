@@ -1,0 +1,16 @@
+[2021-02-04 22:37:43] [INFO]	-- Start PageRank
+[2021-02-04 22:40:50] [DEBUG]		1	Schedule: 100.00%	Time: 3m 6s 888ms 298us 513ns	Sample: 	Result 结果数：0
+[2021-02-04 22:40:50] [INFO]	-- Result Statistics
+[2021-02-04 22:40:50] [INFO]	minTime: 3m 6s 888ms 298us 513ns(186888.30ms)
+[2021-02-04 22:40:50] [INFO]	maxTime: 3m 6s 888ms 298us 513ns(186888.30ms)
+[2021-02-04 22:40:50] [INFO]	AvgTime: 3m 6s 888ms 298us 513ns(186888.30ms)
+[2021-02-04 22:40:50] [INFO]	P99: 3m 6s 888ms 298us 513ns(186888.30ms)
+[2021-02-04 22:40:50] [INFO]	P999: 3m 6s 888ms 298us 513ns(186888.30ms)
+[2021-02-04 22:40:50] [INFO]	Throughput: 0.01
+[2021-02-04 22:40:50] [INFO]	SuccessNum: 1
+[2021-02-04 22:40:50] [INFO]	SuccessRate: 100.00%
+[2021-02-04 22:40:50] [INFO]	ErrorNum: 0
+[2021-02-04 22:40:50] [INFO]	ErrorRate: 0.00%
+[2021-02-04 22:40:50] [INFO]	TimeoutNum: 0
+[2021-02-04 22:40:50] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 22:40:50] [INFO]	-- End PageRank

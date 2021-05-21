@@ -1,0 +1,26 @@
+[2021-01-19 15:49:09] [INFO]	-- Start KNeighbor-3
+[2021-01-19 16:49:09] [DEBUG]		1	Schedule: 1.00%	Time: 1h 0m 0s 0ms 0us 4ns	Sample: [442899]	Result Execute timeout!
+[2021-01-19 17:49:09] [DEBUG]		2	Schedule: 2.00%	Time: 1h 0m 0s 0ms 0us 13ns	Sample: [2242915]	Result Execute timeout!
+[2021-01-19 18:05:29] [DEBUG]		3	Schedule: 3.00%	Time: 16m 20s 632ms 735us 871ns	Sample: [3021079]	Result VertexCount: 533758
+[2021-01-19 19:05:29] [DEBUG]		4	Schedule: 4.00%	Time: 1h 0m 0s 0ms 0us 7ns	Sample: [1616525]	Result Execute timeout!
+[2021-01-19 20:05:29] [DEBUG]		5	Schedule: 5.00%	Time: 1h 0m 0s 0ms 0us 12ns	Sample: [1651340]	Result Execute timeout!
+[2021-01-19 21:05:29] [DEBUG]		6	Schedule: 6.00%	Time: 1h 0m 0s 0ms 0us 18ns	Sample: [4070]	Result Execute timeout!
+[2021-01-19 22:05:29] [DEBUG]		7	Schedule: 7.00%	Time: 1h 0m 0s 0ms 0us 19ns	Sample: [3140312]	Result Execute timeout!
+[2021-01-19 22:23:52] [DEBUG]		8	Schedule: 8.00%	Time: 18m 22s 673ms 201us 604ns	Sample: [3170761]	Result VertexCount: 525689
+[2021-01-19 22:40:17] [DEBUG]		9	Schedule: 9.00%	Time: 16m 25s 274ms 194us 173ns	Sample: [2248329]	Result VertexCount: 517453
+[2021-01-19 23:40:17] [DEBUG]		10	Schedule: 10.00%	Time: 1h 0m 0s 0ms 0us 3ns	Sample: [2744194]	Result Execute timeout!
+[2021-01-19 23:40:17] [INFO]	-- Result Statistics
+[2021-01-19 23:40:17] [INFO]	minTime: 16m 20s 632ms 735us 871ns(980632.73ms)
+[2021-01-19 23:40:17] [INFO]	maxTime: 18m 22s 673ms 201us 604ns(1102673.20ms)
+[2021-01-19 23:40:17] [INFO]	AvgTime: 16m 20s 632ms 735us 871ns(1022860.04ms)
+[2021-01-19 23:40:17] [INFO]	P99: 18m 22s 673ms 201us 604ns(1102672.20ms)
+[2021-01-19 23:40:17] [INFO]	P999: 18m 22s 673ms 201us 604ns(1102673.10ms)
+[2021-01-19 23:40:17] [INFO]	Throughput: 0.01
+[2021-01-19 23:40:17] [INFO]	SuccessNum: 3
+[2021-01-19 23:40:17] [INFO]	SuccessRate: 30.00%
+[2021-01-19 23:40:17] [INFO]	ErrorNum: 0
+[2021-01-19 23:40:17] [INFO]	ErrorRate: 0.00%
+[2021-01-19 23:40:17] [INFO]	TimeoutNum: 7
+[2021-01-19 23:40:17] [INFO]	TimeoutRate: 70.00%
+[2021-01-19 23:40:17] [INFO]	KNeighbor-3 Average: 525633.33
+[2021-01-19 23:40:17] [INFO]	-- End KNeighbor-3

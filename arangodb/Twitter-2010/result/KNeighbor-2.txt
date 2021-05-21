@@ -1,0 +1,116 @@
+[2021-03-04 10:02:55] [INFO]	-- Start KNeighbor-2
+[2021-03-04 10:05:55] [DEBUG]		1	Schedule: 1.00%	Time: 3m 0s 0ms 0us 18ns	Sample: [1496151]	Result Execute timeout!
+[2021-03-04 10:08:55] [DEBUG]		2	Schedule: 2.00%	Time: 3m 0s 0ms 0us 11ns	Sample: [5975362]	Result Execute timeout!
+[2021-03-04 10:11:55] [DEBUG]		3	Schedule: 3.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [37022393]	Result Execute timeout!
+[2021-03-04 10:14:31] [DEBUG]		4	Schedule: 4.00%	Time: 2m 36s 621ms 665us 927ns	Sample: [8709]	Result VertexCount: 290169
+[2021-03-04 10:17:31] [DEBUG]		5	Schedule: 5.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [24698239]	Result Execute timeout!
+[2021-03-04 10:20:31] [DEBUG]		6	Schedule: 6.00%	Time: 3m 0s 0ms 0us 11ns	Sample: [25130276]	Result Execute timeout!
+[2021-03-04 10:23:31] [DEBUG]		7	Schedule: 7.00%	Time: 3m 0s 0ms 0us 4ns	Sample: [17017845]	Result Execute timeout!
+[2021-03-04 10:26:31] [DEBUG]		8	Schedule: 8.00%	Time: 3m 0s 0ms 0us 10ns	Sample: [48938638]	Result Execute timeout!
+[2021-03-04 10:29:31] [DEBUG]		9	Schedule: 9.00%	Time: 3m 0s 0ms 0us 10ns	Sample: [1235361]	Result Execute timeout!
+[2021-03-04 10:32:31] [DEBUG]		10	Schedule: 10.00%	Time: 3m 0s 0ms 0us 16ns	Sample: [20658347]	Result Execute timeout!
+[2021-03-04 10:35:31] [DEBUG]		11	Schedule: 11.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [16593168]	Result Execute timeout!
+[2021-03-04 10:38:31] [DEBUG]		12	Schedule: 12.00%	Time: 3m 0s 0ms 0us 17ns	Sample: [20664441]	Result Execute timeout!
+[2021-03-04 10:41:31] [DEBUG]		13	Schedule: 13.00%	Time: 3m 0s 0ms 0us 17ns	Sample: [24435664]	Result Execute timeout!
+[2021-03-04 10:44:31] [DEBUG]		14	Schedule: 14.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [14412182]	Result Execute timeout!
+[2021-03-04 10:47:31] [DEBUG]		15	Schedule: 15.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [19636528]	Result Execute timeout!
+[2021-03-04 10:48:44] [DEBUG]		16	Schedule: 16.00%	Time: 1m 12s 895ms 652us 319ns	Sample: [15878463]	Result VertexCount: 136960
+[2021-03-04 10:51:44] [DEBUG]		17	Schedule: 17.00%	Time: 3m 0s 0ms 0us 11ns	Sample: [48264708]	Result Execute timeout!
+[2021-03-04 10:54:44] [DEBUG]		18	Schedule: 18.00%	Time: 3m 0s 0ms 0us 10ns	Sample: [13293462]	Result Execute timeout!
+[2021-03-04 10:57:44] [DEBUG]		19	Schedule: 19.00%	Time: 3m 0s 0ms 0us 4ns	Sample: [23730298]	Result Execute timeout!
+[2021-03-04 11:00:44] [DEBUG]		20	Schedule: 20.00%	Time: 3m 0s 0ms 0us 4ns	Sample: [24481451]	Result Execute timeout!
+[2021-03-04 11:02:04] [DEBUG]		21	Schedule: 21.00%	Time: 1m 19s 587ms 469us 527ns	Sample: [27524196]	Result VertexCount: 170050
+[2021-03-04 11:03:35] [DEBUG]		22	Schedule: 22.00%	Time: 1m 31s 2ms 179us 745ns	Sample: [21169860]	Result VertexCount: 176317
+[2021-03-04 11:06:35] [DEBUG]		23	Schedule: 23.00%	Time: 3m 0s 0ms 0us 17ns	Sample: [46833491]	Result Execute timeout!
+[2021-03-04 11:09:35] [DEBUG]		24	Schedule: 24.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [21885206]	Result Execute timeout!
+[2021-03-04 11:12:35] [DEBUG]		25	Schedule: 25.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [16382788]	Result Execute timeout!
+[2021-03-04 11:15:35] [DEBUG]		26	Schedule: 26.00%	Time: 3m 0s 0ms 0us 5ns	Sample: [20456269]	Result Execute timeout!
+[2021-03-04 11:18:35] [DEBUG]		27	Schedule: 27.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [40902450]	Result Execute timeout!
+[2021-03-04 11:21:35] [DEBUG]		28	Schedule: 28.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [42385157]	Result Execute timeout!
+[2021-03-04 11:24:35] [DEBUG]		29	Schedule: 29.00%	Time: 3m 0s 0ms 0us 13ns	Sample: [41654893]	Result Execute timeout!
+[2021-03-04 11:27:35] [DEBUG]		30	Schedule: 30.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [18288639]	Result Execute timeout!
+[2021-03-04 11:30:35] [DEBUG]		31	Schedule: 31.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [17564255]	Result Execute timeout!
+[2021-03-04 11:33:35] [DEBUG]		32	Schedule: 32.00%	Time: 3m 0s 0ms 0us 18ns	Sample: [46897411]	Result Execute timeout!
+[2021-03-04 11:36:35] [DEBUG]		33	Schedule: 33.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [18004612]	Result Execute timeout!
+[2021-03-04 11:39:35] [DEBUG]		34	Schedule: 34.00%	Time: 3m 0s 0ms 0us 16ns	Sample: [25418672]	Result Execute timeout!
+[2021-03-04 11:42:35] [DEBUG]		35	Schedule: 35.00%	Time: 3m 0s 0ms 0us 13ns	Sample: [16132862]	Result Execute timeout!
+[2021-03-04 11:45:35] [DEBUG]		36	Schedule: 36.00%	Time: 3m 0s 0ms 0us 18ns	Sample: [24982094]	Result Execute timeout!
+[2021-03-04 11:48:35] [DEBUG]		37	Schedule: 37.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [7453202]	Result Execute timeout!
+[2021-03-04 11:51:35] [DEBUG]		38	Schedule: 38.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [31682374]	Result Execute timeout!
+[2021-03-04 11:52:24] [DEBUG]		39	Schedule: 39.00%	Time: 49s 723ms 510us 956ns	Sample: [39226375]	Result VertexCount: 107032
+[2021-03-04 11:55:24] [DEBUG]		40	Schedule: 40.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [15417634]	Result Execute timeout!
+[2021-03-04 11:58:24] [DEBUG]		41	Schedule: 41.00%	Time: 3m 0s 0ms 0us 10ns	Sample: [1512791]	Result Execute timeout!
+[2021-03-04 12:01:24] [DEBUG]		42	Schedule: 42.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [53314298]	Result Execute timeout!
+[2021-03-04 12:04:24] [DEBUG]		43	Schedule: 43.00%	Time: 3m 0s 0ms 0us 13ns	Sample: [15426550]	Result Execute timeout!
+[2021-03-04 12:07:24] [DEBUG]		44	Schedule: 44.00%	Time: 3m 0s 0ms 0us 16ns	Sample: [18769128]	Result Execute timeout!
+[2021-03-04 12:10:24] [DEBUG]		45	Schedule: 45.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [22120931]	Result Execute timeout!
+[2021-03-04 12:13:24] [DEBUG]		46	Schedule: 46.00%	Time: 3m 0s 0ms 0us 2ns	Sample: [48532778]	Result Execute timeout!
+[2021-03-04 12:16:24] [DEBUG]		47	Schedule: 47.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [1542531]	Result Execute timeout!
+[2021-03-04 12:19:24] [DEBUG]		48	Schedule: 48.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [16899283]	Result Execute timeout!
+[2021-03-04 12:22:24] [DEBUG]		49	Schedule: 49.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [44777959]	Result Execute timeout!
+[2021-03-04 12:25:24] [DEBUG]		50	Schedule: 50.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [37382237]	Result Execute timeout!
+[2021-03-04 12:26:41] [DEBUG]		51	Schedule: 51.00%	Time: 1m 16s 290ms 226us 962ns	Sample: [21415375]	Result VertexCount: 143157
+[2021-03-04 12:29:41] [DEBUG]		52	Schedule: 52.00%	Time: 3m 0s 0ms 0us 16ns	Sample: [36655487]	Result Execute timeout!
+[2021-03-04 12:32:41] [DEBUG]		53	Schedule: 53.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [27371337]	Result Execute timeout!
+[2021-03-04 12:35:41] [DEBUG]		54	Schedule: 54.00%	Time: 3m 0s 0ms 0us 2ns	Sample: [44795064]	Result Execute timeout!
+[2021-03-04 12:38:41] [DEBUG]		55	Schedule: 55.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [4197051]	Result Execute timeout!
+[2021-03-04 12:41:41] [DEBUG]		56	Schedule: 56.00%	Time: 3m 0s 0ms 0us 15ns	Sample: [29979420]	Result Execute timeout!
+[2021-03-04 12:44:41] [DEBUG]		57	Schedule: 57.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [29270801]	Result Execute timeout!
+[2021-03-04 12:47:41] [DEBUG]		58	Schedule: 58.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [5359542]	Result Execute timeout!
+[2021-03-04 12:50:41] [DEBUG]		59	Schedule: 59.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [22189598]	Result Execute timeout!
+[2021-03-04 12:53:41] [DEBUG]		60	Schedule: 60.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [40758682]	Result Execute timeout!
+[2021-03-04 12:56:41] [DEBUG]		61	Schedule: 61.00%	Time: 3m 0s 0ms 0us 7ns	Sample: [23337107]	Result Execute timeout!
+[2021-03-04 12:59:41] [DEBUG]		62	Schedule: 62.00%	Time: 3m 0s 0ms 0us 16ns	Sample: [35240567]	Result Execute timeout!
+[2021-03-04 13:02:41] [DEBUG]		63	Schedule: 63.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [10298552]	Result Execute timeout!
+[2021-03-04 13:05:41] [DEBUG]		64	Schedule: 64.00%	Time: 3m 0s 0ms 0us 2ns	Sample: [14066732]	Result Execute timeout!
+[2021-03-04 13:08:41] [DEBUG]		65	Schedule: 65.00%	Time: 3m 0s 0ms 0us 11ns	Sample: [39023406]	Result Execute timeout!
+[2021-03-04 13:11:41] [DEBUG]		66	Schedule: 66.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [42659923]	Result Execute timeout!
+[2021-03-04 13:14:41] [DEBUG]		67	Schedule: 67.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [15929203]	Result Execute timeout!
+[2021-03-04 13:17:41] [DEBUG]		68	Schedule: 68.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [46427392]	Result Execute timeout!
+[2021-03-04 13:20:41] [DEBUG]		69	Schedule: 69.00%	Time: 3m 0s 0ms 0us 5ns	Sample: [36401728]	Result Execute timeout!
+[2021-03-04 13:23:41] [DEBUG]		70	Schedule: 70.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [14781740]	Result Execute timeout!
+[2021-03-04 13:26:41] [DEBUG]		71	Schedule: 71.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [17103756]	Result Execute timeout!
+[2021-03-04 13:29:13] [DEBUG]		72	Schedule: 72.00%	Time: 2m 32s 101ms 913us 0ns	Sample: [46433633]	Result VertexCount: 365039
+[2021-03-04 13:32:13] [DEBUG]		73	Schedule: 73.00%	Time: 3m 0s 0ms 0us 7ns	Sample: [17820755]	Result Execute timeout!
+[2021-03-04 13:35:13] [DEBUG]		74	Schedule: 74.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [18579454]	Result Execute timeout!
+[2021-03-04 13:38:13] [DEBUG]		75	Schedule: 75.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [27884168]	Result Execute timeout!
+[2021-03-04 13:41:13] [DEBUG]		76	Schedule: 76.00%	Time: 3m 0s 0ms 0us 4ns	Sample: [14531407]	Result Execute timeout!
+[2021-03-04 13:44:13] [DEBUG]		77	Schedule: 77.00%	Time: 3m 0s 0ms 0us 18ns	Sample: [23827750]	Result Execute timeout!
+[2021-03-04 13:47:13] [DEBUG]		78	Schedule: 78.00%	Time: 3m 0s 0ms 0us 1ns	Sample: [46495593]	Result Execute timeout!
+[2021-03-04 13:50:13] [DEBUG]		79	Schedule: 79.00%	Time: 3m 0s 0ms 0us 6ns	Sample: [21237067]	Result Execute timeout!
+[2021-03-04 13:53:13] [DEBUG]		80	Schedule: 80.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [16430868]	Result Execute timeout!
+[2021-03-04 13:56:13] [DEBUG]		81	Schedule: 81.00%	Time: 3m 0s 0ms 0us 8ns	Sample: [23120329]	Result Execute timeout!
+[2021-03-04 13:59:13] [DEBUG]		82	Schedule: 82.00%	Time: 3m 0s 0ms 0us 15ns	Sample: [33860518]	Result Execute timeout!
+[2021-03-04 14:02:13] [DEBUG]		83	Schedule: 83.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [16440677]	Result Execute timeout!
+[2021-03-04 14:05:13] [DEBUG]		84	Schedule: 84.00%	Time: 3m 0s 0ms 0us 12ns	Sample: [35753735]	Result Execute timeout!
+[2021-03-04 14:08:13] [DEBUG]		85	Schedule: 85.00%	Time: 3m 0s 0ms 0us 5ns	Sample: [15016096]	Result Execute timeout!
+[2021-03-04 14:11:13] [DEBUG]		86	Schedule: 86.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [15729322]	Result Execute timeout!
+[2021-03-04 14:14:13] [DEBUG]		87	Schedule: 87.00%	Time: 3m 0s 0ms 0us 14ns	Sample: [23155998]	Result Execute timeout!
+[2021-03-04 14:17:13] [DEBUG]		88	Schedule: 88.00%	Time: 3m 0s 0ms 0us 2ns	Sample: [14585384]	Result Execute timeout!
+[2021-03-04 14:20:13] [DEBUG]		89	Schedule: 89.00%	Time: 3m 0s 0ms 0us 9ns	Sample: [36212284]	Result Execute timeout!
+[2021-03-04 14:23:13] [DEBUG]		90	Schedule: 90.00%	Time: 3m 0s 0ms 0us 15ns	Sample: [28382588]	Result Execute timeout!
+[2021-03-04 14:25:10] [DEBUG]		91	Schedule: 91.00%	Time: 1m 57s 199ms 77us 823ns	Sample: [15748390]	Result VertexCount: 207452
+[2021-03-04 14:28:10] [DEBUG]		92	Schedule: 92.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [17635231]	Result Execute timeout!
+[2021-03-04 14:30:58] [DEBUG]		93	Schedule: 93.00%	Time: 2m 48s 341ms 46us 373ns	Sample: [15754923]	Result VertexCount: 325244
+[2021-03-04 14:32:50] [DEBUG]		94	Schedule: 94.00%	Time: 1m 51s 98ms 353us 70ns	Sample: [20570019]	Result VertexCount: 210486
+[2021-03-04 14:35:50] [DEBUG]		95	Schedule: 95.00%	Time: 3m 0s 0ms 0us 17ns	Sample: [34364753]	Result Execute timeout!
+[2021-03-04 14:38:50] [DEBUG]		96	Schedule: 96.00%	Time: 3m 0s 0ms 0us 15ns	Sample: [48863249]	Result Execute timeout!
+[2021-03-04 14:41:50] [DEBUG]		97	Schedule: 97.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [15063841]	Result Execute timeout!
+[2021-03-04 14:44:50] [DEBUG]		98	Schedule: 98.00%	Time: 3m 0s 0ms 0us 3ns	Sample: [36962391]	Result Execute timeout!
+[2021-03-04 14:47:50] [DEBUG]		99	Schedule: 99.00%	Time: 3m 0s 0ms 0us 2ns	Sample: [18814481]	Result Execute timeout!
+[2021-03-04 14:50:50] [DEBUG]		100	Schedule: 100.00%	Time: 3m 0s 0ms 0us 11ns	Sample: [19556978]	Result Execute timeout!
+[2021-03-04 14:50:50] [INFO]	-- Result Statistics
+[2021-03-04 14:50:50] [INFO]	minTime: 49s 723ms 510us 956ns(49723.51ms)
+[2021-03-04 14:50:50] [INFO]	maxTime: 2m 48s 341ms 46us 373ns(168341.05ms)
+[2021-03-04 14:50:50] [INFO]	AvgTime: 1m 47s 486ms 109us 570ns(107486.11ms)
+[2021-03-04 14:50:50] [INFO]	P99: 2m 47s 286ms 302us 132ns(167286.30ms)
+[2021-03-04 14:50:50] [INFO]	P999: 2m 48s 235ms 571us 948ns(168235.57ms)
+[2021-03-04 14:50:50] [INFO]	Throughput: 0.00
+[2021-03-04 14:50:50] [INFO]	SuccessNum: 10
+[2021-03-04 14:50:50] [INFO]	SuccessRate: 10.00%
+[2021-03-04 14:50:50] [INFO]	ErrorNum: 0
+[2021-03-04 14:50:50] [INFO]	ErrorRate: 0.00%
+[2021-03-04 14:50:50] [INFO]	TimeoutNum: 90
+[2021-03-04 14:50:50] [INFO]	TimeoutRate: 90.00%
+[2021-03-04 14:50:50] [INFO]	KNeighbor-2 Average: 213190.60
+[2021-03-04 14:50:50] [INFO]	-- End KNeighbor-2

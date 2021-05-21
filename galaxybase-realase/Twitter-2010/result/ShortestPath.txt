@@ -1,0 +1,115 @@
+[2021-02-04 22:46:47] [INFO]	-- Start ShortestPath
+[2021-02-04 22:46:47] [DEBUG]		1	Schedule: 1.00%	Time: 110ms 902us 604ns	Sample: [20727483, 23007393]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		2	Schedule: 2.00%	Time: 86ms 674us 635ns	Sample: [50329304, 45197822]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		3	Schedule: 3.00%	Time: 66ms 804us 235ns	Sample: [26199460, 16690835]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		4	Schedule: 4.00%	Time: 76ms 259us 165ns	Sample: [1177521, 16017468]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		5	Schedule: 5.00%	Time: 74ms 578us 18ns	Sample: [27960125, 52502348]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		6	Schedule: 6.00%	Time: 80ms 886us 0ns	Sample: [30440025, 30122261]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		7	Schedule: 7.00%	Time: 66ms 513us 123ns	Sample: [15833920, 2238251]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		8	Schedule: 8.00%	Time: 66ms 696us 907ns	Sample: [15015183, 18575122]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		9	Schedule: 9.00%	Time: 74ms 884us 550ns	Sample: [33153097, 49186162]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:47] [DEBUG]		10	Schedule: 10.00%	Time: 64ms 965us 776ns	Sample: [21250581, 52060818]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		11	Schedule: 11.00%	Time: 75ms 440us 132ns	Sample: [28548532, 52086377]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		12	Schedule: 12.00%	Time: 94ms 32us 336ns	Sample: [42860945, 18728154]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		13	Schedule: 13.00%	Time: 100ms 754us 848ns	Sample: [22171728, 15208271]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		14	Schedule: 14.00%	Time: 73ms 365us 23ns	Sample: [15254388, 16135160]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		15	Schedule: 15.00%	Time: 80ms 122us 15ns	Sample: [44713775, 30935202]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		16	Schedule: 16.00%	Time: 74ms 317us 980ns	Sample: [44868770, 48489766]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		17	Schedule: 17.00%	Time: 62ms 923us 548ns	Sample: [16350915, 17644858]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		18	Schedule: 18.00%	Time: 74ms 91us 147ns	Sample: [33650477, 34052554]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		19	Schedule: 19.00%	Time: 72ms 60us 175ns	Sample: [56847735, 55954366]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		20	Schedule: 20.00%	Time: 72ms 605us 647ns	Sample: [18056455, 15766392]	Result 路径长度 = Record<{value: 1}>
+[2021-02-04 22:46:48] [DEBUG]		21	Schedule: 21.00%	Time: 82ms 93us 515ns	Sample: [32831346, 755452]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:48] [DEBUG]		22	Schedule: 22.00%	Time: 87ms 868us 31ns	Sample: [56969867, 6813672]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:48] [DEBUG]		23	Schedule: 23.00%	Time: 66ms 671us 82ns	Sample: [73483, 780857]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		24	Schedule: 24.00%	Time: 69ms 189us 682ns	Sample: [24981801, 14812346]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		25	Schedule: 25.00%	Time: 139ms 81us 87ns	Sample: [25726723, 849091]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		26	Schedule: 26.00%	Time: 73ms 762us 938ns	Sample: [59109778, 48601242]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		27	Schedule: 27.00%	Time: 82ms 98us 208ns	Sample: [18381650, 780487]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		28	Schedule: 28.00%	Time: 75ms 85us 669ns	Sample: [8467712, 780857]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		29	Schedule: 29.00%	Time: 68ms 439us 498ns	Sample: [29781057, 5430872]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		30	Schedule: 30.00%	Time: 72ms 413us 895ns	Sample: [37886317, 1206631]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		31	Schedule: 31.00%	Time: 60ms 141us 68ns	Sample: [39357186, 51537226]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		32	Schedule: 32.00%	Time: 82ms 993us 701ns	Sample: [42520611, 17906749]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		33	Schedule: 33.00%	Time: 84ms 87us 668ns	Sample: [28471398, 1006091]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		34	Schedule: 34.00%	Time: 103ms 281us 738ns	Sample: [1288371, 738933]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:49] [DEBUG]		35	Schedule: 35.00%	Time: 72ms 440us 34ns	Sample: [44112249, 755452]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:50] [DEBUG]		36	Schedule: 36.00%	Time: 73ms 902us 463ns	Sample: [29088897, 755452]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:50] [DEBUG]		37	Schedule: 37.00%	Time: 81ms 244us 798ns	Sample: [15568898, 618593]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:50] [DEBUG]		38	Schedule: 38.00%	Time: 219ms 982us 175ns	Sample: [25038085, 780857]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:50] [DEBUG]		39	Schedule: 39.00%	Time: 337ms 415us 833ns	Sample: [14075928, 973421]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:50] [DEBUG]		40	Schedule: 40.00%	Time: 127ms 599us 590ns	Sample: [96, 2065841]	Result 路径长度 = Record<{value: 2}>
+[2021-02-04 22:46:51] [DEBUG]		41	Schedule: 41.00%	Time: 352ms 579us 23ns	Sample: [31835375, 973421]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:51] [DEBUG]		42	Schedule: 42.00%	Time: 94ms 694us 344ns	Sample: [22480457, 973421]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:51] [DEBUG]		43	Schedule: 43.00%	Time: 520ms 450us 318ns	Sample: [27104736, 7589332]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:51] [DEBUG]		44	Schedule: 44.00%	Time: 170ms 103us 194ns	Sample: [22687463, 780487]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:52] [DEBUG]		45	Schedule: 45.00%	Time: 105ms 881us 749ns	Sample: [27576832, 738933]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:52] [DEBUG]		46	Schedule: 46.00%	Time: 112ms 980us 493ns	Sample: [108, 10960]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:52] [DEBUG]		47	Schedule: 47.00%	Time: 240ms 169us 757ns	Sample: [35792763, 843631]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:52] [DEBUG]		48	Schedule: 48.00%	Time: 93ms 450us 647ns	Sample: [21373148, 843631]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:52] [DEBUG]		49	Schedule: 49.00%	Time: 484ms 996us 668ns	Sample: [15234546, 69]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:53] [DEBUG]		50	Schedule: 50.00%	Time: 99ms 311us 798ns	Sample: [14379717, 702653]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:53] [DEBUG]		51	Schedule: 51.00%	Time: 159ms 148us 393ns	Sample: [42744015, 1490851]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:53] [DEBUG]		52	Schedule: 52.00%	Time: 113ms 193us 642ns	Sample: [16927373, 960151]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:53] [DEBUG]		53	Schedule: 53.00%	Time: 619ms 385us 129ns	Sample: [16727535, 12120032]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		54	Schedule: 54.00%	Time: 101ms 779us 700ns	Sample: [51520097, 684463]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		55	Schedule: 55.00%	Time: 86ms 233us 471ns	Sample: [15078404, 937961]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		56	Schedule: 56.00%	Time: 298ms 17us 978ns	Sample: [14199173, 772959]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		57	Schedule: 57.00%	Time: 126ms 921us 977ns	Sample: [4517721, 684463]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		58	Schedule: 58.00%	Time: 87ms 141us 274ns	Sample: [17323985, 706693]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		59	Schedule: 59.00%	Time: 86ms 68us 902ns	Sample: [18218033, 2120381]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:54] [DEBUG]		60	Schedule: 60.00%	Time: 95ms 499us 289ns	Sample: [21828142, 738933]	Result 路径长度 = Record<{value: 3}>
+[2021-02-04 22:46:55] [DEBUG]		61	Schedule: 61.00%	Time: 333ms 770us 182ns	Sample: [52674447, 772959]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:57] [DEBUG]		62	Schedule: 62.00%	Time: 2s 639ms 288us 914ns	Sample: [15285305, 3293]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:57] [DEBUG]		63	Schedule: 63.00%	Time: 82ms 715us 548ns	Sample: [45827167, 977111]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:58] [DEBUG]		64	Schedule: 64.00%	Time: 298ms 57us 582ns	Sample: [50826077, 981121]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:58] [DEBUG]		65	Schedule: 65.00%	Time: 270ms 546us 738ns	Sample: [54064328, 6784202]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:59] [DEBUG]		66	Schedule: 66.00%	Time: 988ms 19us 109ns	Sample: [6941, 29622390]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:59] [DEBUG]		67	Schedule: 67.00%	Time: 94ms 261us 612ns	Sample: [33586608, 960151]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:59] [DEBUG]		68	Schedule: 68.00%	Time: 136ms 964us 481ns	Sample: [204, 69]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:59] [DEBUG]		69	Schedule: 69.00%	Time: 102ms 652us 531ns	Sample: [22716284, 706693]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:46:59] [DEBUG]		70	Schedule: 70.00%	Time: 109ms 867us 374ns	Sample: [34386420, 796389]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:00] [DEBUG]		71	Schedule: 71.00%	Time: 185ms 191us 513ns	Sample: [36187082, 783963]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:00] [DEBUG]		72	Schedule: 72.00%	Time: 531ms 864us 857ns	Sample: [31239408, 53100288]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:01] [DEBUG]		73	Schedule: 73.00%	Time: 521ms 618us 39ns	Sample: [40316879, 16348642]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:03] [DEBUG]		74	Schedule: 74.00%	Time: 2s 664ms 689us 590ns	Sample: [10667662, 3200]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:04] [DEBUG]		75	Schedule: 75.00%	Time: 289ms 255us 930ns	Sample: [46517052, 42786350]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:05] [DEBUG]		76	Schedule: 76.00%	Time: 1s 194ms 835us 256ns	Sample: [24523660, 15997285]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:07] [DEBUG]		77	Schedule: 77.00%	Time: 1s 754ms 723us 99ns	Sample: [14521821, 27502926]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:08] [DEBUG]		78	Schedule: 78.00%	Time: 1s 794ms 264us 226ns	Sample: [18548221, 17969406]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:08] [DEBUG]		79	Schedule: 79.00%	Time: 108ms 67us 245ns	Sample: [41496166, 7497]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:09] [DEBUG]		80	Schedule: 80.00%	Time: 150ms 725us 845ns	Sample: [27104314, 69]	Result 路径长度 = Record<{value: 4}>
+[2021-02-04 22:47:12] [DEBUG]		81	Schedule: 81.00%	Time: 3s 829ms 780us 123ns	Sample: [27654423, 3293]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:18] [DEBUG]		82	Schedule: 82.00%	Time: 5s 69ms 129us 690ns	Sample: [1685871, 9079]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:18] [DEBUG]		83	Schedule: 83.00%	Time: 133ms 711us 998ns	Sample: [23184686, 14308945]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:21] [DEBUG]		84	Schedule: 84.00%	Time: 3s 580ms 625us 495ns	Sample: [23994973, 20661714]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:21] [DEBUG]		85	Schedule: 85.00%	Time: 127ms 11us 551ns	Sample: [60312372, 304]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:23] [DEBUG]		86	Schedule: 86.00%	Time: 1s 412ms 23us 495ns	Sample: [8610562, 4144]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:30] [DEBUG]		87	Schedule: 87.00%	Time: 6s 822ms 138us 305ns	Sample: [38978212, 44743]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:40] [DEBUG]		88	Schedule: 88.00%	Time: 10s 640ms 291us 589ns	Sample: [19740592, 30418899]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:42] [DEBUG]		89	Schedule: 89.00%	Time: 1s 759ms 662us 785ns	Sample: [18803424, 39108249]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:48] [DEBUG]		90	Schedule: 90.00%	Time: 5s 807ms 635us 40ns	Sample: [30395784, 37292798]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:48] [DEBUG]		91	Schedule: 91.00%	Time: 186ms 222us 371ns	Sample: [35908081, 742393]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:52] [DEBUG]		92	Schedule: 92.00%	Time: 4s 507ms 610us 981ns	Sample: [21156271, 20661714]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:53] [DEBUG]		93	Schedule: 93.00%	Time: 342ms 764us 492ns	Sample: [20530182, 14265796]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:47:53] [DEBUG]		94	Schedule: 94.00%	Time: 405ms 359us 284ns	Sample: [23378124, 19685275]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:01] [DEBUG]		95	Schedule: 95.00%	Time: 7s 964ms 296us 794ns	Sample: [29830423, 37292798]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:03] [DEBUG]		96	Schedule: 96.00%	Time: 2s 143ms 804us 445ns	Sample: [44304625, 44743]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:04] [DEBUG]		97	Schedule: 97.00%	Time: 515ms 156us 635ns	Sample: [28830907, 5059411]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:04] [DEBUG]		98	Schedule: 98.00%	Time: 107ms 326us 612ns	Sample: [31180323, 4809381]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:05] [DEBUG]		99	Schedule: 99.00%	Time: 1s 432ms 497us 984ns	Sample: [17998925, 27502926]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:06] [DEBUG]		100	Schedule: 100.00%	Time: 494ms 351us 66ns	Sample: [46822485, 4247]	Result 路径长度 = Record<{value: 5}>
+[2021-02-04 22:48:06] [INFO]	-- Result Statistics
+[2021-02-04 22:48:06] [INFO]	minTime: 60ms 141us 68ns(60.14ms)
+[2021-02-04 22:48:06] [INFO]	maxTime: 10s 640ms 291us 589ns(10640.29ms)
+[2021-02-04 22:48:06] [INFO]	AvgTime: 791ms 894us 586ns(791.89ms)
+[2021-02-04 22:48:06] [INFO]	P99: 7s 991ms 56us 741ns(7991.06ms)
+[2021-02-04 22:48:06] [INFO]	P999: 10s 375ms 368us 104ns(10375.37ms)
+[2021-02-04 22:48:06] [INFO]	Throughput: 1.26
+[2021-02-04 22:48:06] [INFO]	SuccessNum: 100
+[2021-02-04 22:48:06] [INFO]	SuccessRate: 100.00%
+[2021-02-04 22:48:06] [INFO]	ErrorNum: 0
+[2021-02-04 22:48:06] [INFO]	ErrorRate: 0.00%
+[2021-02-04 22:48:06] [INFO]	TimeoutNum: 0
+[2021-02-04 22:48:06] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 22:48:06] [INFO]	-- End ShortestPath

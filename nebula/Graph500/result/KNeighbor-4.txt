@@ -1,0 +1,26 @@
+[2021-03-27 15:11:49] [INFO]	-- Start KNeighborTest - 4 Depth
+[2021-03-27 15:15:46] [DEBUG]		1	Schedule: 10.00%	Time: 3m 57s 91ms 983us 66ns	Sample: [442899]	Result resultCount 2170357
+[2021-03-27 15:19:35] [DEBUG]		2	Schedule: 20.00%	Time: 3m 48s 960ms 705us 601ns	Sample: [2242915]	Result resultCount 2181084
+[2021-03-27 15:19:52] [DEBUG]		3	Schedule: 30.00%	Time: 16s 667ms 233us 298ns	Sample: [3021079]	Result resultCount 620636
+[2021-03-27 15:22:59] [DEBUG]		4	Schedule: 40.00%	Time: 3m 6s 946ms 853us 461ns	Sample: [1616525]	Result resultCount 2079255
+[2021-03-27 15:26:43] [DEBUG]		5	Schedule: 50.00%	Time: 3m 44s 716ms 22us 581ns	Sample: [1651340]	Result resultCount 2137958
+[2021-03-27 15:30:23] [DEBUG]		6	Schedule: 60.00%	Time: 3m 39s 575ms 320us 336ns	Sample: [4070]	Result resultCount 2170389
+[2021-03-27 15:34:09] [DEBUG]		7	Schedule: 70.00%	Time: 3m 45s 632ms 556us 415ns	Sample: [3140312]	Result resultCount 2169377
+[2021-03-27 15:34:25] [DEBUG]		8	Schedule: 80.00%	Time: 16s 531ms 650us 635ns	Sample: [3170761]	Result resultCount 621159
+[2021-03-27 15:34:40] [DEBUG]		9	Schedule: 90.00%	Time: 15s 118ms 381us 665ns	Sample: [2248329]	Result resultCount 602819
+[2021-03-27 15:37:53] [DEBUG]		10	Schedule: 100.00%	Time: 3m 13s 262ms 887us 247ns	Sample: [2744194]	Result resultCount 2081731
+[2021-03-27 15:37:53] [INFO]	-- Result Statistics
+[2021-03-27 15:37:53] [INFO]	minTime: 15s 118ms 381us 665ns(15118.38ms)
+[2021-03-27 15:37:53] [INFO]	maxTime: 3m 57s 91ms 983us 66ns(237091.98ms)
+[2021-03-27 15:37:53] [INFO]	AvgTime: 2m 36s 450ms 359us 430ns(156450.36ms)
+[2021-03-27 15:37:53] [INFO]	P99: 3m 56s 360ms 168us 94ns(236360.17ms)
+[2021-03-27 15:37:53] [INFO]	P999: 3m 57s 18ms 801us 568ns(237018.80ms)
+[2021-03-27 15:37:53] [INFO]	Throughput: 0.01
+[2021-03-27 15:37:53] [INFO]	SuccessNum: 10
+[2021-03-27 15:37:53] [INFO]	SuccessRate: 100.00%
+[2021-03-27 15:37:53] [INFO]	ErrorNum: 0
+[2021-03-27 15:37:53] [INFO]	ErrorRate: 0.00%
+[2021-03-27 15:37:53] [INFO]	TimeoutNum: 0
+[2021-03-27 15:37:53] [INFO]	TimeoutRate: 0.00%
+[2021-03-27 15:37:53] [INFO]	ResultCount Average: 1683476.50
+[2021-03-27 15:37:53] [INFO]	-- End KNeighborTest - 4 Depth

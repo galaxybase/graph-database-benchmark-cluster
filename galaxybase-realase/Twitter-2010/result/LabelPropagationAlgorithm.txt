@@ -1,0 +1,16 @@
+[2021-02-04 22:41:34] [INFO]	-- Start LabelPropagation
+[2021-02-04 22:46:26] [DEBUG]		1	Schedule: 100.00%	Time: 4m 51s 160ms 116us 372ns	Sample: 	Result 结果数：0
+[2021-02-04 22:46:26] [INFO]	-- Result Statistics
+[2021-02-04 22:46:26] [INFO]	minTime: 4m 51s 160ms 116us 372ns(291160.12ms)
+[2021-02-04 22:46:26] [INFO]	maxTime: 4m 51s 160ms 116us 372ns(291160.12ms)
+[2021-02-04 22:46:26] [INFO]	AvgTime: 4m 51s 160ms 116us 372ns(291160.12ms)
+[2021-02-04 22:46:26] [INFO]	P99: 4m 51s 160ms 116us 372ns(291160.12ms)
+[2021-02-04 22:46:26] [INFO]	P999: 4m 51s 160ms 116us 372ns(291160.12ms)
+[2021-02-04 22:46:26] [INFO]	Throughput: 0.00
+[2021-02-04 22:46:26] [INFO]	SuccessNum: 1
+[2021-02-04 22:46:26] [INFO]	SuccessRate: 100.00%
+[2021-02-04 22:46:26] [INFO]	ErrorNum: 0
+[2021-02-04 22:46:26] [INFO]	ErrorRate: 0.00%
+[2021-02-04 22:46:26] [INFO]	TimeoutNum: 0
+[2021-02-04 22:46:26] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 22:46:26] [INFO]	-- End LabelPropagation

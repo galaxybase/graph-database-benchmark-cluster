@@ -1,0 +1,26 @@
+[2021-03-01 14:42:30] [INFO]	-- Start K-neighbor3
+[2021-03-01 15:07:17] [DEBUG]		1	Schedule: 1.00%	Time: 24m 47s 3ms 17us 574ns	Sample: [442899]	Result 2127176
+[2021-03-01 15:33:08] [DEBUG]		2	Schedule: 2.00%	Time: 25m 51s 306ms 361us 12ns	Sample: [2242915]	Result 2142036
+[2021-03-01 15:38:30] [DEBUG]		3	Schedule: 3.00%	Time: 5m 22s 95ms 239us 839ns	Sample: [3021079]	Result 533758
+[2021-03-01 16:00:08] [DEBUG]		4	Schedule: 4.00%	Time: 21m 38s 188ms 417us 302ns	Sample: [1616525]	Result 2003211
+[2021-03-01 16:23:18] [DEBUG]		5	Schedule: 5.00%	Time: 23m 9s 407ms 416us 795ns	Sample: [1651340]	Result 2078919
+[2021-03-01 16:48:15] [DEBUG]		6	Schedule: 6.00%	Time: 24m 57s 924ms 609us 174ns	Sample: [4070]	Result 2127925
+[2021-03-01 17:13:02] [DEBUG]		7	Schedule: 7.00%	Time: 24m 46s 673ms 185us 268ns	Sample: [3140312]	Result 2124097
+[2021-03-01 17:18:07] [DEBUG]		8	Schedule: 8.00%	Time: 5m 4s 529ms 363us 4ns	Sample: [3170761]	Result 525689
+[2021-03-01 17:22:57] [DEBUG]		9	Schedule: 9.00%	Time: 4m 50s 764ms 943us 597ns	Sample: [2248329]	Result 517453
+[2021-03-01 17:44:22] [DEBUG]		10	Schedule: 10.00%	Time: 21m 24s 486ms 165us 431ns	Sample: [2744194]	Result 2002636
+[2021-01-14 22:45:09] [INFO]	-- Result Statistics
+[2021-01-14 22:45:09] [INFO]	minTime: 4m 50s 764ms 943us 597ns(290764.94ms)
+[2021-01-14 22:45:09] [INFO]	maxTime: 25m 51s 306ms 361us 12ns(1551306.36ms)
+[2021-01-14 22:45:09] [INFO]	AvgTime: 18m 11s 237ms 871us 950ns(1091237.87ms)
+[2021-01-14 22:45:09] [INFO]	P99: 24m 52s 110ms 980us 75ns(1492110.98ms)
+[2021-01-14 22:45:09] [INFO]	P999: 25m 39s 735ms 210us 33ns(1539735.21ms)
+[2021-01-14 22:45:09] [INFO]	Throughput: 0.00
+[2021-01-14 22:45:09] [INFO]	SuccessNum: 100
+[2021-01-14 22:45:09] [INFO]	SuccessRate: 100.00%
+[2021-01-14 22:45:09] [INFO]	ErrorNum: 0
+[2021-01-14 22:45:09] [INFO]	ErrorRate: 0.00%
+[2021-01-14 22:45:09] [INFO]	TimeoutNum: 0
+[2021-01-14 22:45:09] [INFO]	TimeoutRate: 0.00%
+[2021-01-14 22:45:09] [INFO]	ResultCount Average: 1618290
+[2021-01-14 22:45:09] [INFO]	-- End KNeighbor 3 Depth

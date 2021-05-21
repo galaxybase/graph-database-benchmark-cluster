@@ -1,0 +1,363 @@
+[2021-02-04 21:10:49] [INFO]	-- Start KNeighbor 2度
+[2021-02-04 21:10:50] [DEBUG]		1	Schedule: 1.00%	Time: 1s 212ms 245us 745ns	Sample: [1496151]	Result 点数量：1252068
+[2021-02-04 21:10:51] [DEBUG]		2	Schedule: 2.00%	Time: 728ms 230us 949ns	Sample: [5975362]	Result 点数量：1763858
+[2021-02-04 21:10:51] [DEBUG]		3	Schedule: 3.00%	Time: 370ms 267us 743ns	Sample: [37022393]	Result 点数量：689626
+[2021-02-04 21:10:52] [DEBUG]		4	Schedule: 4.00%	Time: 277ms 21us 10ns	Sample: [8709]	Result 点数量：290169
+[2021-02-04 21:10:52] [DEBUG]		5	Schedule: 5.00%	Time: 426ms 331us 327ns	Sample: [24698239]	Result 点数量：764468
+[2021-02-04 21:10:53] [DEBUG]		6	Schedule: 6.00%	Time: 807ms 930us 279ns	Sample: [25130276]	Result 点数量：2575039
+[2021-02-04 21:10:54] [DEBUG]		7	Schedule: 7.00%	Time: 667ms 24us 318ns	Sample: [17017845]	Result 点数量：2641241
+[2021-02-04 21:10:54] [DEBUG]		8	Schedule: 8.00%	Time: 309ms 282us 986ns	Sample: [48938638]	Result 点数量：506952
+[2021-02-04 21:10:54] [DEBUG]		9	Schedule: 9.00%	Time: 307ms 447us 952ns	Sample: [1235361]	Result 点数量：586853
+[2021-02-04 21:10:55] [DEBUG]		10	Schedule: 10.00%	Time: 330ms 884us 966ns	Sample: [20658347]	Result 点数量：660762
+[2021-02-04 21:10:55] [DEBUG]		11	Schedule: 11.00%	Time: 669ms 275us 389ns	Sample: [16593168]	Result 点数量：3015319
+[2021-02-04 21:10:56] [DEBUG]		12	Schedule: 12.00%	Time: 1s 137ms 967us 435ns	Sample: [20664441]	Result 点数量：6421435
+[2021-02-04 21:10:58] [DEBUG]		13	Schedule: 13.00%	Time: 1s 270ms 917us 359ns	Sample: [24435664]	Result 点数量：5174505
+[2021-02-04 21:10:58] [DEBUG]		14	Schedule: 14.00%	Time: 588ms 823us 666ns	Sample: [14412182]	Result 点数量：2171384
+[2021-02-04 21:10:59] [DEBUG]		15	Schedule: 15.00%	Time: 426ms 949us 729ns	Sample: [19636528]	Result 点数量：1078579
+[2021-02-04 21:10:59] [DEBUG]		16	Schedule: 16.00%	Time: 227ms 271us 559ns	Sample: [15878463]	Result 点数量：136960
+[2021-02-04 21:10:59] [DEBUG]		17	Schedule: 17.00%	Time: 344ms 921us 995ns	Sample: [48264708]	Result 点数量：644931
+[2021-02-04 21:11:00] [DEBUG]		18	Schedule: 18.00%	Time: 398ms 593us 970ns	Sample: [13293462]	Result 点数量：941581
+[2021-02-04 21:11:01] [DEBUG]		19	Schedule: 19.00%	Time: 840ms 391us 196ns	Sample: [23730298]	Result 点数量：3119566
+[2021-02-04 21:11:01] [DEBUG]		20	Schedule: 20.00%	Time: 428ms 135us 145ns	Sample: [24481451]	Result 点数量：1230474
+[2021-02-04 21:11:01] [DEBUG]		21	Schedule: 21.00%	Time: 233ms 270us 308ns	Sample: [27524196]	Result 点数量：170050
+[2021-02-04 21:11:01] [DEBUG]		22	Schedule: 22.00%	Time: 235ms 706us 818ns	Sample: [21169860]	Result 点数量：176317
+[2021-02-04 21:11:02] [DEBUG]		23	Schedule: 23.00%	Time: 341ms 917us 454ns	Sample: [46833491]	Result 点数量：787525
+[2021-02-04 21:11:03] [DEBUG]		24	Schedule: 24.00%	Time: 1s 96ms 83us 539ns	Sample: [21885206]	Result 点数量：6148137
+[2021-02-04 21:11:03] [DEBUG]		25	Schedule: 25.00%	Time: 406ms 33us 637ns	Sample: [16382788]	Result 点数量：1154597
+[2021-02-04 21:11:04] [DEBUG]		26	Schedule: 26.00%	Time: 422ms 297us 191ns	Sample: [20456269]	Result 点数量：1378695
+[2021-02-04 21:11:04] [DEBUG]		27	Schedule: 27.00%	Time: 365ms 837us 663ns	Sample: [40902450]	Result 点数量：734292
+[2021-02-04 21:11:04] [DEBUG]		28	Schedule: 28.00%	Time: 344ms 941us 926ns	Sample: [42385157]	Result 点数量：764075
+[2021-02-04 21:11:05] [DEBUG]		29	Schedule: 29.00%	Time: 388ms 133us 976ns	Sample: [41654893]	Result 点数量：1018673
+[2021-02-04 21:11:05] [DEBUG]		30	Schedule: 30.00%	Time: 660ms 727us 696ns	Sample: [18288639]	Result 点数量：1953019
+[2021-02-04 21:11:06] [DEBUG]		31	Schedule: 31.00%	Time: 588ms 600us 745ns	Sample: [17564255]	Result 点数量：2106440
+[2021-02-04 21:11:06] [DEBUG]		32	Schedule: 32.00%	Time: 307ms 823us 324ns	Sample: [46897411]	Result 点数量：557705
+[2021-02-04 21:11:07] [DEBUG]		33	Schedule: 33.00%	Time: 310ms 804us 314ns	Sample: [18004612]	Result 点数量：603758
+[2021-02-04 21:11:08] [DEBUG]		34	Schedule: 34.00%	Time: 1s 10ms 467us 730ns	Sample: [25418672]	Result 点数量：3804205
+[2021-02-04 21:11:09] [DEBUG]		35	Schedule: 35.00%	Time: 853ms 794us 75ns	Sample: [16132862]	Result 点数量：2720037
+[2021-02-04 21:11:09] [DEBUG]		36	Schedule: 36.00%	Time: 589ms 505us 89ns	Sample: [24982094]	Result 点数量：1975560
+[2021-02-04 21:11:10] [DEBUG]		37	Schedule: 37.00%	Time: 1s 46ms 676us 613ns	Sample: [7453202]	Result 点数量：6160286
+[2021-02-04 21:11:11] [DEBUG]		38	Schedule: 38.00%	Time: 505ms 444us 483ns	Sample: [31682374]	Result 点数量：1745900
+[2021-02-04 21:11:11] [DEBUG]		39	Schedule: 39.00%	Time: 219ms 592us 277ns	Sample: [39226375]	Result 点数量：107032
+[2021-02-04 21:11:12] [DEBUG]		40	Schedule: 40.00%	Time: 779ms 300us 796ns	Sample: [15417634]	Result 点数量：3632061
+[2021-02-04 21:11:12] [DEBUG]		41	Schedule: 41.00%	Time: 800ms 565us 909ns	Sample: [1512791]	Result 点数量：3324996
+[2021-02-04 21:11:13] [DEBUG]		42	Schedule: 42.00%	Time: 308ms 123us 417ns	Sample: [53314298]	Result 点数量：495223
+[2021-02-04 21:11:14] [DEBUG]		43	Schedule: 43.00%	Time: 1s 144ms 879us 195ns	Sample: [15426550]	Result 点数量：5042356
+[2021-02-04 21:11:14] [DEBUG]		44	Schedule: 44.00%	Time: 327ms 33us 577ns	Sample: [18769128]	Result 点数量：846142
+[2021-02-04 21:11:15] [DEBUG]		45	Schedule: 45.00%	Time: 607ms 421us 80ns	Sample: [22120931]	Result 点数量：1749334
+[2021-02-04 21:11:15] [DEBUG]		46	Schedule: 46.00%	Time: 415ms 237us 863ns	Sample: [48532778]	Result 点数量：923371
+[2021-02-04 21:11:16] [DEBUG]		47	Schedule: 47.00%	Time: 1s 31ms 974us 423ns	Sample: [1542531]	Result 点数量：5709662
+[2021-02-04 21:11:17] [DEBUG]		48	Schedule: 48.00%	Time: 415ms 178us 767ns	Sample: [16899283]	Result 点数量：851373
+[2021-02-04 21:11:17] [DEBUG]		49	Schedule: 49.00%	Time: 473ms 428us 136ns	Sample: [44777959]	Result 点数量：1103143
+[2021-02-04 21:11:18] [DEBUG]		50	Schedule: 50.00%	Time: 445ms 157us 234ns	Sample: [37382237]	Result 点数量：1547380
+[2021-02-04 21:11:18] [DEBUG]		51	Schedule: 51.00%	Time: 235ms 539us 186ns	Sample: [21415375]	Result 点数量：143157
+[2021-02-04 21:11:18] [DEBUG]		52	Schedule: 52.00%	Time: 372ms 738us 797ns	Sample: [36655487]	Result 点数量：842376
+[2021-02-04 21:11:19] [DEBUG]		53	Schedule: 53.00%	Time: 366ms 255us 807ns	Sample: [27371337]	Result 点数量：1267124
+[2021-02-04 21:11:19] [DEBUG]		54	Schedule: 54.00%	Time: 368ms 848us 3ns	Sample: [44795064]	Result 点数量：740047
+[2021-02-04 21:11:20] [DEBUG]		55	Schedule: 55.00%	Time: 524ms 277us 446ns	Sample: [4197051]	Result 点数量：2130276
+[2021-02-04 21:11:20] [DEBUG]		56	Schedule: 56.00%	Time: 350ms 677us 21ns	Sample: [29979420]	Result 点数量：681506
+[2021-02-04 21:11:20] [DEBUG]		57	Schedule: 57.00%	Time: 267ms 185us 675ns	Sample: [29270801]	Result 点数量：415117
+[2021-02-04 21:11:21] [DEBUG]		58	Schedule: 58.00%	Time: 769ms 890us 129ns	Sample: [5359542]	Result 点数量：2415844
+[2021-02-04 21:11:21] [DEBUG]		59	Schedule: 59.00%	Time: 365ms 458us 550ns	Sample: [22189598]	Result 点数量：719066
+[2021-02-04 21:11:22] [DEBUG]		60	Schedule: 60.00%	Time: 422ms 93us 754ns	Sample: [40758682]	Result 点数量：948535
+[2021-02-04 21:11:23] [DEBUG]		61	Schedule: 61.00%	Time: 929ms 411us 507ns	Sample: [23337107]	Result 点数量：4049023
+[2021-02-04 21:11:23] [DEBUG]		62	Schedule: 62.00%	Time: 363ms 484us 499ns	Sample: [35240567]	Result 点数量：955125
+[2021-02-04 21:11:24] [DEBUG]		63	Schedule: 63.00%	Time: 777ms 799us 288ns	Sample: [10298552]	Result 点数量：2465071
+[2021-02-04 21:11:25] [DEBUG]		64	Schedule: 64.00%	Time: 811ms 415us 769ns	Sample: [14066732]	Result 点数量：2500884
+[2021-02-04 21:11:25] [DEBUG]		65	Schedule: 65.00%	Time: 433ms 479us 552ns	Sample: [39023406]	Result 点数量：1140811
+[2021-02-04 21:11:25] [DEBUG]		66	Schedule: 66.00%	Time: 395ms 548us 513ns	Sample: [42659923]	Result 点数量：864089
+[2021-02-04 21:11:27] [DEBUG]		67	Schedule: 67.00%	Time: 1s 319ms 463us 988ns	Sample: [15929203]	Result 点数量：7533891
+[2021-02-04 21:11:27] [DEBUG]		68	Schedule: 68.00%	Time: 521ms 498us 198ns	Sample: [46427392]	Result 点数量：1563212
+[2021-02-04 21:11:28] [DEBUG]		69	Schedule: 69.00%	Time: 259ms 23us 121ns	Sample: [36401728]	Result 点数量：443474
+[2021-02-04 21:11:28] [DEBUG]		70	Schedule: 70.00%	Time: 944ms 851us 832ns	Sample: [14781740]	Result 点数量：4569938
+[2021-02-04 21:11:30] [DEBUG]		71	Schedule: 71.00%	Time: 1s 56ms 248us 488ns	Sample: [17103756]	Result 点数量：4852804
+[2021-02-04 21:11:30] [DEBUG]		72	Schedule: 72.00%	Time: 269ms 381us 32ns	Sample: [46433633]	Result 点数量：365039
+[2021-02-04 21:11:31] [DEBUG]		73	Schedule: 73.00%	Time: 1s 75ms 321us 253ns	Sample: [17820755]	Result 点数量：5573549
+[2021-02-04 21:11:31] [DEBUG]		74	Schedule: 74.00%	Time: 479ms 158us 188ns	Sample: [18579454]	Result 点数量：2181374
+[2021-02-04 21:11:32] [DEBUG]		75	Schedule: 75.00%	Time: 485ms 145us 253ns	Sample: [27884168]	Result 点数量：1083000
+[2021-02-04 21:11:33] [DEBUG]		76	Schedule: 76.00%	Time: 765ms 280us 411ns	Sample: [14531407]	Result 点数量：3144230
+[2021-02-04 21:11:33] [DEBUG]		77	Schedule: 77.00%	Time: 372ms 211us 409ns	Sample: [23827750]	Result 点数量：853573
+[2021-02-04 21:11:33] [DEBUG]		78	Schedule: 78.00%	Time: 304ms 370us 431ns	Sample: [46495593]	Result 点数量：518633
+[2021-02-04 21:11:34] [DEBUG]		79	Schedule: 79.00%	Time: 441ms 577us 252ns	Sample: [21237067]	Result 点数量：1094163
+[2021-02-04 21:11:35] [DEBUG]		80	Schedule: 80.00%	Time: 894ms 861us 455ns	Sample: [16430868]	Result 点数量：4269390
+[2021-02-04 21:11:35] [DEBUG]		81	Schedule: 81.00%	Time: 303ms 213us 461ns	Sample: [23120329]	Result 点数量：501318
+[2021-02-04 21:11:36] [DEBUG]		82	Schedule: 82.00%	Time: 967ms 87us 787ns	Sample: [33860518]	Result 点数量：3635081
+[2021-02-04 21:11:36] [DEBUG]		83	Schedule: 83.00%	Time: 545ms 548us 436ns	Sample: [16440677]	Result 点数量：1616667
+[2021-02-04 21:11:37] [DEBUG]		84	Schedule: 84.00%	Time: 499ms 933us 866ns	Sample: [35753735]	Result 点数量：1380802
+[2021-02-04 21:11:38] [DEBUG]		85	Schedule: 85.00%	Time: 1s 481ms 995us 453ns	Sample: [15016096]	Result 点数量：7650423
+[2021-02-04 21:11:39] [DEBUG]		86	Schedule: 86.00%	Time: 965ms 305us 226ns	Sample: [15729322]	Result 点数量：5488122
+[2021-02-04 21:11:40] [DEBUG]		87	Schedule: 87.00%	Time: 512ms 676us 22ns	Sample: [23155998]	Result 点数量：1528512
+[2021-02-04 21:11:41] [DEBUG]		88	Schedule: 88.00%	Time: 627ms 498us 793ns	Sample: [14585384]	Result 点数量：2269084
+[2021-02-04 21:11:41] [DEBUG]		89	Schedule: 89.00%	Time: 344ms 605us 775ns	Sample: [36212284]	Result 点数量：707076
+[2021-02-04 21:11:41] [DEBUG]		90	Schedule: 90.00%	Time: 344ms 459us 828ns	Sample: [28382588]	Result 点数量：858116
+[2021-02-04 21:11:41] [DEBUG]		91	Schedule: 91.00%	Time: 243ms 955us 653ns	Sample: [15748390]	Result 点数量：207453
+[2021-02-04 21:11:42] [DEBUG]		92	Schedule: 92.00%	Time: 923ms 332us 171ns	Sample: [17635231]	Result 点数量：3841890
+[2021-02-04 21:11:43] [DEBUG]		93	Schedule: 93.00%	Time: 253ms 751us 944ns	Sample: [15754923]	Result 点数量：325244
+[2021-02-04 21:11:43] [DEBUG]		94	Schedule: 94.00%	Time: 231ms 676us 479ns	Sample: [20570019]	Result 点数量：210486
+[2021-02-04 21:11:43] [DEBUG]		95	Schedule: 95.00%	Time: 349ms 419us 557ns	Sample: [34364753]	Result 点数量：972756
+[2021-02-04 21:11:44] [DEBUG]		96	Schedule: 96.00%	Time: 328ms 189us 877ns	Sample: [48863249]	Result 点数量：629279
+[2021-02-04 21:11:44] [DEBUG]		97	Schedule: 97.00%	Time: 496ms 621us 248ns	Sample: [15063841]	Result 点数量：1473066
+[2021-02-04 21:11:44] [DEBUG]		98	Schedule: 98.00%	Time: 426ms 844us 564ns	Sample: [36962391]	Result 点数量：1392065
+[2021-02-04 21:11:45] [DEBUG]		99	Schedule: 99.00%	Time: 884ms 920us 675ns	Sample: [18814481]	Result 点数量：5126129
+[2021-02-04 21:11:46] [DEBUG]		100	Schedule: 100.00%	Time: 951ms 584us 639ns	Sample: [19556978]	Result 点数量：3992991
+[2021-02-04 21:11:46] [INFO]	-- Result Statistics
+[2021-02-04 21:11:46] [INFO]	minTime: 219ms 592us 277ns(219.59ms)
+[2021-02-04 21:11:46] [INFO]	maxTime: 1s 481ms 995us 453ns(1482.00ms)
+[2021-02-04 21:11:46] [INFO]	AvgTime: 570ms 709us 912ns(570.71ms)
+[2021-02-04 21:11:46] [INFO]	P99: 1s 321ms 89us 302ns(1321.09ms)
+[2021-02-04 21:11:46] [INFO]	P999: 1s 465ms 904us 837ns(1465.90ms)
+[2021-02-04 21:11:46] [INFO]	Throughput: 1.75
+[2021-02-04 21:11:46] [INFO]	SuccessNum: 100
+[2021-02-04 21:11:46] [INFO]	SuccessRate: 100.00%
+[2021-02-04 21:11:46] [INFO]	ErrorNum: 0
+[2021-02-04 21:11:46] [INFO]	ErrorRate: 0.00%
+[2021-02-04 21:11:46] [INFO]	TimeoutNum: 0
+[2021-02-04 21:11:46] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 21:11:46] [INFO]	vertexCount Average: 1990879.95
+[2021-02-04 21:11:46] [INFO]	-- End KNeighbor 2度
+[2021-02-04 21:11:46] [INFO]	-- Start KNeighbor 2度
+[2021-02-04 21:11:47] [DEBUG]		1	Schedule: 1.00%	Time: 391ms 387us 708ns	Sample: [1496151]	Result 点数量：1252068
+[2021-02-04 21:11:47] [DEBUG]		2	Schedule: 2.00%	Time: 522ms 401us 234ns	Sample: [5975362]	Result 点数量：1763858
+[2021-02-04 21:11:48] [DEBUG]		3	Schedule: 3.00%	Time: 319ms 228us 600ns	Sample: [37022393]	Result 点数量：689626
+[2021-02-04 21:11:48] [DEBUG]		4	Schedule: 4.00%	Time: 235ms 709us 184ns	Sample: [8709]	Result 点数量：290169
+[2021-02-04 21:11:48] [DEBUG]		5	Schedule: 5.00%	Time: 382ms 309us 221ns	Sample: [24698239]	Result 点数量：764468
+[2021-02-04 21:11:49] [DEBUG]		6	Schedule: 6.00%	Time: 775ms 661us 51ns	Sample: [25130276]	Result 点数量：2575039
+[2021-02-04 21:11:50] [DEBUG]		7	Schedule: 7.00%	Time: 620ms 12us 76ns	Sample: [17017845]	Result 点数量：2641241
+[2021-02-04 21:11:50] [DEBUG]		8	Schedule: 8.00%	Time: 310ms 803us 967ns	Sample: [48938638]	Result 点数量：506952
+[2021-02-04 21:11:50] [DEBUG]		9	Schedule: 9.00%	Time: 292ms 429us 274ns	Sample: [1235361]	Result 点数量：586853
+[2021-02-04 21:11:50] [DEBUG]		10	Schedule: 10.00%	Time: 323ms 153us 265ns	Sample: [20658347]	Result 点数量：660762
+[2021-02-04 21:11:51] [DEBUG]		11	Schedule: 11.00%	Time: 651ms 938us 764ns	Sample: [16593168]	Result 点数量：3015319
+[2021-02-04 21:11:52] [DEBUG]		12	Schedule: 12.00%	Time: 1s 166ms 323us 883ns	Sample: [20664441]	Result 点数量：6421435
+[2021-02-04 21:11:54] [DEBUG]		13	Schedule: 13.00%	Time: 1s 251ms 187us 348ns	Sample: [24435664]	Result 点数量：5174505
+[2021-02-04 21:11:54] [DEBUG]		14	Schedule: 14.00%	Time: 548ms 493us 834ns	Sample: [14412182]	Result 点数量：2171384
+[2021-02-04 21:11:54] [DEBUG]		15	Schedule: 15.00%	Time: 415ms 359us 509ns	Sample: [19636528]	Result 点数量：1078579
+[2021-02-04 21:11:55] [DEBUG]		16	Schedule: 16.00%	Time: 217ms 313us 852ns	Sample: [15878463]	Result 点数量：136960
+[2021-02-04 21:11:55] [DEBUG]		17	Schedule: 17.00%	Time: 321ms 305us 174ns	Sample: [48264708]	Result 点数量：644931
+[2021-02-04 21:11:55] [DEBUG]		18	Schedule: 18.00%	Time: 420ms 0us 224ns	Sample: [13293462]	Result 点数量：941581
+[2021-02-04 21:11:56] [DEBUG]		19	Schedule: 19.00%	Time: 773ms 802us 973ns	Sample: [23730298]	Result 点数量：3119566
+[2021-02-04 21:11:57] [DEBUG]		20	Schedule: 20.00%	Time: 444ms 887us 24ns	Sample: [24481451]	Result 点数量：1230474
+[2021-02-04 21:11:57] [DEBUG]		21	Schedule: 21.00%	Time: 225ms 561us 969ns	Sample: [27524196]	Result 点数量：170050
+[2021-02-04 21:11:57] [DEBUG]		22	Schedule: 22.00%	Time: 257ms 159us 675ns	Sample: [21169860]	Result 点数量：176317
+[2021-02-04 21:11:58] [DEBUG]		23	Schedule: 23.00%	Time: 354ms 779us 360ns	Sample: [46833491]	Result 点数量：787525
+[2021-02-04 21:11:59] [DEBUG]		24	Schedule: 24.00%	Time: 1s 87ms 769us 891ns	Sample: [21885206]	Result 点数量：6148137
+[2021-02-04 21:11:59] [DEBUG]		25	Schedule: 25.00%	Time: 430ms 793us 537ns	Sample: [16382788]	Result 点数量：1154597
+[2021-02-04 21:11:59] [DEBUG]		26	Schedule: 26.00%	Time: 417ms 16us 678ns	Sample: [20456269]	Result 点数量：1378695
+[2021-02-04 21:12:00] [DEBUG]		27	Schedule: 27.00%	Time: 370ms 372us 999ns	Sample: [40902450]	Result 点数量：734292
+[2021-02-04 21:12:00] [DEBUG]		28	Schedule: 28.00%	Time: 359ms 90us 592ns	Sample: [42385157]	Result 点数量：764075
+[2021-02-04 21:12:01] [DEBUG]		29	Schedule: 29.00%	Time: 410ms 679us 141ns	Sample: [41654893]	Result 点数量：1018673
+[2021-02-04 21:12:01] [DEBUG]		30	Schedule: 30.00%	Time: 659ms 790us 764ns	Sample: [18288639]	Result 点数量：1953019
+[2021-02-04 21:12:02] [DEBUG]		31	Schedule: 31.00%	Time: 593ms 170us 201ns	Sample: [17564255]	Result 点数量：2106440
+[2021-02-04 21:12:02] [DEBUG]		32	Schedule: 32.00%	Time: 318ms 831us 664ns	Sample: [46897411]	Result 点数量：557705
+[2021-02-04 21:12:02] [DEBUG]		33	Schedule: 33.00%	Time: 311ms 818us 839ns	Sample: [18004612]	Result 点数量：603758
+[2021-02-04 21:12:03] [DEBUG]		34	Schedule: 34.00%	Time: 1s 1ms 183us 514ns	Sample: [25418672]	Result 点数量：3804205
+[2021-02-04 21:12:04] [DEBUG]		35	Schedule: 35.00%	Time: 848ms 455us 277ns	Sample: [16132862]	Result 点数量：2720037
+[2021-02-04 21:12:05] [DEBUG]		36	Schedule: 36.00%	Time: 590ms 319us 394ns	Sample: [24982094]	Result 点数量：1975560
+[2021-02-04 21:12:06] [DEBUG]		37	Schedule: 37.00%	Time: 1s 130ms 351us 456ns	Sample: [7453202]	Result 点数量：6160286
+[2021-02-04 21:12:07] [DEBUG]		38	Schedule: 38.00%	Time: 506ms 151us 613ns	Sample: [31682374]	Result 点数量：1745900
+[2021-02-04 21:12:07] [DEBUG]		39	Schedule: 39.00%	Time: 224ms 529us 918ns	Sample: [39226375]	Result 点数量：107032
+[2021-02-04 21:12:08] [DEBUG]		40	Schedule: 40.00%	Time: 775ms 479us 969ns	Sample: [15417634]	Result 点数量：3632061
+[2021-02-04 21:12:08] [DEBUG]		41	Schedule: 41.00%	Time: 785ms 785us 727ns	Sample: [1512791]	Result 点数量：3324996
+[2021-02-04 21:12:09] [DEBUG]		42	Schedule: 42.00%	Time: 282ms 884us 869ns	Sample: [53314298]	Result 点数量：495223
+[2021-02-04 21:12:10] [DEBUG]		43	Schedule: 43.00%	Time: 1s 145ms 912us 139ns	Sample: [15426550]	Result 点数量：5042356
+[2021-02-04 21:12:10] [DEBUG]		44	Schedule: 44.00%	Time: 355ms 63us 826ns	Sample: [18769128]	Result 点数量：846142
+[2021-02-04 21:12:11] [DEBUG]		45	Schedule: 45.00%	Time: 605ms 887us 406ns	Sample: [22120931]	Result 点数量：1749334
+[2021-02-04 21:12:11] [DEBUG]		46	Schedule: 46.00%	Time: 408ms 407us 26ns	Sample: [48532778]	Result 点数量：923371
+[2021-02-04 21:12:12] [DEBUG]		47	Schedule: 47.00%	Time: 1s 92ms 579us 783ns	Sample: [1542531]	Result 点数量：5709662
+[2021-02-04 21:12:13] [DEBUG]		48	Schedule: 48.00%	Time: 398ms 561us 621ns	Sample: [16899283]	Result 点数量：851373
+[2021-02-04 21:12:13] [DEBUG]		49	Schedule: 49.00%	Time: 461ms 206us 449ns	Sample: [44777959]	Result 点数量：1103143
+[2021-02-04 21:12:14] [DEBUG]		50	Schedule: 50.00%	Time: 430ms 469us 601ns	Sample: [37382237]	Result 点数量：1547380
+[2021-02-04 21:12:14] [DEBUG]		51	Schedule: 51.00%	Time: 233ms 603us 5ns	Sample: [21415375]	Result 点数量：143157
+[2021-02-04 21:12:14] [DEBUG]		52	Schedule: 52.00%	Time: 366ms 785us 904ns	Sample: [36655487]	Result 点数量：842376
+[2021-02-04 21:12:14] [DEBUG]		53	Schedule: 53.00%	Time: 368ms 667us 842ns	Sample: [27371337]	Result 点数量：1267124
+[2021-02-04 21:12:15] [DEBUG]		54	Schedule: 54.00%	Time: 383ms 483us 714ns	Sample: [44795064]	Result 点数量：740047
+[2021-02-04 21:12:15] [DEBUG]		55	Schedule: 55.00%	Time: 534ms 15us 692ns	Sample: [4197051]	Result 点数量：2130276
+[2021-02-04 21:12:16] [DEBUG]		56	Schedule: 56.00%	Time: 338ms 361us 881ns	Sample: [29979420]	Result 点数量：681506
+[2021-02-04 21:12:16] [DEBUG]		57	Schedule: 57.00%	Time: 291ms 871us 666ns	Sample: [29270801]	Result 点数量：415117
+[2021-02-04 21:12:17] [DEBUG]		58	Schedule: 58.00%	Time: 798ms 680us 198ns	Sample: [5359542]	Result 点数量：2415844
+[2021-02-04 21:12:17] [DEBUG]		59	Schedule: 59.00%	Time: 363ms 796us 712ns	Sample: [22189598]	Result 点数量：719066
+[2021-02-04 21:12:18] [DEBUG]		60	Schedule: 60.00%	Time: 385ms 626us 851ns	Sample: [40758682]	Result 点数量：948535
+[2021-02-04 21:12:19] [DEBUG]		61	Schedule: 61.00%	Time: 948ms 757us 982ns	Sample: [23337107]	Result 点数量：4049023
+[2021-02-04 21:12:19] [DEBUG]		62	Schedule: 62.00%	Time: 360ms 281us 217ns	Sample: [35240567]	Result 点数量：955125
+[2021-02-04 21:12:20] [DEBUG]		63	Schedule: 63.00%	Time: 786ms 824us 865ns	Sample: [10298552]	Result 点数量：2465071
+[2021-02-04 21:12:21] [DEBUG]		64	Schedule: 64.00%	Time: 815ms 518us 44ns	Sample: [14066732]	Result 点数量：2500884
+[2021-02-04 21:12:21] [DEBUG]		65	Schedule: 65.00%	Time: 462ms 710us 201ns	Sample: [39023406]	Result 点数量：1140811
+[2021-02-04 21:12:21] [DEBUG]		66	Schedule: 66.00%	Time: 391ms 488us 903ns	Sample: [42659923]	Result 点数量：864089
+[2021-02-04 21:12:23] [DEBUG]		67	Schedule: 67.00%	Time: 1s 329ms 276us 395ns	Sample: [15929203]	Result 点数量：7533891
+[2021-02-04 21:12:23] [DEBUG]		68	Schedule: 68.00%	Time: 513ms 708us 303ns	Sample: [46427392]	Result 点数量：1563212
+[2021-02-04 21:12:23] [DEBUG]		69	Schedule: 69.00%	Time: 268ms 159us 157ns	Sample: [36401728]	Result 点数量：443474
+[2021-02-04 21:12:24] [DEBUG]		70	Schedule: 70.00%	Time: 946ms 978us 362ns	Sample: [14781740]	Result 点数量：4569938
+[2021-02-04 21:12:25] [DEBUG]		71	Schedule: 71.00%	Time: 995ms 395us 138ns	Sample: [17103756]	Result 点数量：4852804
+[2021-02-04 21:12:26] [DEBUG]		72	Schedule: 72.00%	Time: 277ms 371us 239ns	Sample: [46433633]	Result 点数量：365039
+[2021-02-04 21:12:27] [DEBUG]		73	Schedule: 73.00%	Time: 1s 64ms 742us 861ns	Sample: [17820755]	Result 点数量：5573549
+[2021-02-04 21:12:27] [DEBUG]		74	Schedule: 74.00%	Time: 512ms 10us 278ns	Sample: [18579454]	Result 点数量：2181374
+[2021-02-04 21:12:28] [DEBUG]		75	Schedule: 75.00%	Time: 464ms 309us 115ns	Sample: [27884168]	Result 点数量：1083000
+[2021-02-04 21:12:28] [DEBUG]		76	Schedule: 76.00%	Time: 762ms 739us 580ns	Sample: [14531407]	Result 点数量：3144230
+[2021-02-04 21:12:29] [DEBUG]		77	Schedule: 77.00%	Time: 395ms 307us 855ns	Sample: [23827750]	Result 点数量：853573
+[2021-02-04 21:12:29] [DEBUG]		78	Schedule: 78.00%	Time: 296ms 777us 954ns	Sample: [46495593]	Result 点数量：518633
+[2021-02-04 21:12:30] [DEBUG]		79	Schedule: 79.00%	Time: 426ms 951us 312ns	Sample: [21237067]	Result 点数量：1094163
+[2021-02-04 21:12:31] [DEBUG]		80	Schedule: 80.00%	Time: 883ms 249us 250ns	Sample: [16430868]	Result 点数量：4269390
+[2021-02-04 21:12:31] [DEBUG]		81	Schedule: 81.00%	Time: 302ms 209us 909ns	Sample: [23120329]	Result 点数量：501318
+[2021-02-04 21:12:32] [DEBUG]		82	Schedule: 82.00%	Time: 1s 3ms 891us 766ns	Sample: [33860518]	Result 点数量：3635081
+[2021-02-04 21:12:32] [DEBUG]		83	Schedule: 83.00%	Time: 531ms 78us 282ns	Sample: [16440677]	Result 点数量：1616667
+[2021-02-04 21:12:33] [DEBUG]		84	Schedule: 84.00%	Time: 493ms 75us 272ns	Sample: [35753735]	Result 点数量：1380802
+[2021-02-04 21:12:34] [DEBUG]		85	Schedule: 85.00%	Time: 1s 490ms 69us 217ns	Sample: [15016096]	Result 点数量：7650423
+[2021-02-04 21:12:35] [DEBUG]		86	Schedule: 86.00%	Time: 926ms 731us 53ns	Sample: [15729322]	Result 点数量：5488122
+[2021-02-04 21:12:36] [DEBUG]		87	Schedule: 87.00%	Time: 523ms 288us 311ns	Sample: [23155998]	Result 点数量：1528512
+[2021-02-04 21:12:36] [DEBUG]		88	Schedule: 88.00%	Time: 612ms 706us 320ns	Sample: [14585384]	Result 点数量：2269084
+[2021-02-04 21:12:37] [DEBUG]		89	Schedule: 89.00%	Time: 312ms 316us 783ns	Sample: [36212284]	Result 点数量：707076
+[2021-02-04 21:12:37] [DEBUG]		90	Schedule: 90.00%	Time: 340ms 95us 992ns	Sample: [28382588]	Result 点数量：858116
+[2021-02-04 21:12:37] [DEBUG]		91	Schedule: 91.00%	Time: 231ms 876us 8ns	Sample: [15748390]	Result 点数量：207453
+[2021-02-04 21:12:38] [DEBUG]		92	Schedule: 92.00%	Time: 897ms 426us 693ns	Sample: [17635231]	Result 点数量：3841890
+[2021-02-04 21:12:38] [DEBUG]		93	Schedule: 93.00%	Time: 256ms 857us 907ns	Sample: [15754923]	Result 点数量：325244
+[2021-02-04 21:12:39] [DEBUG]		94	Schedule: 94.00%	Time: 236ms 147us 253ns	Sample: [20570019]	Result 点数量：210486
+[2021-02-04 21:12:39] [DEBUG]		95	Schedule: 95.00%	Time: 343ms 344us 415ns	Sample: [34364753]	Result 点数量：972756
+[2021-02-04 21:12:39] [DEBUG]		96	Schedule: 96.00%	Time: 298ms 622us 373ns	Sample: [48863249]	Result 点数量：629279
+[2021-02-04 21:12:40] [DEBUG]		97	Schedule: 97.00%	Time: 483ms 212us 784ns	Sample: [15063841]	Result 点数量：1473066
+[2021-02-04 21:12:40] [DEBUG]		98	Schedule: 98.00%	Time: 422ms 492us 441ns	Sample: [36962391]	Result 点数量：1392065
+[2021-02-04 21:12:41] [DEBUG]		99	Schedule: 99.00%	Time: 910ms 144us 854ns	Sample: [18814481]	Result 点数量：5126129
+[2021-02-04 21:12:42] [DEBUG]		100	Schedule: 100.00%	Time: 966ms 479us 556ns	Sample: [19556978]	Result 点数量：3992991
+[2021-02-04 21:12:42] [INFO]	-- Result Statistics
+[2021-02-04 21:12:42] [INFO]	minTime: 217ms 313us 852ns(217.31ms)
+[2021-02-04 21:12:42] [INFO]	maxTime: 1s 490ms 69us 217ns(1490.07ms)
+[2021-02-04 21:12:42] [INFO]	AvgTime: 557ms 732us 917ns(557.73ms)
+[2021-02-04 21:12:42] [INFO]	P99: 1s 330ms 884us 323ns(1330.88ms)
+[2021-02-04 21:12:42] [INFO]	P999: 1s 474ms 150us 727ns(1474.15ms)
+[2021-02-04 21:12:42] [INFO]	Throughput: 1.79
+[2021-02-04 21:12:42] [INFO]	SuccessNum: 100
+[2021-02-04 21:12:42] [INFO]	SuccessRate: 100.00%
+[2021-02-04 21:12:42] [INFO]	ErrorNum: 0
+[2021-02-04 21:12:42] [INFO]	ErrorRate: 0.00%
+[2021-02-04 21:12:42] [INFO]	TimeoutNum: 0
+[2021-02-04 21:12:42] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 21:12:42] [INFO]	vertexCount Average: 1990879.95
+[2021-02-04 21:12:42] [INFO]	-- End KNeighbor 2度
+[2021-02-04 21:12:42] [INFO]	-- Start KNeighbor 2度
+[2021-02-04 21:12:42] [DEBUG]		1	Schedule: 1.00%	Time: 359ms 577us 247ns	Sample: [1496151]	Result 点数量：1252068
+[2021-02-04 21:12:43] [DEBUG]		2	Schedule: 2.00%	Time: 525ms 384us 425ns	Sample: [5975362]	Result 点数量：1763858
+[2021-02-04 21:12:43] [DEBUG]		3	Schedule: 3.00%	Time: 306ms 446us 187ns	Sample: [37022393]	Result 点数量：689626
+[2021-02-04 21:12:44] [DEBUG]		4	Schedule: 4.00%	Time: 252ms 982us 503ns	Sample: [8709]	Result 点数量：290169
+[2021-02-04 21:12:44] [DEBUG]		5	Schedule: 5.00%	Time: 388ms 824us 632ns	Sample: [24698239]	Result 点数量：764468
+[2021-02-04 21:12:45] [DEBUG]		6	Schedule: 6.00%	Time: 772ms 134us 877ns	Sample: [25130276]	Result 点数量：2575039
+[2021-02-04 21:12:45] [DEBUG]		7	Schedule: 7.00%	Time: 635ms 403us 456ns	Sample: [17017845]	Result 点数量：2641241
+[2021-02-04 21:12:46] [DEBUG]		8	Schedule: 8.00%	Time: 281ms 384us 457ns	Sample: [48938638]	Result 点数量：506952
+[2021-02-04 21:12:46] [DEBUG]		9	Schedule: 9.00%	Time: 285ms 359us 881ns	Sample: [1235361]	Result 点数量：586853
+[2021-02-04 21:12:46] [DEBUG]		10	Schedule: 10.00%	Time: 323ms 362us 374ns	Sample: [20658347]	Result 点数量：660762
+[2021-02-04 21:12:47] [DEBUG]		11	Schedule: 11.00%	Time: 657ms 436us 333ns	Sample: [16593168]	Result 点数量：3015319
+[2021-02-04 21:12:48] [DEBUG]		12	Schedule: 12.00%	Time: 1s 173ms 443us 772ns	Sample: [20664441]	Result 点数量：6421435
+[2021-02-04 21:12:49] [DEBUG]		13	Schedule: 13.00%	Time: 1s 255ms 934us 645ns	Sample: [24435664]	Result 点数量：5174505
+[2021-02-04 21:12:50] [DEBUG]		14	Schedule: 14.00%	Time: 561ms 982us 875ns	Sample: [14412182]	Result 点数量：2171384
+[2021-02-04 21:12:50] [DEBUG]		15	Schedule: 15.00%	Time: 418ms 487us 207ns	Sample: [19636528]	Result 点数量：1078579
+[2021-02-04 21:12:51] [DEBUG]		16	Schedule: 16.00%	Time: 214ms 233us 817ns	Sample: [15878463]	Result 点数量：136960
+[2021-02-04 21:12:51] [DEBUG]		17	Schedule: 17.00%	Time: 312ms 775us 529ns	Sample: [48264708]	Result 点数量：644931
+[2021-02-04 21:12:51] [DEBUG]		18	Schedule: 18.00%	Time: 389ms 993us 25ns	Sample: [13293462]	Result 点数量：941581
+[2021-02-04 21:12:52] [DEBUG]		19	Schedule: 19.00%	Time: 739ms 271us 57ns	Sample: [23730298]	Result 点数量：3119566
+[2021-02-04 21:12:52] [DEBUG]		20	Schedule: 20.00%	Time: 433ms 474us 504ns	Sample: [24481451]	Result 点数量：1230474
+[2021-02-04 21:12:53] [DEBUG]		21	Schedule: 21.00%	Time: 225ms 333us 252ns	Sample: [27524196]	Result 点数量：170050
+[2021-02-04 21:12:53] [DEBUG]		22	Schedule: 22.00%	Time: 234ms 548us 830ns	Sample: [21169860]	Result 点数量：176317
+[2021-02-04 21:12:53] [DEBUG]		23	Schedule: 23.00%	Time: 338ms 286us 57ns	Sample: [46833491]	Result 点数量：787525
+[2021-02-04 21:12:54] [DEBUG]		24	Schedule: 24.00%	Time: 1s 54ms 177us 10ns	Sample: [21885206]	Result 点数量：6148137
+[2021-02-04 21:12:55] [DEBUG]		25	Schedule: 25.00%	Time: 417ms 962us 630ns	Sample: [16382788]	Result 点数量：1154597
+[2021-02-04 21:12:55] [DEBUG]		26	Schedule: 26.00%	Time: 417ms 737us 709ns	Sample: [20456269]	Result 点数量：1378695
+[2021-02-04 21:12:55] [DEBUG]		27	Schedule: 27.00%	Time: 357ms 170us 361ns	Sample: [40902450]	Result 点数量：734292
+[2021-02-04 21:12:56] [DEBUG]		28	Schedule: 28.00%	Time: 353ms 25us 846ns	Sample: [42385157]	Result 点数量：764075
+[2021-02-04 21:12:56] [DEBUG]		29	Schedule: 29.00%	Time: 396ms 702us 131ns	Sample: [41654893]	Result 点数量：1018673
+[2021-02-04 21:12:57] [DEBUG]		30	Schedule: 30.00%	Time: 720ms 934us 992ns	Sample: [18288639]	Result 点数量：1953019
+[2021-02-04 21:12:57] [DEBUG]		31	Schedule: 31.00%	Time: 560ms 722us 657ns	Sample: [17564255]	Result 点数量：2106440
+[2021-02-04 21:12:58] [DEBUG]		32	Schedule: 32.00%	Time: 304ms 525us 536ns	Sample: [46897411]	Result 点数量：557705
+[2021-02-04 21:12:58] [DEBUG]		33	Schedule: 33.00%	Time: 298ms 195us 390ns	Sample: [18004612]	Result 点数量：603758
+[2021-02-04 21:12:59] [DEBUG]		34	Schedule: 34.00%	Time: 990ms 669us 408ns	Sample: [25418672]	Result 点数量：3804205
+[2021-02-04 21:13:00] [DEBUG]		35	Schedule: 35.00%	Time: 868ms 417us 839ns	Sample: [16132862]	Result 点数量：2720037
+[2021-02-04 21:13:01] [DEBUG]		36	Schedule: 36.00%	Time: 589ms 637us 804ns	Sample: [24982094]	Result 点数量：1975560
+[2021-02-04 21:13:02] [DEBUG]		37	Schedule: 37.00%	Time: 1s 44ms 902us 806ns	Sample: [7453202]	Result 点数量：6160286
+[2021-02-04 21:13:02] [DEBUG]		38	Schedule: 38.00%	Time: 499ms 917us 849ns	Sample: [31682374]	Result 点数量：1745900
+[2021-02-04 21:13:02] [DEBUG]		39	Schedule: 39.00%	Time: 223ms 69us 510ns	Sample: [39226375]	Result 点数量：107032
+[2021-02-04 21:13:03] [DEBUG]		40	Schedule: 40.00%	Time: 770ms 604us 800ns	Sample: [15417634]	Result 点数量：3632061
+[2021-02-04 21:13:04] [DEBUG]		41	Schedule: 41.00%	Time: 816ms 41us 905ns	Sample: [1512791]	Result 点数量：3324996
+[2021-02-04 21:13:04] [DEBUG]		42	Schedule: 42.00%	Time: 297ms 123us 128ns	Sample: [53314298]	Result 点数量：495223
+[2021-02-04 21:13:05] [DEBUG]		43	Schedule: 43.00%	Time: 1s 163ms 327us 521ns	Sample: [15426550]	Result 点数量：5042356
+[2021-02-04 21:13:06] [DEBUG]		44	Schedule: 44.00%	Time: 353ms 710us 859ns	Sample: [18769128]	Result 点数量：846142
+[2021-02-04 21:13:06] [DEBUG]		45	Schedule: 45.00%	Time: 635ms 297us 416ns	Sample: [22120931]	Result 点数量：1749334
+[2021-02-04 21:13:07] [DEBUG]		46	Schedule: 46.00%	Time: 402ms 712us 0ns	Sample: [48532778]	Result 点数量：923371
+[2021-02-04 21:13:08] [DEBUG]		47	Schedule: 47.00%	Time: 1s 2ms 440us 822ns	Sample: [1542531]	Result 点数量：5709662
+[2021-02-04 21:13:08] [DEBUG]		48	Schedule: 48.00%	Time: 403ms 472us 647ns	Sample: [16899283]	Result 点数量：851373
+[2021-02-04 21:13:09] [DEBUG]		49	Schedule: 49.00%	Time: 454ms 873us 569ns	Sample: [44777959]	Result 点数量：1103143
+[2021-02-04 21:13:09] [DEBUG]		50	Schedule: 50.00%	Time: 430ms 675us 273ns	Sample: [37382237]	Result 点数量：1547380
+[2021-02-04 21:13:09] [DEBUG]		51	Schedule: 51.00%	Time: 223ms 238us 381ns	Sample: [21415375]	Result 点数量：143157
+[2021-02-04 21:13:10] [DEBUG]		52	Schedule: 52.00%	Time: 374ms 525us 795ns	Sample: [36655487]	Result 点数量：842376
+[2021-02-04 21:13:10] [DEBUG]		53	Schedule: 53.00%	Time: 394ms 813us 521ns	Sample: [27371337]	Result 点数量：1267124
+[2021-02-04 21:13:10] [DEBUG]		54	Schedule: 54.00%	Time: 367ms 578us 577ns	Sample: [44795064]	Result 点数量：740047
+[2021-02-04 21:13:11] [DEBUG]		55	Schedule: 55.00%	Time: 519ms 245us 608ns	Sample: [4197051]	Result 点数量：2130276
+[2021-02-04 21:13:11] [DEBUG]		56	Schedule: 56.00%	Time: 354ms 595us 572ns	Sample: [29979420]	Result 点数量：681506
+[2021-02-04 21:13:12] [DEBUG]		57	Schedule: 57.00%	Time: 293ms 188us 979ns	Sample: [29270801]	Result 点数量：415117
+[2021-02-04 21:13:12] [DEBUG]		58	Schedule: 58.00%	Time: 803ms 34us 732ns	Sample: [5359542]	Result 点数量：2415844
+[2021-02-04 21:13:13] [DEBUG]		59	Schedule: 59.00%	Time: 367ms 151us 239ns	Sample: [22189598]	Result 点数量：719066
+[2021-02-04 21:13:13] [DEBUG]		60	Schedule: 60.00%	Time: 391ms 617us 811ns	Sample: [40758682]	Result 点数量：948535
+[2021-02-04 21:13:14] [DEBUG]		61	Schedule: 61.00%	Time: 958ms 512us 169ns	Sample: [23337107]	Result 点数量：4049023
+[2021-02-04 21:13:14] [DEBUG]		62	Schedule: 62.00%	Time: 354ms 848us 761ns	Sample: [35240567]	Result 点数量：955125
+[2021-02-04 21:13:15] [DEBUG]		63	Schedule: 63.00%	Time: 779ms 589us 522ns	Sample: [10298552]	Result 点数量：2465071
+[2021-02-04 21:13:16] [DEBUG]		64	Schedule: 64.00%	Time: 815ms 655us 354ns	Sample: [14066732]	Result 点数量：2500884
+[2021-02-04 21:13:16] [DEBUG]		65	Schedule: 65.00%	Time: 459ms 75us 522ns	Sample: [39023406]	Result 点数量：1140811
+[2021-02-04 21:13:17] [DEBUG]		66	Schedule: 66.00%	Time: 404ms 341us 323ns	Sample: [42659923]	Result 点数量：864089
+[2021-02-04 21:13:18] [DEBUG]		67	Schedule: 67.00%	Time: 1s 311ms 84us 423ns	Sample: [15929203]	Result 点数量：7533891
+[2021-02-04 21:13:19] [DEBUG]		68	Schedule: 68.00%	Time: 510ms 777us 814ns	Sample: [46427392]	Result 点数量：1563212
+[2021-02-04 21:13:19] [DEBUG]		69	Schedule: 69.00%	Time: 263ms 172us 732ns	Sample: [36401728]	Result 点数量：443474
+[2021-02-04 21:13:20] [DEBUG]		70	Schedule: 70.00%	Time: 930ms 672us 66ns	Sample: [14781740]	Result 点数量：4569938
+[2021-02-04 21:13:21] [DEBUG]		71	Schedule: 71.00%	Time: 978ms 414us 429ns	Sample: [17103756]	Result 点数量：4852804
+[2021-02-04 21:13:21] [DEBUG]		72	Schedule: 72.00%	Time: 273ms 470us 653ns	Sample: [46433633]	Result 点数量：365039
+[2021-02-04 21:13:22] [DEBUG]		73	Schedule: 73.00%	Time: 1s 64ms 543us 904ns	Sample: [17820755]	Result 点数量：5573549
+[2021-02-04 21:13:23] [DEBUG]		74	Schedule: 74.00%	Time: 553ms 563us 519ns	Sample: [18579454]	Result 点数量：2181374
+[2021-02-04 21:13:23] [DEBUG]		75	Schedule: 75.00%	Time: 456ms 653us 921ns	Sample: [27884168]	Result 点数量：1083000
+[2021-02-04 21:13:24] [DEBUG]		76	Schedule: 76.00%	Time: 759ms 557us 386ns	Sample: [14531407]	Result 点数量：3144230
+[2021-02-04 21:13:24] [DEBUG]		77	Schedule: 77.00%	Time: 400ms 11us 421ns	Sample: [23827750]	Result 点数量：853573
+[2021-02-04 21:13:25] [DEBUG]		78	Schedule: 78.00%	Time: 406ms 601us 781ns	Sample: [46495593]	Result 点数量：518633
+[2021-02-04 21:13:25] [DEBUG]		79	Schedule: 79.00%	Time: 455ms 817us 587ns	Sample: [21237067]	Result 点数量：1094163
+[2021-02-04 21:13:26] [DEBUG]		80	Schedule: 80.00%	Time: 904ms 621us 151ns	Sample: [16430868]	Result 点数量：4269390
+[2021-02-04 21:13:26] [DEBUG]		81	Schedule: 81.00%	Time: 296ms 155us 403ns	Sample: [23120329]	Result 点数量：501318
+[2021-02-04 21:13:28] [DEBUG]		82	Schedule: 82.00%	Time: 1s 74ms 655us 971ns	Sample: [33860518]	Result 点数量：3635081
+[2021-02-04 21:13:28] [DEBUG]		83	Schedule: 83.00%	Time: 538ms 505us 776ns	Sample: [16440677]	Result 点数量：1616667
+[2021-02-04 21:13:29] [DEBUG]		84	Schedule: 84.00%	Time: 500ms 629us 784ns	Sample: [35753735]	Result 点数量：1380802
+[2021-02-04 21:13:30] [DEBUG]		85	Schedule: 85.00%	Time: 1s 470ms 659us 203ns	Sample: [15016096]	Result 点数量：7650423
+[2021-02-04 21:13:31] [DEBUG]		86	Schedule: 86.00%	Time: 893ms 730us 563ns	Sample: [15729322]	Result 点数量：5488122
+[2021-02-04 21:13:31] [DEBUG]		87	Schedule: 87.00%	Time: 522ms 570us 538ns	Sample: [23155998]	Result 点数量：1528512
+[2021-02-04 21:13:32] [DEBUG]		88	Schedule: 88.00%	Time: 616ms 90us 293ns	Sample: [14585384]	Result 点数量：2269084
+[2021-02-04 21:13:32] [DEBUG]		89	Schedule: 89.00%	Time: 341ms 255us 646ns	Sample: [36212284]	Result 点数量：707076
+[2021-02-04 21:13:33] [DEBUG]		90	Schedule: 90.00%	Time: 336ms 931us 96ns	Sample: [28382588]	Result 点数量：858116
+[2021-02-04 21:13:33] [DEBUG]		91	Schedule: 91.00%	Time: 234ms 16us 182ns	Sample: [15748390]	Result 点数量：207453
+[2021-02-04 21:13:34] [DEBUG]		92	Schedule: 92.00%	Time: 891ms 85us 655ns	Sample: [17635231]	Result 点数量：3841890
+[2021-02-04 21:13:34] [DEBUG]		93	Schedule: 93.00%	Time: 261ms 604us 563ns	Sample: [15754923]	Result 点数量：325244
+[2021-02-04 21:13:34] [DEBUG]		94	Schedule: 94.00%	Time: 248ms 653us 615ns	Sample: [20570019]	Result 点数量：210486
+[2021-02-04 21:13:35] [DEBUG]		95	Schedule: 95.00%	Time: 359ms 661us 74ns	Sample: [34364753]	Result 点数量：972756
+[2021-02-04 21:13:35] [DEBUG]		96	Schedule: 96.00%	Time: 330ms 89us 674ns	Sample: [48863249]	Result 点数量：629279
+[2021-02-04 21:13:36] [DEBUG]		97	Schedule: 97.00%	Time: 501ms 481us 161ns	Sample: [15063841]	Result 点数量：1473066
+[2021-02-04 21:13:36] [DEBUG]		98	Schedule: 98.00%	Time: 417ms 227us 125ns	Sample: [36962391]	Result 点数量：1392065
+[2021-02-04 21:13:37] [DEBUG]		99	Schedule: 99.00%	Time: 960ms 705us 412ns	Sample: [18814481]	Result 点数量：5126129
+[2021-02-04 21:13:38] [DEBUG]		100	Schedule: 100.00%	Time: 928ms 497us 394ns	Sample: [19556978]	Result 点数量：3992991
+[2021-02-04 21:13:38] [INFO]	-- Result Statistics
+[2021-02-04 21:13:38] [INFO]	minTime: 214ms 233us 817ns(214.23ms)
+[2021-02-04 21:13:38] [INFO]	maxTime: 1s 470ms 659us 203ns(1470.66ms)
+[2021-02-04 21:13:38] [INFO]	AvgTime: 557ms 682us 921ns(557.68ms)
+[2021-02-04 21:13:38] [INFO]	P99: 1s 312ms 680us 170ns(1312.68ms)
+[2021-02-04 21:13:38] [INFO]	P999: 1s 454ms 861us 299ns(1454.86ms)
+[2021-02-04 21:13:38] [INFO]	Throughput: 1.79
+[2021-02-04 21:13:38] [INFO]	SuccessNum: 100
+[2021-02-04 21:13:38] [INFO]	SuccessRate: 100.00%
+[2021-02-04 21:13:38] [INFO]	ErrorNum: 0
+[2021-02-04 21:13:38] [INFO]	ErrorRate: 0.00%
+[2021-02-04 21:13:38] [INFO]	TimeoutNum: 0
+[2021-02-04 21:13:38] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 21:13:38] [INFO]	vertexCount Average: 1990879.95
+[2021-02-04 21:13:38] [INFO]	-- End KNeighbor 2度
+[2021-02-04 21:13:38] [INFO]	***********************
+[2021-02-04 21:13:38] [INFO]	** Summary of KNeighbor 2度 Test 2 - 3
+[2021-02-04 21:13:38] [INFO]	minTime: 214ms 233us 817ns(214.23ms)
+[2021-02-04 21:13:38] [INFO]	maxTime: 1s 490ms 69us 217ns(1490.07ms)
+[2021-02-04 21:13:38] [INFO]	AvgTime: 557ms 707us 919ns(557.71ms)
+[2021-02-04 21:13:38] [INFO]	P99: 1s 330ms 690us 223ns(1330.69ms)
+[2021-02-04 21:13:38] [INFO]	P999: 1s 486ms 206us 624ns(1486.21ms)
+[2021-02-04 21:13:38] [INFO]	Throughput: 1.79
+[2021-02-04 21:13:38] [INFO]	SuccessNum: 200
+[2021-02-04 21:13:38] [INFO]	SuccessRate: 100.00%
+[2021-02-04 21:13:38] [INFO]	ErrorNum: 0
+[2021-02-04 21:13:38] [INFO]	ErrorRate: 0.00%
+[2021-02-04 21:13:38] [INFO]	TimeoutNum: 0
+[2021-02-04 21:13:38] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 21:13:38] [INFO]	***********************

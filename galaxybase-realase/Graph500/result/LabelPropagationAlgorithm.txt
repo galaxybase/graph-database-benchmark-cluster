@@ -1,0 +1,15 @@
+[2021-02-04 19:51:31] [INFO]	-- Start LabelPropagation
+[2021-02-04 19:51:41] [INFO]	-- Result Statistics
+[2021-02-04 19:51:41] [INFO]	minTime: 10s 436ms 129us 222ns(10436.13ms)
+[2021-02-04 19:51:41] [INFO]	maxTime: 10s 436ms 129us 222ns(10436.13ms)
+[2021-02-04 19:51:41] [INFO]	AvgTime: 10s 436ms 129us 222ns(10436.13ms)
+[2021-02-04 19:51:41] [INFO]	P99: 10s 436ms 129us 222ns(10436.13ms)
+[2021-02-04 19:51:41] [INFO]	P999: 10s 436ms 129us 222ns(10436.13ms)
+[2021-02-04 19:51:41] [INFO]	Throughput: 0.10
+[2021-02-04 19:51:41] [INFO]	SuccessNum: 1
+[2021-02-04 19:51:41] [INFO]	SuccessRate: 100.00%
+[2021-02-04 19:51:41] [INFO]	ErrorNum: 0
+[2021-02-04 19:51:41] [INFO]	ErrorRate: 0.00%
+[2021-02-04 19:51:41] [INFO]	TimeoutNum: 0
+[2021-02-04 19:51:41] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 19:51:41] [INFO]	-- End LabelPropagation

@@ -1,0 +1,119 @@
+[2021-03-05 14:06:31] [INFO]	Start Test!
+[2021-03-05 14:06:31] [INFO]	-- Start Shortest Path
+[2021-03-05 14:06:31] [DEBUG]		1	Schedule: 1.00%	Time: 383ms 733us 384ns	Sample: [20727483, 23007393]	Result 路径长度：1
+[2021-03-05 14:06:32] [DEBUG]		2	Schedule: 2.00%	Time: 954ms 272us 74ns	Sample: [50329304, 45197822]	Result 路径长度：1
+[2021-03-05 14:06:33] [DEBUG]		3	Schedule: 3.00%	Time: 756ms 10us 116ns	Sample: [26199460, 16690835]	Result 路径长度：1
+[2021-03-05 14:06:35] [DEBUG]		4	Schedule: 4.00%	Time: 2s 523ms 261us 69ns	Sample: [1177521, 16017468]	Result 路径长度：1
+[2021-03-05 14:06:36] [DEBUG]		5	Schedule: 5.00%	Time: 210ms 224us 194ns	Sample: [27960125, 52502348]	Result 路径长度：1
+[2021-03-05 14:06:36] [DEBUG]		6	Schedule: 6.00%	Time: 67ms 546us 759ns	Sample: [30440025, 30122261]	Result 路径长度：1
+[2021-03-05 14:06:36] [DEBUG]		7	Schedule: 7.00%	Time: 563ms 223us 965ns	Sample: [15833920, 2238251]	Result 路径长度：1
+[2021-03-05 14:06:37] [DEBUG]		8	Schedule: 8.00%	Time: 449ms 649us 4ns	Sample: [15015183, 18575122]	Result 路径长度：1
+[2021-03-05 14:06:38] [DEBUG]		9	Schedule: 9.00%	Time: 1s 485ms 395us 147ns	Sample: [33153097, 49186162]	Result 路径长度：1
+[2021-03-05 14:06:39] [DEBUG]		10	Schedule: 10.00%	Time: 235ms 146us 153ns	Sample: [21250581, 52060818]	Result 路径长度：1
+[2021-03-05 14:06:39] [DEBUG]		11	Schedule: 11.00%	Time: 37ms 690us 117ns	Sample: [28548532, 52086377]	Result 路径长度：1
+[2021-03-05 14:06:57] [DEBUG]		12	Schedule: 12.00%	Time: 18s 345ms 163us 226ns	Sample: [42860945, 18728154]	Result 路径长度：1
+[2021-03-05 14:06:59] [DEBUG]		13	Schedule: 13.00%	Time: 2s 41ms 162us 4ns	Sample: [22171728, 15208271]	Result 路径长度：1
+[2021-03-05 14:07:00] [DEBUG]		14	Schedule: 14.00%	Time: 1s 19ms 802us 838ns	Sample: [15254388, 16135160]	Result 路径长度：1
+[2021-03-05 14:07:03] [DEBUG]		15	Schedule: 15.00%	Time: 2s 594ms 16us 793ns	Sample: [44713775, 30935202]	Result 路径长度：1
+[2021-03-05 14:07:03] [DEBUG]		16	Schedule: 16.00%	Time: 801ms 761us 726ns	Sample: [44868770, 48489766]	Result 路径长度：1
+[2021-03-05 14:07:04] [DEBUG]		17	Schedule: 17.00%	Time: 173ms 905us 388ns	Sample: [16350915, 17644858]	Result 路径长度：1
+[2021-03-05 14:07:04] [DEBUG]		18	Schedule: 18.00%	Time: 642ms 140us 28ns	Sample: [33650477, 34052554]	Result 路径长度：1
+[2021-03-05 14:07:08] [DEBUG]		19	Schedule: 19.00%	Time: 4s 248ms 831us 683ns	Sample: [56847735, 55954366]	Result 路径长度：1
+[2021-03-05 14:07:13] [DEBUG]		20	Schedule: 20.00%	Time: 4s 745ms 282us 124ns	Sample: [18056455, 15766392]	Result 路径长度：1
+[2021-03-05 14:07:15] [DEBUG]		21	Schedule: 21.00%	Time: 1s 371ms 991us 298ns	Sample: [32831346, 755452]	Result 路径长度：2
+[2021-03-05 14:07:17] [DEBUG]		22	Schedule: 22.00%	Time: 2s 38ms 828us 808ns	Sample: [56969867, 6813672]	Result 路径长度：2
+[2021-03-05 14:07:17] [DEBUG]		23	Schedule: 23.00%	Time: 623ms 606us 135ns	Sample: [73483, 780857]	Result 路径长度：2
+[2021-03-05 14:07:20] [DEBUG]		24	Schedule: 24.00%	Time: 2s 532ms 39us 261ns	Sample: [24981801, 14812346]	Result 路径长度：2
+[2021-03-05 14:07:20] [DEBUG]		25	Schedule: 25.00%	Time: 567ms 670us 796ns	Sample: [25726723, 849091]	Result 路径长度：2
+[2021-03-05 14:07:23] [DEBUG]		26	Schedule: 26.00%	Time: 2s 404ms 554us 341ns	Sample: [59109778, 48601242]	Result 路径长度：2
+[2021-03-05 14:07:23] [DEBUG]		27	Schedule: 27.00%	Time: 779ms 282us 166ns	Sample: [18381650, 780487]	Result 路径长度：2
+[2021-03-05 14:07:24] [DEBUG]		28	Schedule: 28.00%	Time: 99ms 210us 607ns	Sample: [8467712, 780857]	Result 路径长度：2
+[2021-03-05 14:07:24] [DEBUG]		29	Schedule: 29.00%	Time: 615ms 13us 465ns	Sample: [29781057, 5430872]	Result 路径长度：2
+[2021-03-05 14:07:27] [DEBUG]		30	Schedule: 30.00%	Time: 2s 438ms 202us 558ns	Sample: [37886317, 1206631]	Result 路径长度：2
+[2021-03-05 14:07:27] [DEBUG]		31	Schedule: 31.00%	Time: 217ms 739us 58ns	Sample: [39357186, 51537226]	Result 路径长度：2
+[2021-03-05 14:07:27] [DEBUG]		32	Schedule: 32.00%	Time: 316ms 83us 229ns	Sample: [42520611, 17906749]	Result 路径长度：2
+[2021-03-05 14:07:27] [DEBUG]		33	Schedule: 33.00%	Time: 191ms 744us 852ns	Sample: [28471398, 1006091]	Result 路径长度：2
+[2021-03-05 14:07:28] [DEBUG]		34	Schedule: 34.00%	Time: 353ms 927us 479ns	Sample: [1288371, 738933]	Result 路径长度：2
+[2021-03-05 14:07:28] [DEBUG]		35	Schedule: 35.00%	Time: 91ms 580us 769ns	Sample: [44112249, 755452]	Result 路径长度：2
+[2021-03-05 14:07:28] [DEBUG]		36	Schedule: 36.00%	Time: 102ms 734us 576ns	Sample: [29088897, 755452]	Result 路径长度：2
+[2021-03-05 14:07:30] [DEBUG]		37	Schedule: 37.00%	Time: 2s 555ms 421us 816ns	Sample: [15568898, 618593]	Result 路径长度：2
+[2021-03-05 14:07:33] [DEBUG]		38	Schedule: 38.00%	Time: 2s 736ms 537us 317ns	Sample: [25038085, 780857]	Result 路径长度：2
+[2021-03-05 14:07:39] [DEBUG]		39	Schedule: 39.00%	Time: 5s 518ms 332us 178ns	Sample: [14075928, 973421]	Result 路径长度：2
+[2021-03-05 14:07:39] [DEBUG]		40	Schedule: 40.00%	Time: 540ms 141us 336ns	Sample: [96, 2065841]	Result 路径长度：2
+[2021-03-05 14:07:40] [DEBUG]		41	Schedule: 41.00%	Time: 408ms 158us 29ns	Sample: [31835375, 973421]	Result 路径长度：3
+[2021-03-05 14:07:40] [DEBUG]		42	Schedule: 42.00%	Time: 73ms 538us 42ns	Sample: [22480457, 973421]	Result 路径长度：3
+[2021-03-05 14:07:49] [DEBUG]		43	Schedule: 43.00%	Time: 8s 775ms 721us 767ns	Sample: [27104736, 7589332]	Result 路径长度：3
+[2021-03-05 14:07:49] [DEBUG]		44	Schedule: 44.00%	Time: 67ms 848us 138ns	Sample: [22687463, 780487]	Result 路径长度：3
+[2021-03-05 14:07:49] [DEBUG]		45	Schedule: 45.00%	Time: 661ms 102us 265ns	Sample: [27576832, 738933]	Result 路径长度：3
+[2021-03-05 14:07:50] [DEBUG]		46	Schedule: 46.00%	Time: 829ms 128us 525ns	Sample: [108, 10960]	Result 路径长度：3
+[2021-03-05 14:07:52] [DEBUG]		47	Schedule: 47.00%	Time: 1s 716ms 738us 507ns	Sample: [35792763, 843631]	Result 路径长度：3
+[2021-03-05 14:07:52] [DEBUG]		48	Schedule: 48.00%	Time: 73ms 110us 817ns	Sample: [21373148, 843631]	Result 路径长度：3
+[2021-03-05 14:07:56] [DEBUG]		49	Schedule: 49.00%	Time: 4s 103ms 225us 459ns	Sample: [15234546, 69]	Result 路径长度：3
+[2021-03-05 14:07:59] [DEBUG]		50	Schedule: 50.00%	Time: 3s 215ms 335us 682ns	Sample: [14379717, 702653]	Result 路径长度：3
+[2021-03-05 14:08:00] [DEBUG]		51	Schedule: 51.00%	Time: 804ms 90us 893ns	Sample: [42744015, 1490851]	Result 路径长度：3
+[2021-03-05 14:08:06] [DEBUG]		52	Schedule: 52.00%	Time: 5s 633ms 726us 17ns	Sample: [16927373, 960151]	Result 路径长度：3
+[2021-03-05 14:08:14] [DEBUG]		53	Schedule: 53.00%	Time: 8s 595ms 342us 374ns	Sample: [16727535, 12120032]	Result 路径长度：3
+[2021-03-05 14:08:16] [DEBUG]		54	Schedule: 54.00%	Time: 1s 775ms 57us 996ns	Sample: [51520097, 684463]	Result 路径长度：3
+[2021-03-05 14:08:16] [DEBUG]		55	Schedule: 55.00%	Time: 260ms 124us 687ns	Sample: [15078404, 937961]	Result 路径长度：3
+[2021-03-05 14:08:23] [DEBUG]		56	Schedule: 56.00%	Time: 6s 510ms 919us 198ns	Sample: [14199173, 772959]	Result 路径长度：3
+[2021-03-05 14:08:23] [DEBUG]		57	Schedule: 57.00%	Time: 55ms 289us 500ns	Sample: [4517721, 684463]	Result 路径长度：3
+[2021-03-05 14:08:23] [DEBUG]		58	Schedule: 58.00%	Time: 476ms 476us 249ns	Sample: [17323985, 706693]	Result 路径长度：3
+[2021-03-05 14:08:24] [DEBUG]		59	Schedule: 59.00%	Time: 259ms 182us 154ns	Sample: [18218033, 2120381]	Result 路径长度：3
+[2021-03-05 14:08:24] [DEBUG]		60	Schedule: 60.00%	Time: 209ms 900us 140ns	Sample: [21828142, 738933]	Result 路径长度：3
+[2021-03-05 14:08:28] [DEBUG]		61	Schedule: 61.00%	Time: 3s 838ms 511us 505ns	Sample: [52674447, 772959]	Result 路径长度：4
+[2021-03-05 14:08:29] [DEBUG]		62	Schedule: 62.00%	Time: 1s 434ms 717us 228ns	Sample: [15285305, 3293]	Result 路径长度：4
+[2021-03-05 14:08:31] [DEBUG]		63	Schedule: 63.00%	Time: 1s 845ms 989us 521ns	Sample: [45827167, 977111]	Result 路径长度：4
+[2021-03-05 14:08:31] [DEBUG]		64	Schedule: 64.00%	Time: 572ms 337us 751ns	Sample: [50826077, 981121]	Result 路径长度：4
+[2021-03-05 14:08:45] [DEBUG]		65	Schedule: 65.00%	Time: 13s 744ms 136us 550ns	Sample: [54064328, 6784202]	Result 路径长度：4
+[2021-03-05 14:08:47] [DEBUG]		66	Schedule: 66.00%	Time: 1s 414ms 759us 145ns	Sample: [6941, 29622390]	Result 路径长度：4
+[2021-03-05 14:10:31] [DEBUG]		67	Schedule: 67.00%	Time: 1m 44s 408ms 996us 778ns	Sample: [33586608, 960151]	Result 路径长度：4
+[2021-03-05 14:10:31] [DEBUG]		68	Schedule: 68.00%	Time: 106ms 60us 166ns	Sample: [204, 69]	Result 路径长度：4
+[2021-03-05 14:10:33] [DEBUG]		69	Schedule: 69.00%	Time: 1s 641ms 608us 186ns	Sample: [22716284, 706693]	Result 路径长度：4
+[2021-03-05 14:10:55] [DEBUG]		70	Schedule: 70.00%	Time: 22s 323ms 151us 939ns	Sample: [34386420, 796389]	Result 路径长度：4
+[2021-03-05 14:10:56] [DEBUG]		71	Schedule: 71.00%	Time: 1s 305ms 655us 255ns	Sample: [36187082, 783963]	Result 路径长度：4
+[2021-03-05 14:10:58] [DEBUG]		72	Schedule: 72.00%	Time: 1s 719ms 895us 441ns	Sample: [31239408, 53100288]	Result 路径长度：4
+[2021-03-05 14:11:02] [DEBUG]		73	Schedule: 73.00%	Time: 3s 901ms 15us 859ns	Sample: [40316879, 16348642]	Result 路径长度：4
+[2021-03-05 14:11:02] [DEBUG]		74	Schedule: 74.00%	Time: 382ms 71us 644ns	Sample: [10667662, 3200]	Result 路径长度：4
+[2021-03-05 14:11:04] [DEBUG]		75	Schedule: 75.00%	Time: 1s 630ms 920us 183ns	Sample: [46517052, 42786350]	Result 路径长度：4
+[2021-03-05 14:11:09] [DEBUG]		76	Schedule: 76.00%	Time: 4s 954ms 482us 272ns	Sample: [24523660, 15997285]	Result 路径长度：4
+[2021-03-05 14:11:09] [DEBUG]		77	Schedule: 77.00%	Time: 412ms 336us 961ns	Sample: [14521821, 27502926]	Result 路径长度：4
+[2021-03-05 14:11:10] [DEBUG]		78	Schedule: 78.00%	Time: 448ms 412us 808ns	Sample: [18548221, 17969406]	Result 路径长度：4
+[2021-03-05 14:11:10] [DEBUG]		79	Schedule: 79.00%	Time: 44ms 515us 625ns	Sample: [41496166, 7497]	Result 路径长度：4
+[2021-03-05 14:11:10] [DEBUG]		80	Schedule: 80.00%	Time: 441ms 820us 813ns	Sample: [27104314, 69]	Result 路径长度：4
+[2021-03-05 14:11:12] [DEBUG]		81	Schedule: 81.00%	Time: 1s 977ms 916us 883ns	Sample: [27654423, 3293]	Result 路径长度：5
+[2021-03-05 14:11:14] [DEBUG]		82	Schedule: 82.00%	Time: 1s 271ms 742us 954ns	Sample: [1685871, 9079]	Result 路径长度：5
+[2021-03-05 14:11:44] [DEBUG]		83	Schedule: 83.00%	Time: 30s 705ms 510us 572ns	Sample: [23184686, 14308945]	Result 路径长度：5
+[2021-03-05 14:11:45] [DEBUG]		84	Schedule: 84.00%	Time: 257ms 591us 550ns	Sample: [23994973, 20661714]	Result 路径长度：5
+[2021-03-05 14:11:49] [DEBUG]		85	Schedule: 85.00%	Time: 4s 16ms 172us 8ns	Sample: [60312372, 304]	Result 路径长度：5
+[2021-03-05 14:12:09] [DEBUG]		86	Schedule: 86.00%	Time: 20s 351ms 413us 93ns	Sample: [8610562, 4144]	Result 路径长度：5
+[2021-03-05 14:12:09] [DEBUG]		87	Schedule: 87.00%	Time: 413ms 828us 410ns	Sample: [38978212, 44743]	Result 路径长度：5
+[2021-03-05 14:12:14] [DEBUG]		88	Schedule: 88.00%	Time: 4s 816ms 402us 856ns	Sample: [19740592, 30418899]	Result 路径长度：5
+[2021-03-05 14:12:14] [DEBUG]		89	Schedule: 89.00%	Time: 294ms 393us 391ns	Sample: [18803424, 39108249]	Result 路径长度：5
+[2021-03-05 14:12:25] [DEBUG]		90	Schedule: 90.00%	Time: 11s 12ms 451us 23ns	Sample: [30395784, 37292798]	Result 路径长度：5
+[2021-03-05 14:12:27] [DEBUG]		91	Schedule: 91.00%	Time: 1s 175ms 252us 454ns	Sample: [35908081, 742393]	Result 路径长度：5
+[2021-03-05 14:12:28] [DEBUG]		92	Schedule: 92.00%	Time: 995ms 720us 320ns	Sample: [21156271, 20661714]	Result 路径长度：5
+[2021-03-05 14:12:31] [DEBUG]		93	Schedule: 93.00%	Time: 3s 283ms 529us 458ns	Sample: [20530182, 14265796]	Result 路径长度：5
+[2021-03-05 14:12:32] [DEBUG]		94	Schedule: 94.00%	Time: 861ms 440us 983ns	Sample: [23378124, 19685275]	Result 路径长度：5
+[2021-03-05 14:12:32] [DEBUG]		95	Schedule: 95.00%	Time: 30ms 693us 117ns	Sample: [29830423, 37292798]	Result 路径长度：5
+[2021-03-05 14:12:32] [DEBUG]		96	Schedule: 96.00%	Time: 35ms 287us 131ns	Sample: [44304625, 44743]	Result 路径长度：5
+[2021-03-05 14:12:38] [DEBUG]		97	Schedule: 97.00%	Time: 5s 789ms 830us 302ns	Sample: [28830907, 5059411]	Result 路径长度：5
+[2021-03-05 14:12:47] [DEBUG]		98	Schedule: 98.00%	Time: 9s 249ms 824us 450ns	Sample: [31180323, 4809381]	Result 路径长度：5
+[2021-03-05 14:13:30] [DEBUG]		99	Schedule: 99.00%	Time: 43s 247ms 284us 151ns	Sample: [17998925, 27502926]	Result 路径长度：5
+[2021-03-05 14:13:31] [DEBUG]		100	Schedule: 100.00%	Time: 411ms 115us 993ns	Sample: [46822485, 4247]	Result 路径长度：5
+[2021-03-05 14:13:31] [INFO]	-- Result Statistics
+[2021-03-05 14:13:31] [INFO]	minTime: 30ms 693us 117ns(30.69ms)
+[2021-03-05 14:13:31] [INFO]	maxTime: 1m 44s 408ms 996us 778ns(104409.00ms)
+[2021-03-05 14:13:31] [INFO]	AvgTime: 4s 196ms 456us 730ns(4196.46ms)
+[2021-03-05 14:13:31] [INFO]	P99: 43s 858ms 901us 277ns(43858.90ms)
+[2021-03-05 14:13:31] [INFO]	P999: 1m 38s 353ms 987us 227ns(98353.99ms)
+[2021-03-05 14:13:31] [INFO]	Throughput: 0.24
+[2021-03-05 14:13:31] [INFO]	SuccessNum: 100
+[2021-03-05 14:13:31] [INFO]	SuccessRate: 100.00%
+[2021-03-05 14:13:31] [INFO]	ErrorNum: 0
+[2021-03-05 14:13:31] [INFO]	ErrorRate: 0.00%
+[2021-03-05 14:13:31] [INFO]	TimeoutNum: 0
+[2021-03-05 14:13:31] [INFO]	TimeoutRate: 0.00%
+[2021-03-05 14:13:31] [INFO]	总路径长度 Sum: 300
+[2021-03-05 14:13:31] [INFO]	平均路径长度 Average: 3.00
+[2021-03-05 14:13:31] [INFO]	-- End Shortest Path
+[2021-03-05 14:13:31] [INFO]	Test Success!

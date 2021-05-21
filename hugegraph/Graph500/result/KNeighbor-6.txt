@@ -1,0 +1,26 @@
+[2021-01-20 09:37:24] [INFO]	-- Start KNeighbor 6 Depth
+[2021-01-20 10:11:44] [DEBUG]		1   Schedule: 1.00%	Time: 34m 20s 228ms 611us 796ns Sample: [442899]	Result ResultCount 2170576
+[2021-01-20 10:46:26] [DEBUG]		2	Schedule: 2.00%	Time: 34m 41s 207ms 65us 248ns	Sample: [2242915]	Result ResultCount 2181257
+[2021-01-20 10:52:44] [DEBUG]		3	Schedule: 3.00%	Time: 6m 18s 51ms 741us 709ns	Sample: [3021079]	Result ResultCount 646850
+[2021-01-20 11:23:36] [DEBUG]		4	Schedule: 4.00%	Time: 30m 52s 679ms 594us 261ns	Sample: [1616525]	Result ResultCount 2083699
+[2021-01-20 11:57:19] [DEBUG]		5	Schedule: 5.00%	Time: 33m 42s 685ms 916us 410ns	Sample: [1651340]	Result ResultCount 2138632
+[2021-01-20 12:31:45] [DEBUG]		6	Schedule: 6.00%	Time: 34m 25s 785ms 687us 975ns	Sample: [4070]	Result ResultCount 2170580
+[2021-01-20 13:06:08] [DEBUG]		7	Schedule: 7.00%	Time: 34m 22s 784ms 737us 390ns	Sample: [3140312]	Result ResultCount 2169582
+[2021-01-20 13:12:17] [DEBUG]		8	Schedule: 8.00%	Time: 6m 9s 659ms 936us 331ns	Sample: [3170761]	Result ResultCount 647355
+[2021-01-20 13:13:28] [DEBUG]		9	Schedule: 9.00%	Time: 1m 10s 813ms 510us 13ns	Sample: [2248329]	Result ResultCount 629597
+[2021-01-20 13:44:40] [DEBUG]		10	Schedule: 10.00%	Time: 31m 12s 327ms 944us 169ns	Sample: [2744194]	Result ResultCount 2084973
+[2021-01-20 13:44:40] [INFO]	-- Result Statistics
+[2021-01-20 13:44:40] [INFO]	minTime: 1m 10s 813ms 510us 13ns(70813.51ms)
+[2021-01-20 13:44:40] [INFO]	maxTime: 34m 41s 207ms 65us 248ns(2081207.06ms)
+[2021-01-20 13:44:40] [INFO]	AvgTime: 24m 43s 622ms 474us 541ns(1483622.47ms)
+[2021-01-20 13:44:40] [INFO]	P99: 34m 55s 766ms 710us 760ns(2095766.71ms)
+[2021-01-20 13:44:40] [INFO]	P999: 34m 58s 235ms 183us 908ns(2098235.18ms)
+[2021-01-20 13:44:40] [INFO]	Throughput: 0.00
+[2021-01-20 13:44:40] [INFO]	SuccessNum: 100
+[2021-01-20 13:44:40] [INFO]	SuccessRate: 100.00%
+[2021-01-20 13:44:40] [INFO]	ErrorNum: 0
+[2021-01-20 13:44:40] [INFO]	ErrorRate: 0.00%
+[2021-01-20 13:44:40] [INFO]	TimeoutNum: 0
+[2021-01-20 13:44:40] [INFO]	TimeoutRate: 0.00%
+[2021-01-20 13:44:40] [INFO]	ResultCount Average: 1692310.1
+[2021-01-20 13:44:40] [INFO]	-- End KNeighbor 6 Depth

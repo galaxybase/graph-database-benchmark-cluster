@@ -1,0 +1,19 @@
+[2021-01-23 13:58:42] [INFO]	-- Start KNeighbor 6 Depth
+[2021-01-23 14:11:26] [DEBUG]		1	Schedule: 1.00%	Time: 12m 44s 223ms 0us 209ns	Sample: [1496151]	Result Execute error.
+[2021-01-23 14:11:34] [DEBUG]		2	Schedule: 2.00%	Time: 7s 908ms 527us 393ns	Sample: [5975362]	Result Execute error.
+[2021-01-23 14:12:58] [DEBUG]		3	Schedule: 3.00%	Time: 1m 24s 88ms 697us 46ns	Sample: [37022393]	Result Execute error.
+[2021-01-23 14:13:28] [DEBUG]		4	Schedule: 4.00%	Time: 29s 655ms 625us 105ns	Sample: [8709]	Result Execute error.
+[2021-01-23 14:15:09] [DEBUG]		5	Schedule: 5.00%	Time: 1m 40s 781ms 197us 690ns	Sample: [24698239]	Result Execute error.
+[2021-01-23 14:15:15] [DEBUG]		6	Schedule: 6.00%	Time: 6s 674ms 422us 480ns	Sample: [25130276]	Result Execute error.
+[2021-01-23 14:15:22] [DEBUG]		7	Schedule: 7.00%	Time: 6s 689ms 455us 466ns	Sample: [17017845]	Result Execute error.
+[2021-01-23 14:16:11] [DEBUG]		8	Schedule: 8.00%	Time: 48s 991ms 24us 921ns	Sample: [48938638]	Result Execute error.
+[2021-01-23 14:17:38] [DEBUG]		9	Schedule: 9.00%	Time: 1m 26s 870ms 163us 994ns	Sample: [1235361]	Result Execute error.
+[2021-01-23 14:18:50] [DEBUG]		10	Schedule: 10.00%	Time: 1m 12s 60ms 591us 614ns	Sample: [20658347]	Result Execute error.
+[2021-01-23 14:18:50] [INFO]	-- Result Statistics
+[2021-01-23 14:18:50] [INFO]	Results is null.
+[2021-01-23 14:18:50] [INFO]	ErrorNum: 100
+[2021-01-23 14:18:50] [INFO]	ErrorRate: 100.00%
+[2021-01-23 14:18:50] [INFO]	TimeoutNum: 0
+[2021-01-23 14:18:50] [INFO]	TimeoutRate: 0.00%
+[2021-01-23 14:18:50] [INFO]	ResultCount Average: 0.00
+[2021-01-23 14:18:50] [INFO]	-- End KNeighbor 6 Depth

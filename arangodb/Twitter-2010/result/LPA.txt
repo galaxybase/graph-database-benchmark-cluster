@@ -1,0 +1,37 @@
+[2021-03-10 10:01:47] [INFO]	-- Start LPA
+[2021-03-10 10:01:47] [ERROR]	There was an error executing item 1!
+java.util.concurrent.ExecutionException: com.arangodb.ArangoDBException: Response: 400, Error: 10 - Edge collection needs to be sharded by shardKeyAttribute parameter ('vertex'), or use SmartGraphs. The current shardKey is: '_key'
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.galaxybase.benchmark.common.test.AbstractTest.testFinish(AbstractTest.java:126)
+	at com.galaxybase.benchmark.common.test.AbstractTest.startTest(AbstractTest.java:94)
+	at com.galaxybase.benchmark.common.util.TestManager.doStartTest(TestManager.java:60)
+	at com.galaxybase.benchmark.common.util.TestManager.startTest(TestManager.java:25)
+	at com.galaxybase.benchmark.arango.AutoMain.main(AutoMain.java:13)
+Caused by: com.arangodb.ArangoDBException: Response: 400, Error: 10 - Edge collection needs to be sharded by shardKeyAttribute parameter ('vertex'), or use SmartGraphs. The current shardKey is: '_key'
+	at com.arangodb.internal.util.ResponseUtils.checkError(ResponseUtils.java:52)
+	at com.arangodb.internal.velocystream.VstCommunication.checkError(VstCommunication.java:141)
+	at com.arangodb.internal.velocystream.VstCommunicationSync.execute(VstCommunicationSync.java:126)
+	at com.arangodb.internal.velocystream.VstCommunicationSync.execute(VstCommunicationSync.java:40)
+	at com.arangodb.internal.velocystream.VstCommunication.execute(VstCommunication.java:124)
+	at com.arangodb.internal.velocystream.VstProtocol.execute(VstProtocol.java:46)
+	at com.arangodb.internal.ArangoExecutorSync.execute(ArangoExecutorSync.java:71)
+	at com.arangodb.internal.ArangoExecutorSync.execute(ArangoExecutorSync.java:61)
+	at com.arangodb.internal.ArangoDBImpl.execute(ArangoDBImpl.java:224)
+	at com.galaxybase.benchmark.arango.item.LPA.onStartTest(LPA.java:28)
+	at com.galaxybase.benchmark.arango.item.LPA.onStartTest(LPA.java:19)
+	at com.galaxybase.benchmark.common.test.AbstractTest$1.run(AbstractTest.java:85)
+	at com.galaxybase.benchmark.common.test.AbstractTest$TaskCallable.call(AbstractTest.java:236)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-03-10 10:01:47] [DEBUG]		1	Schedule: 100.00%	Time: 2ms 26us 36ns	Sample: 	Result Execute error.
+[2021-03-10 10:01:47] [INFO]	-- Result Statistics
+[2021-03-10 10:01:47] [INFO]	Results is null.
+[2021-03-10 10:01:47] [INFO]	ErrorNum: 1
+[2021-03-10 10:01:47] [INFO]	ErrorRate: 100.00%
+[2021-03-10 10:01:47] [INFO]	TimeoutNum: 0
+[2021-03-10 10:01:47] [INFO]	TimeoutRate: 0.00%
+[2021-03-10 10:01:47] [INFO]	-- End LPA
+[2021-03-10 10:01:47] [INFO]

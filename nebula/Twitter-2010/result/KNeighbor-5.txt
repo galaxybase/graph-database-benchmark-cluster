@@ -1,0 +1,30 @@
+[2021-03-26 22:17:37] [INFO]	-- Start KNeighborTest - 5 Depth
+[2021-03-26 22:19:36] [ERROR]	There was an error executing item 1!
+[2021-03-26 22:19:36] [DEBUG]		1	Schedule: 10.00%	Time: 1m 58s 154ms 265us 169ns	Sample: [1496151]	Result Execute error.
+[2021-03-26 22:19:41] [ERROR]	There was an error executing item 2!
+[2021-03-26 22:19:41] [DEBUG]		2	Schedule: 20.00%	Time: 5s 27ms 598us 725ns	Sample: [5975362]	Result Execute error.
+[2021-03-26 22:24:19] [ERROR]	There was an error executing item 3!
+[2021-03-26 22:24:22] [DEBUG]		3	Schedule: 30.00%	Time: 4m 37s 588ms 694us 754ns	Sample: [37022393]	Result Execute error.
+[2021-03-26 22:24:23] [ERROR]	There was an error executing item 4!
+[2021-03-26 22:24:23] [DEBUG]		4	Schedule: 40.00%	Time: 558ms 476us 54ns	Sample: [8709]	Result Execute error.
+[2021-03-26 22:25:38] [ERROR]	There was an error executing item 5!
+[2021-03-26 22:25:40] [DEBUG]		5	Schedule: 50.00%	Time: 1m 12s 420ms 652us 977ns	Sample: [24698239]	Result Execute error.
+[2021-03-26 22:25:47] [ERROR]	There was an error executing item 6!
+[2021-03-26 22:25:47] [DEBUG]		6	Schedule: 60.00%	Time: 6s 761ms 333us 618ns	Sample: [25130276]	Result Execute error.
+[2021-03-26 22:32:28] [ERROR]	There was an error executing item 7!
+[2021-03-26 22:32:40] [DEBUG]		7	Schedule: 70.00%	Time: 6m 38s 762ms 145us 478ns	Sample: [17017845]	Result Execute error.
+[2021-03-26 22:35:47] [ERROR]	There was an error executing item 8!
+[2021-03-26 22:35:49] [DEBUG]		8	Schedule: 80.00%	Time: 3m 4s 762ms 645us 707ns	Sample: [48938638]	Result Execute error.
+[2021-03-26 22:35:49] [ERROR]	There was an error executing item 9!
+[2021-03-26 22:35:49] [DEBUG]		9	Schedule: 90.00%	Time: 357us 456ns	Sample: [1235361]	Result Execute error.
+[2021-03-26 22:37:10] [ERROR]	There was an error executing item 10!
+java.lang.RuntimeException: Empty data
+[2021-03-26 22:37:13] [DEBUG]		10	Schedule: 100.00%	Time: 1m 19s 924ms 552us 510ns	Sample: [20658347]	Result Execute error.
+[2021-03-26 22:37:14] [INFO]	-- Result Statistics
+[2021-03-26 22:37:14] [INFO]	Results is null.
+[2021-03-26 22:37:14] [INFO]	ErrorNum: 10
+[2021-03-26 22:37:14] [INFO]	ErrorRate: 100.00%
+[2021-03-26 22:37:14] [INFO]	TimeoutNum: 0
+[2021-03-26 22:37:14] [INFO]	TimeoutRate: 0.00%
+[2021-03-26 22:37:17] [INFO]	ResultCount Average: 0.00
+[2021-03-26 22:37:17] [INFO]	-- End KNeighborTest - 5 Depth

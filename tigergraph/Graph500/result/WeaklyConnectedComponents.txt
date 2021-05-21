@@ -1,0 +1,64 @@
+[2021-01-26 15:12:12] [INFO]	-- Start WCC
+[2021-01-26 15:12:23] [DEBUG]		1	Schedule: 100.00%	Time: 10s 785ms 279us 875ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":746,"loop_count":7}]}
+[2021-01-26 15:12:23] [INFO]	-- Result Statistics
+[2021-01-26 15:12:23] [INFO]	minTime: 10s 785ms 279us 875ns(10785.28ms)
+[2021-01-26 15:12:23] [INFO]	maxTime: 10s 785ms 279us 875ns(10785.28ms)
+[2021-01-26 15:12:23] [INFO]	AvgTime: 10s 785ms 279us 875ns(10785.28ms)
+[2021-01-26 15:12:23] [INFO]	P99: 10s 785ms 279us 875ns(10785.28ms)
+[2021-01-26 15:12:23] [INFO]	P999: 10s 785ms 279us 875ns(10785.28ms)
+[2021-01-26 15:12:23] [INFO]	Throughput: 0.09
+[2021-01-26 15:12:23] [INFO]	SuccessNum: 1
+[2021-01-26 15:12:23] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:12:23] [INFO]	ErrorNum: 0
+[2021-01-26 15:12:23] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:12:23] [INFO]	TimeoutNum: 0
+[2021-01-26 15:12:23] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:12:23] [INFO]	-- End WCC
+[2021-01-26 15:12:23] [INFO]	-- Start WCC
+[2021-01-26 15:12:34] [DEBUG]		1	Schedule: 100.00%	Time: 11s 27ms 366us 119ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":746,"loop_count":7}]}
+[2021-01-26 15:12:34] [INFO]	-- Result Statistics
+[2021-01-26 15:12:34] [INFO]	minTime: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:34] [INFO]	maxTime: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:34] [INFO]	AvgTime: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:34] [INFO]	P99: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:34] [INFO]	P999: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:34] [INFO]	Throughput: 0.09
+[2021-01-26 15:12:34] [INFO]	SuccessNum: 1
+[2021-01-26 15:12:34] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:12:34] [INFO]	ErrorNum: 0
+[2021-01-26 15:12:34] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:12:34] [INFO]	TimeoutNum: 0
+[2021-01-26 15:12:34] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:12:34] [INFO]	-- End WCC
+[2021-01-26 15:12:34] [INFO]	-- Start WCC
+[2021-01-26 15:12:44] [DEBUG]		1	Schedule: 100.00%	Time: 10s 463ms 106us 215ns	Sample: 	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"@@group_cnt":746,"loop_count":7}]}
+[2021-01-26 15:12:44] [INFO]	-- Result Statistics
+[2021-01-26 15:12:44] [INFO]	minTime: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	maxTime: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	AvgTime: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	P99: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	P999: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	Throughput: 0.10
+[2021-01-26 15:12:44] [INFO]	SuccessNum: 1
+[2021-01-26 15:12:44] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:12:44] [INFO]	ErrorNum: 0
+[2021-01-26 15:12:44] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:12:44] [INFO]	TimeoutNum: 0
+[2021-01-26 15:12:44] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:12:44] [INFO]	-- End WCC
+[2021-01-26 15:12:44] [INFO]	***********************
+[2021-01-26 15:12:44] [INFO]	** Summary of WCC Test 2 - 3
+[2021-01-26 15:12:44] [INFO]	minTime: 10s 463ms 106us 215ns(10463.11ms)
+[2021-01-26 15:12:44] [INFO]	maxTime: 11s 27ms 366us 119ns(11027.37ms)
+[2021-01-26 15:12:44] [INFO]	AvgTime: 10s 745ms 236us 167ns(10745.24ms)
+[2021-01-26 15:12:44] [INFO]	P99: 11s 21ms 723us 519ns(11021.72ms)
+[2021-01-26 15:12:44] [INFO]	P999: 11s 26ms 801us 859ns(11026.80ms)
+[2021-01-26 15:12:44] [INFO]	Throughput: 0.09
+[2021-01-26 15:12:44] [INFO]	SuccessNum: 2
+[2021-01-26 15:12:44] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:12:44] [INFO]	ErrorNum: 0
+[2021-01-26 15:12:44] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:12:44] [INFO]	TimeoutNum: 0
+[2021-01-26 15:12:44] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:12:44] [INFO]	***********************
+[2021-01-26 15:12:44] [INFO]

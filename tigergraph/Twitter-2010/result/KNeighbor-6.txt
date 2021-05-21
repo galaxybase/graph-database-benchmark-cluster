@@ -1,0 +1,117 @@
+[2021-01-26 00:36:08] [INFO]	-- Start KNeighbor - 6
+[2021-01-26 00:36:59] [DEBUG]		1	Schedule: 1.00%	Time: 50s 810ms 808us 151ns	Sample: [1496151, 6]	Result VertexCount:35000633
+[2021-01-26 00:37:50] [DEBUG]		2	Schedule: 2.00%	Time: 50s 481ms 891us 818ns	Sample: [5975362, 6]	Result VertexCount:35002628
+[2021-01-26 00:38:54] [DEBUG]		3	Schedule: 3.00%	Time: 1m 3s 839ms 581us 780ns	Sample: [37022393, 6]	Result VertexCount:34998952
+[2021-01-26 00:39:46] [DEBUG]		4	Schedule: 4.00%	Time: 52s 128ms 667us 138ns	Sample: [8709, 6]	Result VertexCount:34991414
+[2021-01-26 00:40:38] [DEBUG]		5	Schedule: 5.00%	Time: 51s 974ms 835us 628ns	Sample: [24698239, 6]	Result VertexCount:34999204
+[2021-01-26 00:41:40] [DEBUG]		6	Schedule: 6.00%	Time: 1m 2s 436ms 27us 742ns	Sample: [25130276, 6]	Result VertexCount:35005477
+[2021-01-26 00:42:31] [DEBUG]		7	Schedule: 7.00%	Time: 51s 212ms 327us 301ns	Sample: [17017845, 6]	Result VertexCount:35002819
+[2021-01-26 00:43:23] [DEBUG]		8	Schedule: 8.00%	Time: 51s 999ms 299us 81ns	Sample: [48938638, 6]	Result VertexCount:34994386
+[2021-01-26 00:44:27] [DEBUG]		9	Schedule: 9.00%	Time: 1m 4s 0ms 855us 48ns	Sample: [1235361, 6]	Result VertexCount:34992436
+[2021-01-26 00:45:20] [DEBUG]		10	Schedule: 10.00%	Time: 52s 336ms 935us 100ns	Sample: [20658347, 6]	Result VertexCount:34995902
+[2021-01-26 00:46:11] [DEBUG]		11	Schedule: 11.00%	Time: 51s 344ms 314us 516ns	Sample: [16593168, 6]	Result VertexCount:35005399
+[2021-01-26 00:47:14] [DEBUG]		12	Schedule: 12.00%	Time: 1m 2s 684ms 653us 64ns	Sample: [20664441, 6]	Result VertexCount:35007508
+[2021-01-26 00:48:06] [DEBUG]		13	Schedule: 13.00%	Time: 51s 881ms 509us 154ns	Sample: [24435664, 6]	Result VertexCount:35007008
+[2021-01-26 00:48:56] [DEBUG]		14	Schedule: 14.00%	Time: 49s 950ms 160us 604ns	Sample: [14412182, 6]	Result VertexCount:35004266
+[2021-01-26 00:50:00] [DEBUG]		15	Schedule: 15.00%	Time: 1m 4s 489ms 15us 567ns	Sample: [19636528, 6]	Result VertexCount:35001071
+[2021-01-26 00:50:51] [DEBUG]		16	Schedule: 16.00%	Time: 51s 286ms 107us 717ns	Sample: [15878463, 6]	Result VertexCount:34980609
+[2021-01-26 00:51:43] [DEBUG]		17	Schedule: 17.00%	Time: 51s 593ms 44us 590ns	Sample: [48264708, 6]	Result VertexCount:34996443
+[2021-01-26 00:52:46] [DEBUG]		18	Schedule: 18.00%	Time: 1m 2s 843ms 730us 802ns	Sample: [13293462, 6]	Result VertexCount:34999834
+[2021-01-26 00:53:37] [DEBUG]		19	Schedule: 19.00%	Time: 50s 949ms 208us 63ns	Sample: [23730298, 6]	Result VertexCount:35005493
+[2021-01-26 00:54:27] [DEBUG]		20	Schedule: 20.00%	Time: 50s 469ms 182us 609ns	Sample: [24481451, 6]	Result VertexCount:34996413
+[2021-01-26 00:55:33] [DEBUG]		21	Schedule: 21.00%	Time: 1m 5s 833ms 48us 79ns	Sample: [27524196, 6]	Result VertexCount:34988885
+[2021-01-26 00:56:28] [DEBUG]		22	Schedule: 22.00%	Time: 54s 636ms 195us 647ns	Sample: [21169860, 6]	Result VertexCount:34991325
+[2021-01-26 00:57:20] [DEBUG]		23	Schedule: 23.00%	Time: 52s 396ms 563us 244ns	Sample: [46833491, 6]	Result VertexCount:34997974
+[2021-01-26 00:58:24] [DEBUG]		24	Schedule: 24.00%	Time: 1m 3s 454ms 258us 40ns	Sample: [21885206, 6]	Result VertexCount:35007207
+[2021-01-26 00:59:14] [DEBUG]		25	Schedule: 25.00%	Time: 50s 591ms 145us 394ns	Sample: [16382788, 6]	Result VertexCount:34997620
+[2021-01-26 01:00:05] [DEBUG]		26	Schedule: 26.00%	Time: 50s 781ms 270us 470ns	Sample: [20456269, 6]	Result VertexCount:34999904
+[2021-01-26 01:01:11] [DEBUG]		27	Schedule: 27.00%	Time: 1m 6s 318ms 282us 173ns	Sample: [40902450, 6]	Result VertexCount:34998141
+[2021-01-26 01:02:03] [DEBUG]		28	Schedule: 28.00%	Time: 52s 45ms 956us 681ns	Sample: [42385157, 6]	Result VertexCount:34998283
+[2021-01-26 01:02:56] [DEBUG]		29	Schedule: 29.00%	Time: 52s 660ms 702us 618ns	Sample: [41654893, 6]	Result VertexCount:35001538
+[2021-01-26 01:03:58] [DEBUG]		30	Schedule: 30.00%	Time: 1m 1s 864ms 258us 560ns	Sample: [18288639, 6]	Result VertexCount:35001681
+[2021-01-26 01:04:48] [DEBUG]		31	Schedule: 31.00%	Time: 50s 503ms 691us 853ns	Sample: [17564255, 6]	Result VertexCount:35004079
+[2021-01-26 01:05:40] [DEBUG]		32	Schedule: 32.00%	Time: 51s 746ms 14us 522ns	Sample: [46897411, 6]	Result VertexCount:34995538
+[2021-01-26 01:06:43] [DEBUG]		33	Schedule: 33.00%	Time: 1m 2s 632ms 877us 911ns	Sample: [18004612, 6]	Result VertexCount:34996259
+[2021-01-26 01:07:34] [DEBUG]		34	Schedule: 34.00%	Time: 50s 827ms 672us 747ns	Sample: [25418672, 6]	Result VertexCount:35001114
+[2021-01-26 01:08:25] [DEBUG]		35	Schedule: 35.00%	Time: 51s 422ms 171us 791ns	Sample: [16132862, 6]	Result VertexCount:35005722
+[2021-01-26 01:09:27] [DEBUG]		36	Schedule: 36.00%	Time: 1m 1s 642ms 425us 304ns	Sample: [24982094, 6]	Result VertexCount:35002596
+[2021-01-26 01:10:19] [DEBUG]		37	Schedule: 37.00%	Time: 51s 937ms 427us 265ns	Sample: [7453202, 6]	Result VertexCount:35008408
+[2021-01-26 01:11:09] [DEBUG]		38	Schedule: 38.00%	Time: 50s 24ms 808us 744ns	Sample: [31682374, 6]	Result VertexCount:34998925
+[2021-01-26 01:12:12] [DEBUG]		39	Schedule: 39.00%	Time: 1m 3s 469ms 39us 403ns	Sample: [39226375, 6]	Result VertexCount:34975681
+[2021-01-26 01:13:03] [DEBUG]		40	Schedule: 40.00%	Time: 50s 819ms 344us 396ns	Sample: [15417634, 6]	Result VertexCount:35004354
+[2021-01-26 01:13:54] [DEBUG]		41	Schedule: 41.00%	Time: 51s 383ms 222us 499ns	Sample: [1512791, 6]	Result VertexCount:35005928
+[2021-01-26 01:14:57] [DEBUG]		42	Schedule: 42.00%	Time: 1m 2s 931ms 936us 564ns	Sample: [53314298, 6]	Result VertexCount:34992014
+[2021-01-26 01:15:49] [DEBUG]		43	Schedule: 43.00%	Time: 51s 366ms 880us 621ns	Sample: [15426550, 6]	Result VertexCount:35005236
+[2021-01-26 01:16:40] [DEBUG]		44	Schedule: 44.00%	Time: 50s 987ms 710us 609ns	Sample: [18769128, 6]	Result VertexCount:35000565
+[2021-01-26 01:17:40] [DEBUG]		45	Schedule: 45.00%	Time: 1m 0s 683ms 954us 326ns	Sample: [22120931, 6]	Result VertexCount:34999874
+[2021-01-26 01:18:33] [DEBUG]		46	Schedule: 46.00%	Time: 52s 617ms 996us 682ns	Sample: [48532778, 6]	Result VertexCount:34999543
+[2021-01-26 01:19:25] [DEBUG]		47	Schedule: 47.00%	Time: 52s 150ms 140us 109ns	Sample: [1542531, 6]	Result VertexCount:35007659
+[2021-01-26 01:20:27] [DEBUG]		48	Schedule: 48.00%	Time: 1m 1s 824ms 480us 617ns	Sample: [16899283, 6]	Result VertexCount:35000672
+[2021-01-26 01:21:19] [DEBUG]		49	Schedule: 49.00%	Time: 52s 224ms 841us 118ns	Sample: [44777959, 6]	Result VertexCount:34997213
+[2021-01-26 01:22:10] [DEBUG]		50	Schedule: 50.00%	Time: 51s 46ms 582us 665ns	Sample: [37382237, 6]	Result VertexCount:34995484
+[2021-01-26 01:23:15] [DEBUG]		51	Schedule: 51.00%	Time: 1m 4s 859ms 236us 266ns	Sample: [21415375, 6]	Result VertexCount:34987400
+[2021-01-26 01:24:07] [DEBUG]		52	Schedule: 52.00%	Time: 52s 454ms 206us 809ns	Sample: [36655487, 6]	Result VertexCount:35000263
+[2021-01-26 01:24:58] [DEBUG]		53	Schedule: 53.00%	Time: 51s 67ms 198us 525ns	Sample: [27371337, 6]	Result VertexCount:35003299
+[2021-01-26 01:26:00] [DEBUG]		54	Schedule: 54.00%	Time: 1m 1s 798ms 191us 644ns	Sample: [44795064, 6]	Result VertexCount:34998070
+[2021-01-26 01:26:50] [DEBUG]		55	Schedule: 55.00%	Time: 50s 22ms 911us 870ns	Sample: [4197051, 6]	Result VertexCount:35002729
+[2021-01-26 01:27:42] [DEBUG]		56	Schedule: 56.00%	Time: 52s 61ms 212us 573ns	Sample: [29979420, 6]	Result VertexCount:34998652
+[2021-01-26 01:28:47] [DEBUG]		57	Schedule: 57.00%	Time: 1m 4s 835ms 177us 366ns	Sample: [29270801, 6]	Result VertexCount:34991621
+[2021-01-26 01:29:38] [DEBUG]		58	Schedule: 58.00%	Time: 50s 991ms 126us 657ns	Sample: [5359542, 6]	Result VertexCount:35005480
+[2021-01-26 01:30:30] [DEBUG]		59	Schedule: 59.00%	Time: 52s 222ms 615us 690ns	Sample: [22189598, 6]	Result VertexCount:34997793
+[2021-01-26 01:31:32] [DEBUG]		60	Schedule: 60.00%	Time: 1m 1s 980ms 868us 489ns	Sample: [40758682, 6]	Result VertexCount:35000053
+[2021-01-26 01:32:22] [DEBUG]		61	Schedule: 61.00%	Time: 50s 99ms 596us 671ns	Sample: [23337107, 6]	Result VertexCount:35005672
+[2021-01-26 01:33:16] [DEBUG]		62	Schedule: 62.00%	Time: 53s 721ms 470us 473ns	Sample: [35240567, 6]	Result VertexCount:34999879
+[2021-01-26 01:34:17] [DEBUG]		63	Schedule: 63.00%	Time: 1m 1s 193ms 235us 711ns	Sample: [10298552, 6]	Result VertexCount:35006024
+[2021-01-26 01:35:09] [DEBUG]		64	Schedule: 64.00%	Time: 51s 122ms 344us 388ns	Sample: [14066732, 6]	Result VertexCount:35005902
+[2021-01-26 01:35:59] [DEBUG]		65	Schedule: 65.00%	Time: 50s 676ms 741us 857ns	Sample: [39023406, 6]	Result VertexCount:35001056
+[2021-01-26 01:37:03] [DEBUG]		66	Schedule: 66.00%	Time: 1m 3s 356ms 66us 88ns	Sample: [42659923, 6]	Result VertexCount:34998898
+[2021-01-26 01:37:54] [DEBUG]		67	Schedule: 67.00%	Time: 51s 545ms 152us 799ns	Sample: [15929203, 6]	Result VertexCount:35008321
+[2021-01-26 01:38:46] [DEBUG]		68	Schedule: 68.00%	Time: 51s 459ms 686us 846ns	Sample: [46427392, 6]	Result VertexCount:35000422
+[2021-01-26 01:39:49] [DEBUG]		69	Schedule: 69.00%	Time: 1m 3s 793ms 671us 873ns	Sample: [36401728, 6]	Result VertexCount:34996133
+[2021-01-26 01:40:41] [DEBUG]		70	Schedule: 70.00%	Time: 51s 241ms 422us 23ns	Sample: [14781740, 6]	Result VertexCount:35007672
+[2021-01-26 01:41:32] [DEBUG]		71	Schedule: 71.00%	Time: 51s 221ms 354us 754ns	Sample: [17103756, 6]	Result VertexCount:35006611
+[2021-01-26 01:42:36] [DEBUG]		72	Schedule: 72.00%	Time: 1m 3s 944ms 458us 415ns	Sample: [46433633, 6]	Result VertexCount:34987176
+[2021-01-26 01:43:28] [DEBUG]		73	Schedule: 73.00%	Time: 52s 486ms 368us 92ns	Sample: [17820755, 6]	Result VertexCount:35007416
+[2021-01-26 01:44:19] [DEBUG]		74	Schedule: 74.00%	Time: 50s 713ms 875us 739ns	Sample: [18579454, 6]	Result VertexCount:35002866
+[2021-01-26 01:45:22] [DEBUG]		75	Schedule: 75.00%	Time: 1m 3s 462ms 761us 922ns	Sample: [27884168, 6]	Result VertexCount:35001180
+[2021-01-26 01:46:14] [DEBUG]		76	Schedule: 76.00%	Time: 51s 551ms 241us 832ns	Sample: [14531407, 6]	Result VertexCount:35004169
+[2021-01-26 01:47:06] [DEBUG]		77	Schedule: 77.00%	Time: 51s 579ms 319us 618ns	Sample: [23827750, 6]	Result VertexCount:34999287
+[2021-01-26 01:48:07] [DEBUG]		78	Schedule: 78.00%	Time: 1m 1s 720ms 406us 771ns	Sample: [46495593, 6]	Result VertexCount:34996854
+[2021-01-26 01:48:59] [DEBUG]		79	Schedule: 79.00%	Time: 51s 747ms 622us 146ns	Sample: [21237067, 6]	Result VertexCount:35001758
+[2021-01-26 01:49:50] [DEBUG]		80	Schedule: 80.00%	Time: 51s 174ms 792us 111ns	Sample: [16430868, 6]	Result VertexCount:35006878
+[2021-01-26 01:50:53] [DEBUG]		81	Schedule: 81.00%	Time: 1m 2s 718ms 995us 561ns	Sample: [23120329, 6]	Result VertexCount:34995559
+[2021-01-26 01:51:45] [DEBUG]		82	Schedule: 82.00%	Time: 52s 61ms 473us 44ns	Sample: [33860518, 6]	Result VertexCount:35002097
+[2021-01-26 01:52:36] [DEBUG]		83	Schedule: 83.00%	Time: 50s 622ms 317us 590ns	Sample: [16440677, 6]	Result VertexCount:35000202
+[2021-01-26 01:53:37] [DEBUG]		84	Schedule: 84.00%	Time: 1m 1s 549ms 706us 331ns	Sample: [35753735, 6]	Result VertexCount:35000694
+[2021-01-26 01:54:30] [DEBUG]		85	Schedule: 85.00%	Time: 52s 568ms 428us 449ns	Sample: [15016096, 6]	Result VertexCount:35008395
+[2021-01-26 01:55:22] [DEBUG]		86	Schedule: 86.00%	Time: 52s 452ms 223us 616ns	Sample: [15729322, 6]	Result VertexCount:35006338
+[2021-01-26 01:56:23] [DEBUG]		87	Schedule: 87.00%	Time: 1m 0s 797ms 398us 290ns	Sample: [23155998, 6]	Result VertexCount:34999098
+[2021-01-26 01:57:13] [DEBUG]		88	Schedule: 88.00%	Time: 50s 361ms 307us 918ns	Sample: [14585384, 6]	Result VertexCount:35000683
+[2021-01-26 01:58:05] [DEBUG]		89	Schedule: 89.00%	Time: 51s 416ms 263us 206ns	Sample: [36212284, 6]	Result VertexCount:34997520
+[2021-01-26 01:59:07] [DEBUG]		90	Schedule: 90.00%	Time: 1m 2s 336ms 494us 240ns	Sample: [28382588, 6]	Result VertexCount:34992780
+[2021-01-26 02:00:01] [DEBUG]		91	Schedule: 91.00%	Time: 54s 348ms 766us 983ns	Sample: [15748390, 6]	Result VertexCount:34990128
+[2021-01-26 02:00:53] [DEBUG]		92	Schedule: 92.00%	Time: 51s 287ms 9us 210ns	Sample: [17635231, 6]	Result VertexCount:35005208
+[2021-01-26 02:01:55] [DEBUG]		93	Schedule: 93.00%	Time: 1m 2s 680ms 972us 659ns	Sample: [15754923, 6]	Result VertexCount:34986756
+[2021-01-26 02:02:49] [DEBUG]		94	Schedule: 94.00%	Time: 53s 175ms 842us 70ns	Sample: [20570019, 6]	Result VertexCount:34989105
+[2021-01-26 02:03:40] [DEBUG]		95	Schedule: 95.00%	Time: 51s 693ms 396us 177ns	Sample: [34364753, 6]	Result VertexCount:34998234
+[2021-01-26 02:04:43] [DEBUG]		96	Schedule: 96.00%	Time: 1m 2s 971ms 389us 165ns	Sample: [48863249, 6]	Result VertexCount:34996452
+[2021-01-26 02:05:35] [DEBUG]		97	Schedule: 97.00%	Time: 51s 260ms 15us 891ns	Sample: [15063841, 6]	Result VertexCount:35002334
+[2021-01-26 02:06:25] [DEBUG]		98	Schedule: 98.00%	Time: 50s 897ms 372us 233ns	Sample: [36962391, 6]	Result VertexCount:34999779
+[2021-01-26 02:07:27] [DEBUG]		99	Schedule: 99.00%	Time: 1m 1s 256ms 63us 407ns	Sample: [18814481, 6]	Result VertexCount:35006500
+[2021-01-26 02:08:17] [DEBUG]		100	Schedule: 100.00%	Time: 50s 831ms 142us 403ns	Sample: [19556978, 6]	Result VertexCount:35007457
+[2021-01-26 02:08:17] [INFO]	-- Result Statistics
+[2021-01-26 02:08:17] [INFO]	minTime: 49s 950ms 160us 604ns(49950.16ms)
+[2021-01-26 02:08:17] [INFO]	maxTime: 1m 6s 318ms 282us 173ns(66318.28ms)
+[2021-01-26 02:08:17] [INFO]	AvgTime: 55s 289ms 279us 705ns(55289.28ms)
+[2021-01-26 02:08:17] [INFO]	P99: 1m 5s 837ms 900us 419ns(65837.90ms)
+[2021-01-26 02:08:17] [INFO]	P999: 1m 6s 270ms 243us 997ns(66270.24ms)
+[2021-01-26 02:08:17] [INFO]	Throughput: 0.02
+[2021-01-26 02:08:17] [INFO]	SuccessNum: 100
+[2021-01-26 02:08:17] [INFO]	SuccessRate: 100.00%
+[2021-01-26 02:08:17] [INFO]	ErrorNum: 0
+[2021-01-26 02:08:17] [INFO]	ErrorRate: 0.00%
+[2021-01-26 02:08:17] [INFO]	TimeoutNum: 0
+[2021-01-26 02:08:17] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 02:08:17] [INFO]	KNeighbor-6 Average: 34999821.70
+[2021-01-26 02:08:17] [INFO]	-- End KNeighbor - 6
+[2021-01-26 02:08:17] [INFO]

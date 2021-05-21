@@ -1,0 +1,64 @@
+[2021-01-26 15:12:44] [INFO]	-- Start PageRank
+[2021-01-26 15:12:56] [DEBUG]		1	Schedule: 100.00%	Time: 11s 658ms 646us 621ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[{"v_id":"2273826","v_type":"Person","attributes":{"Start.id":2273826,"score":0.39500}},{"v_id":"284658","v_type":"Person","attributes":{"Start.id":284658,"score":0.57415}},{"v_id":"2939681","v_type":"Person","attributes":{"Start.id":2939681,"score":5.45824}},{"v_id":"1525092","v_type":"Person","attributes":{"Start.id":1525092,"score":29.33503}},{"v_id":"1838839","v_type":"Person","attributes":{"Start.id":1838839,"score":0.21210}},{"v_id":"2773451","v_type":"Person","attributes":{"Start.id":2773451,"score":0.18582}},{"v_id":"707497","v_type":"Person","attributes":{"Start.id":707497,"score":0.28175}},{"v_id":"403020","v_type":"Person","attributes":{"Start.id":403020,"score":0.42218}},{"v_id":"2806069","v_type":"Person","attributes":{"Start.id":2806069,"score":19.23596}},{"v_id":"4184952","v_type":"Person","attributes":{"Start.id":4184952,"score":1.08463}}]}]}
+[2021-01-26 15:12:56] [INFO]	-- Result Statistics
+[2021-01-26 15:12:56] [INFO]	minTime: 11s 658ms 646us 621ns(11658.65ms)
+[2021-01-26 15:12:56] [INFO]	maxTime: 11s 658ms 646us 621ns(11658.65ms)
+[2021-01-26 15:12:56] [INFO]	AvgTime: 11s 658ms 646us 621ns(11658.65ms)
+[2021-01-26 15:12:56] [INFO]	P99: 11s 658ms 646us 621ns(11658.65ms)
+[2021-01-26 15:12:56] [INFO]	P999: 11s 658ms 646us 621ns(11658.65ms)
+[2021-01-26 15:12:56] [INFO]	Throughput: 0.09
+[2021-01-26 15:12:56] [INFO]	SuccessNum: 1
+[2021-01-26 15:12:56] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:12:56] [INFO]	ErrorNum: 0
+[2021-01-26 15:12:56] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:12:56] [INFO]	TimeoutNum: 0
+[2021-01-26 15:12:56] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:12:56] [INFO]	-- End PageRank
+[2021-01-26 15:12:56] [INFO]	-- Start PageRank
+[2021-01-26 15:13:07] [DEBUG]		1	Schedule: 100.00%	Time: 11s 305ms 590us 190ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[{"v_id":"2273826","v_type":"Person","attributes":{"Start.id":2273826,"score":0.39500}},{"v_id":"284658","v_type":"Person","attributes":{"Start.id":284658,"score":0.57415}},{"v_id":"2939681","v_type":"Person","attributes":{"Start.id":2939681,"score":5.45824}},{"v_id":"1525092","v_type":"Person","attributes":{"Start.id":1525092,"score":29.33503}},{"v_id":"1838839","v_type":"Person","attributes":{"Start.id":1838839,"score":0.21210}},{"v_id":"2773451","v_type":"Person","attributes":{"Start.id":2773451,"score":0.18582}},{"v_id":"707497","v_type":"Person","attributes":{"Start.id":707497,"score":0.28175}},{"v_id":"403020","v_type":"Person","attributes":{"Start.id":403020,"score":0.42218}},{"v_id":"2806069","v_type":"Person","attributes":{"Start.id":2806069,"score":19.23596}},{"v_id":"4184952","v_type":"Person","attributes":{"Start.id":4184952,"score":1.08463}}]}]}
+[2021-01-26 15:13:07] [INFO]	-- Result Statistics
+[2021-01-26 15:13:07] [INFO]	minTime: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:07] [INFO]	maxTime: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:07] [INFO]	AvgTime: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:07] [INFO]	P99: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:07] [INFO]	P999: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:07] [INFO]	Throughput: 0.09
+[2021-01-26 15:13:07] [INFO]	SuccessNum: 1
+[2021-01-26 15:13:07] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:13:07] [INFO]	ErrorNum: 0
+[2021-01-26 15:13:07] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:13:07] [INFO]	TimeoutNum: 0
+[2021-01-26 15:13:07] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:13:07] [INFO]	-- End PageRank
+[2021-01-26 15:13:07] [INFO]	-- Start PageRank
+[2021-01-26 15:13:19] [DEBUG]		1	Schedule: 100.00%	Time: 11s 564ms 550us 81ns	Sample: [0, 10, 0.85, true, 1]	Result {"version":{"edition":"enterprise","api":"v2","schema":0},"error":false,"message":"","results":[{"Start":[{"v_id":"2273826","v_type":"Person","attributes":{"Start.id":2273826,"score":0.39500}},{"v_id":"284658","v_type":"Person","attributes":{"Start.id":284658,"score":0.57415}},{"v_id":"2939681","v_type":"Person","attributes":{"Start.id":2939681,"score":5.45824}},{"v_id":"1525092","v_type":"Person","attributes":{"Start.id":1525092,"score":29.33503}},{"v_id":"1838839","v_type":"Person","attributes":{"Start.id":1838839,"score":0.21210}},{"v_id":"2773451","v_type":"Person","attributes":{"Start.id":2773451,"score":0.18582}},{"v_id":"707497","v_type":"Person","attributes":{"Start.id":707497,"score":0.28175}},{"v_id":"403020","v_type":"Person","attributes":{"Start.id":403020,"score":0.42218}},{"v_id":"2806069","v_type":"Person","attributes":{"Start.id":2806069,"score":19.23596}},{"v_id":"4184952","v_type":"Person","attributes":{"Start.id":4184952,"score":1.08463}}]}]}
+[2021-01-26 15:13:19] [INFO]	-- Result Statistics
+[2021-01-26 15:13:19] [INFO]	minTime: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	maxTime: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	AvgTime: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	P99: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	P999: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	Throughput: 0.09
+[2021-01-26 15:13:19] [INFO]	SuccessNum: 1
+[2021-01-26 15:13:19] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:13:19] [INFO]	ErrorNum: 0
+[2021-01-26 15:13:19] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:13:19] [INFO]	TimeoutNum: 0
+[2021-01-26 15:13:19] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:13:19] [INFO]	-- End PageRank
+[2021-01-26 15:13:19] [INFO]	***********************
+[2021-01-26 15:13:19] [INFO]	** Summary of PageRank Test 2 - 3
+[2021-01-26 15:13:19] [INFO]	minTime: 11s 305ms 590us 190ns(11305.59ms)
+[2021-01-26 15:13:19] [INFO]	maxTime: 11s 564ms 550us 81ns(11564.55ms)
+[2021-01-26 15:13:19] [INFO]	AvgTime: 11s 435ms 70us 135ns(11435.07ms)
+[2021-01-26 15:13:19] [INFO]	P99: 11s 561ms 960us 482ns(11561.96ms)
+[2021-01-26 15:13:19] [INFO]	P999: 11s 564ms 291us 121ns(11564.29ms)
+[2021-01-26 15:13:19] [INFO]	Throughput: 0.09
+[2021-01-26 15:13:19] [INFO]	SuccessNum: 2
+[2021-01-26 15:13:19] [INFO]	SuccessRate: 100.00%
+[2021-01-26 15:13:19] [INFO]	ErrorNum: 0
+[2021-01-26 15:13:19] [INFO]	ErrorRate: 0.00%
+[2021-01-26 15:13:19] [INFO]	TimeoutNum: 0
+[2021-01-26 15:13:19] [INFO]	TimeoutRate: 0.00%
+[2021-01-26 15:13:19] [INFO]	***********************
+[2021-01-26 15:13:19] [INFO]

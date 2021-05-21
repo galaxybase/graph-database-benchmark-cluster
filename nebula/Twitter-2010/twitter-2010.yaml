@@ -1,0 +1,55 @@
+version: v2
+description: Twitter-2010
+removeTempFiles: false
+clientSettings:
+  retry: 3
+  concurrency: 20
+  channelBufferSize: 1024
+  space: Twitter2010
+  connection:
+    user: root
+    password: nebula
+    address: localhost:9669
+logPath: ./Twitter-2010.log
+files:
+  - path: vertex.csv
+    failDataPath: ./err/ve.csv
+    batchSize: 1024
+    inOrder: false
+    type: csv
+    csv:
+      withHeader: false
+      withLabel: false
+      delimiter: "\t"
+    schema:
+      type: vertex
+      vertex:
+        vid:
+          index: 0
+          type: int
+        tags:
+          - name: ve
+            props:
+              - name: id
+                type: int
+                index: 0
+
+  - path: edge.csv
+    failDataPath: ./err/ed.csv
+    batchSize: 1024
+    inOrder: false
+    type: csv
+    csv:
+      withHeader: false
+      withLabel: false
+      delimiter: "\t"
+    schema:
+      type: edge
+      edge:
+        name: ed
+        srcVID:
+          index: 0
+          type: int
+        dstVID:
+          index: 1
+          type: int

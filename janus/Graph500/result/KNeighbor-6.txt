@@ -1,0 +1,25 @@
+[2021-03-03 15:38:53] [INFO]	-- Start K-neighbor6
+[2021-03-03 16:25:05] [DEBUG]		1	Schedule: 10.00%	Time: 46m 11s 766ms 84us 631ns	Sample: [442899]	Result 2170576
+[2021-03-03 17:11:44] [DEBUG]		2	Schedule: 20.00%	Time: 46m 39s 813ms 780us 329ns	Sample: [2242915]	Result 2181257
+[2021-03-03 17:25:08] [DEBUG]		3	Schedule: 30.00%	Time: 13m 23s 618ms 971us 972ns	Sample: [3021079]	Result 646850
+[2021-03-03 18:08:34] [DEBUG]		4	Schedule: 40.00%	Time: 43m 26s 341ms 122us 479ns	Sample: [1616525]	Result 2083699
+[2021-03-03 18:53:49] [DEBUG]		5	Schedule: 50.00%	Time: 45m 14s 376ms 684us 846ns	Sample: [1651340]	Result 2138632
+[2021-03-03 19:40:48] [DEBUG]		6	Schedule: 60.00%	Time: 46m 58s 743ms 56us 557ns	Sample: [4070]	Result 2170580
+[2021-03-03 20:28:56] [DEBUG]		7	Schedule: 70.00%	Time: 48m 8s 763ms 750us 352ns	Sample: [3140312]	Result 2169582
+[2021-03-03 20:42:52] [DEBUG]		8	Schedule: 80.00%	Time: 13m 56s 171ms 211us 955ns	Sample: [3170761]	Result 647355
+[2021-03-03 20:55:59] [DEBUG]		9	Schedule: 90.00%	Time: 13m 6s 36ms 55us 467ns	Sample: [2248329]	Result 629597
+[2021-03-03 21:41:55] [DEBUG]		10	Schedule: 100.00%	Time: 45m 56s 145ms 978us 74ns	Sample: [2744194]	Result 2084973
+[2021-03-03 21:41:55] [INFO]	-- Result Statistics
+[2021-03-03 21:41:55] [INFO]	minTime: 13m 6s 36ms 55us 467ns(786036.06ms)
+[2021-03-03 21:41:55] [INFO]	maxTime: 48m 8s 763ms 750us 352ns(2888763.75ms)
+[2021-03-03 21:41:55] [INFO]	AvgTime: 36m 18s 177ms 669us 666ns(2178177.67ms)
+[2021-03-03 21:41:55] [INFO]	P99: 48m 2s 461ms 887us 910ns(2882461.89ms)
+[2021-03-03 21:41:55] [INFO]	P999: 48m 8s 133ms 564us 107ns(2888133.56ms)
+[2021-03-03 21:41:55] [INFO]	Throughput: 0.00
+[2021-03-03 21:41:55] [INFO]	SuccessNum: 10
+[2021-03-03 21:41:55] [INFO]	SuccessRate: 100.00%
+[2021-03-03 21:41:55] [INFO]	ErrorNum: 0
+[2021-03-03 21:41:55] [INFO]	ErrorRate: 0.00%
+[2021-03-03 21:41:55] [INFO]	TimeoutNum: 0
+[2021-03-03 21:41:55] [INFO]	TimeoutRate: 0.00%
+[2021-03-03 21:41:55] [INFO]	-- End K-neighbor6

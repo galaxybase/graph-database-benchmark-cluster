@@ -1,0 +1,28 @@
+{
+  "version": 0,
+  "graphName": "Twitter-2010",
+  "vertexes": {
+    "person": {
+      "type": "person",
+      "primaryId": "id",
+      "primaryAsProperty": true,
+      "property": [
+      ]
+    }
+  },
+  "edges": {
+    "know": {
+      "type": "know",
+      "fromAndToTypes": [
+        {
+          "fromType": "person",
+          "toType": "person"
+        }
+      ],
+      "directed": true,
+      "allowRepeat": true,
+      "property": [
+      ]
+    }
+  }
+}

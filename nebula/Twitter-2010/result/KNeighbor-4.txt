@@ -1,0 +1,28 @@
+[2021-03-26 21:04:57] [INFO]	-- Start KNeighborTest - 4 Depth
+[2021-03-26 21:06:37] [ERROR]	There was an error executing item 1!
+[2021-03-26 21:06:37] [DEBUG]		1	Schedule: 10.00%	Time: 1m 40s 876ms 954us 808ns	Sample: [1496151]	Result Execute error.
+[2021-03-26 21:08:05] [ERROR]	There was an error executing item 2!
+[2021-03-26 21:08:05] [DEBUG]		2	Schedule: 20.00%	Time: 1m 27s 735ms 462us 465ns	Sample: [5975362]	Result Execute error.
+[2021-03-26 21:10:02] [ERROR]	There was an error executing item 3!
+[2021-03-26 21:10:02] [DEBUG]		3	Schedule: 30.00%	Time: 1m 57s 115ms 310us 326ns	Sample: [37022393]	Result Execute error.
+[2021-03-26 21:11:07] [ERROR]	There was an error executing item 4!
+[2021-03-26 21:11:07] [DEBUG]		4	Schedule: 40.00%	Time: 1m 4s 476ms 389us 821ns	Sample: [8709]	Result Execute error.
+[2021-03-26 21:12:29] [ERROR]	There was an error executing item 5!
+[2021-03-26 21:12:30] [DEBUG]		5	Schedule: 50.00%	Time: 1m 21s 767ms 236us 965ns	Sample: [24698239]	Result Execute error.
+[2021-03-26 21:13:53] [ERROR]	There was an error executing item 6!
+[2021-03-26 21:13:53] [DEBUG]		6	Schedule: 60.00%	Time: 1m 22s 478ms 429us 97ns	Sample: [25130276]	Result Execute error.
+[2021-03-26 21:15:24] [ERROR]	There was an error executing item 7!
+[2021-03-26 21:15:25] [DEBUG]		7	Schedule: 70.00%	Time: 1m 30s 859ms 527us 67ns	Sample: [17017845]	Result Execute error.
+[2021-03-26 21:16:41] [ERROR]	There was an error executing item 8!
+[2021-03-26 21:16:41] [DEBUG]		8	Schedule: 80.00%	Time: 1m 16s 926ms 281us 961ns	Sample: [48938638]	Result Execute error.
+[2021-03-26 22:17:05] [DEBUG]		9	Schedule: 90.00%	Time: 1h 0m 0s 0ms 0us 11ns	Sample: [1235361]	Result Execute timeout!
+[2021-03-26 22:17:16] [ERROR]	There was an error executing item 10!
+[2021-03-26 22:17:17] [DEBUG]		10	Schedule: 100.00%	Time: 6s 464ms 464us 825ns	Sample: [20658347]	Result Execute error.
+[2021-03-26 22:17:19] [INFO]	-- Result Statistics
+[2021-03-26 22:17:19] [INFO]	Results is null.
+[2021-03-26 22:17:19] [INFO]	ErrorNum: 9
+[2021-03-26 22:17:19] [INFO]	ErrorRate: 90.00%
+[2021-03-26 22:17:19] [INFO]	TimeoutNum: 1
+[2021-03-26 22:17:20] [INFO]	TimeoutRate: 10.00%
+[2021-03-26 22:17:23] [INFO]	ResultCount Average: 0.00
+[2021-03-26 22:17:24] [INFO]	-- End KNeighborTest - 4 Depth

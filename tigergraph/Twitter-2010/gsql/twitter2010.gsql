@@ -1,0 +1,526 @@
+# load Twitter2010数据
+drop all
+Create Vertex Person(primary_id id UINT, id UINT)
+Create Directed Edge Friend(from Person, to Person) With Reverse_Edge="Friend_Reverse"
+Create Graph social(Person, Friend)
+use graph social
+begin
+create loading job load_twitter2010 for graph social {
+  define filename file1="/home/tigergraph/data/twitter2010/vertex.csv";
+  define filename file2="/home/tigergraph/data/twitter2010/edge.csv";
+
+  load file1 to Vertex Person values($0, $0) using header="false", separator=",";
+  load file2 to Edge Friend values($0, $1) using header="false", separator="	";
+}
+end
+run loading job load_twitter2010
+
+
+
+CREATE OR REPLACE DISTRIBUTED QUERY WCC(/* Parameters here */) FOR GRAPH social {
+  SumAccum<int>    @@group_cnt = 0;
+      int    loop_count = 0;
+      MinAccum<int>    @cc_id;
+
+      OrAccum<bool> @changed_group= false;
+
+      Start = {Person.*};
+      @@group_cnt = Start.size();
+      Start = select x from Start:x accum x.@cc_id = getvid(x);
+
+      while (Start.size()>0) do
+         Start= select y from Start:x - (:e)-> :y
+              where x.@cc_id < y.@cc_id
+         accum y.@cc_id += x.@cc_id
+         post-accum if (y.@changed_group ==false) then
+            @@group_cnt += -1, y.@changed_group+=true
+         end;
+
+         loop_count = loop_count + 1;
+      end;
+      Print @@group_cnt, loop_count;
+}
+
+INSTALL QUERY WCC
+
+
+
+CREATE OR REPLACE DISTRIBUTED QUERY PageRank (INT maxIter, FLOAT damping) FOR GRAPH social{
+# Compute the pageRank score for each vertex in the GRAPH
+# In each iteration, compute a score for each vertex:
+#   score = (1-damping) + damping*sum(received scores FROM its neighbors).
+# The pageRank algorithm stops when either of the following is true:
+#  a) it reaches maxIter iterations;
+#  b) the max score change for any vertex compared to the last iteration <= maxChange.
+
+        SumAccum<float> @received_score = 0; # sum of scores each vertex receives FROM neighbors
+        SumAccum<float> @score;   # Initial score for every vertex is 1.
+        SumAccum<float> @initScore;
+
+        Start = {Person.*};   #  Start with all vertices of specified type(s)
+
+        Start = select s from Start:s
+                ACCUM CASE WHEN s.outdegree("Friend") == 0 THEN s.@score = 1.0 / Start.size(), s.@initScore = 1.0 * damping / Start.size()
+                      ELSE s.@score = 1.0 * damping / s.outdegree("Friend"), s.@initScore = 1.0 * damping / s.outdegree("Friend")
+                END;
+
+        WHILE true LIMIT maxIter DO
+                V = SELECT s
+                    FROM Start:s -(Friend:e)-> :t
+                    ACCUM t.@received_score += s.@score * s.@initScore
+                    POST-ACCUM s.@score = (1.0 - damping) + s.@received_score,
+                               s.@received_score = 0;
+        END; # END WHILE loop
+
+    Start = select s from Start:s WHERE getvid(s) < 10;
+
+    PRINT Start[Start.id, Start.@score as score];
+
+}
+
+INSTALL QUERY PageRank
+
+
+
+CREATE OR REPLACE DISTRIBUTED QUERY Label_Prop(INT maxIter) FOR GRAPH social {
+# Partition the vertices into communities, according to the Label Propagation method.
+# Indicate community membership by assigning each vertex a community ID.
+
+        MapAccum<int, int> @map;     # <communityId, numNeighbors>
+        MapAccum<int, int> @@commSizes;   # <communityId, members>
+        SumAccum<int> @label;
+        Start = {Person.*};
+
+# Assign unique labels to each vertex
+        Start = SELECT s FROM Start:s ACCUM s.@label = getvid(s);
+
+# Propagate labels to neighbors until labels converge or the max iterations is reached
+        WHILE true LIMIT maxIter DO
+                Start = SELECT s
+                        FROM Start:s - (Friend_Reverse:e) -> :t
+                        ACCUM s.@map += (t.@label -> 1);
+                Start = SELECT s
+                        FROM Start:s
+                        POST-ACCUM
+                                INT maxV = 0,
+                                INT label = 0,
+                                # Iterate over the map to get the neighbor label that occurs most often
+                                FOREACH (k, v) IN s.@map DO
+                                        CASE WHEN v > maxV THEN
+                                                maxV = v,
+                                                label = k
+                                        END
+                                END,
+                                # When the neighbor search finds a label AND it is a new label
+                                # AND the label's count has increased, update the label.
+                                CASE WHEN label != 0 AND s.@label != label THEN
+                                        s.@label = label
+                                END,
+                                s.@map.clear();
+        END;
+
+        Start = SELECT s FROM Start:s
+                POST-ACCUM @@commSizes += (s.@label -> 1);
+        PRINT @@commSizes.size();
+
+}
+
+INSTALL QUERY Label_Prop
+
+
+
+CREATE OR REPLACE DISTRIBUTED QUERY Louvain(INT iter1 = 10, INT iter2 = 10, INT iter3 = 10, INT split = 10, INT outputLevel = 0) FOR GRAPH social {
+ /*
+ * Louvain Method with Parallelism and Refinement
+ * https://arxiv.org/pdf/1304.4453
+ * The minimum label heuristics are implemented: https://doi.org/10.1016/j.parco.2015.03.003
+
+ * iter: There are three phases in the algorithm -- move, merge and refine. Their max number of iterations are set by iter1, iter2, iter3 respectively.
+ * split: To save memory, split number is 10 by default. When the split number is larger, the query is closer to sequential Louvain Method, which is slower. When the split number is 1, the query is parallel, but requires more memory.
+ * outputLevel: 0, only list number; 1, also list members
+ * fComm, fDist: files to store community label and community distribution
+*/
+
+        TYPEDEF TUPLE <INT csize, INT number> ClusterNum;
+        TYPEDEF TUPLE <VERTEX node, INT cid, FLOAT deltaQ> vDeltaQ;
+        HeapAccum<vDeltaQ>(1, deltaQ DESC, cid ASC) @largestDeltaQ;   # if deltaQ is the same, select the one with mininal vid
+        MapAccum<INT, FLOAT> @@totIncidentCluster;   # sun of weight incident to clusters
+        MapAccum<INT, INT> @@clusterSizes;                # size of a cluster
+        MapAccum<INT, FLOAT> @weightToCluster;  # weight from one vertex incident to that cluster
+        SumAccum<FLOAT> @@totalWeight;   # total weight of all edges
+        SumAccum<FLOAT> @weight;          # total weight incident to this vertex
+        SumAccum<FLOAT> @cweight;       # total weight incident to this aggregate vertex
+        SumAccum<INT> @uid;        # which vertex it belongs to
+        SumAccum<INT> @cid;        # which cluster it belongs to
+        SumAccum<INT> @vid;        # internal id
+        SumAccum<FLOAT> @deltaQ;         # contribution to the modularity
+        SumAccum<FLOAT> @@modularity;
+        SumAccum<FLOAT> @@modularity2;
+        MapAccum<INT, MapAccum<INT, FLOAT>> @@weightToClusterMap;   # calculate edges between communities
+        MapAccum<INT, SetAccum<INT>> @@moveComm; # map of communities that changed its community id
+        MapAccum<INT, MinAccum<VERTEX>> @@representMap;
+        SetAccum<VERTEX> @@representSet;
+        MapAccum<INT, FLOAT> @@vertexMap;
+        MapAccum<INT, MapAccum<INT, FLOAT>> @@edgeMap;
+        HeapAccum<ClusterNum>(100, csize ASC) @@clusterDist;
+        MapAccum<INT, INT> @@clusterMap;
+        MapAccum<INT, ListAccum<INT>> @@clusterMembers;
+        FLOAT last_modularity = 0;
+        FLOAT last_modularity2 = 0;
+        INT iteration;
+        INT Iter1;
+        FLOAT epsilon = 0.0001;
+        INT iteration2;
+        INT partitions;
+        INT loop;
+        INT debug = 0;  # debug: 0, no modularity info; 1, show debug log; 2, modularity for each iteration
+
+        partitions = split;
+        CASE WHEN split < 1 THEN
+                partitions = 1;
+        END;
+
+# Initialize: count edges and set a unique cluster ID for each vertex
+        Start = {ANY};
+        S = {ANY};
+        S = SELECT s
+            FROM Start:s -(:e)-> :t
+            ACCUM @@totalWeight += 1,
+                  s.@weight += 1
+            POST-ACCUM s.@vid = getvid(s),
+                       s.@uid = s.@vid,
+                       s.@cid = s.@vid;  # Label each vertex with its own internal ID
+
+# Special first iteration of Phase 1
+        iteration = 1;
+        S = SELECT s
+            FROM Start:s -(:e)-> :t
+            WHERE s.@cid > t.@cid
+            ACCUM s.@largestDeltaQ += vDeltaQ(t, t.@cid, 1 - 2 * s.@weight * s.@weight/ @@totalWeight)
+                  # weightToCluster is just e.weight
+            POST-ACCUM INT bestCluster = s.@largestDeltaQ.top().cid,
+                       IF s.@largestDeltaQ.size() > 0 and s.@largestDeltaQ.top().deltaQ > 0 and s.@cid != bestCluster THEN
+                               s.@cid = bestCluster
+                       END,
+                       s.@largestDeltaQ.clear();
+
+        S = SELECT s
+            FROM Start:s-(:e)-:t
+            WHERE s.@cid == t.@cid
+            ACCUM @@modularity += 1 - s.@weight * t.@weight / (@@totalWeight);
+
+        @@modularity = @@modularity / @@totalWeight;
+        PRINT iteration AS Phase1Iter, @@modularity;
+        log(debug > 0, "[redrain]#move", iteration, @@modularity);
+
+# Phase 1 -- Move
+# For each vertex, calculate the change in modularity FROM adding it to each of the nearby clusters
+# Add vertex to cluster with highest positive change in modularity
+# Repeat the above until no vertices change cluster anymore
+        S = SELECT s
+            FROM Start:s
+            ACCUM @@totIncidentCluster += (s.@cid -> s.@weight);
+
+        iteration = 1;
+        Iter1 = iter1 - 1;
+
+        WHILE (iteration < 2 OR @@modularity - last_modularity > epsilon) LIMIT Iter1 DO
+                iteration = iteration + 1;
+                loop = 0;
+                WHILE (loop < partitions) DO
+                        S = SELECT s
+                            FROM Start:s -(:e)-> :t
+                            WHERE s.@uid % partitions == loop    # for different split
+                                  # At least one cluster not singlet(a cluster on its own). If both clusters are singlets, consider only when the label of target is smaller to avoid swap
+                                  AND (( abs(s.@weight - @@totIncidentCluster.get(s.@cid)) > epsilon   # s is not a singlet
+                                  OR abs(t.@weight - @@totIncidentCluster.get(t.@cid)) > epsilon )     # or t is not a singlet
+                                  OR (abs(s.@weight - @@totIncidentCluster.get(s.@cid)) < epsilon      # s is a singlet
+                                  AND abs(t.@weight - @@totIncidentCluster.get(t.@cid)) < epsilon      # t is also a singlet
+                                  AND s.@cid > t.@cid) )                                               # consider only when target label is smaller
+                            ACCUM s.@weightToCluster += (t.@cid -> 1)
+                            POST-ACCUM INT bestCluster = s.@cid,
+                                       FLOAT maxDeltaQ = 0.0,
+                                       FLOAT deltaQ_new = 0.0,
+                                       FOREACH (cluster, weightToC) IN s.@weightToCluster DO   #would be better if this can be distributed
+                                               FLOAT incident = @@totIncidentCluster.get(cluster),
+                                               deltaQ_new = weightToC - 2 * incident * s.@weight/ @@totalWeight,
+                                               IF deltaQ_new > maxDeltaQ OR (abs(deltaQ_new - maxDeltaQ) < epsilon AND cluster < bestCluster) THEN   # when deltaQ_new is equal to maxDeltaQ, and the cluster label is smaller, also change
+                                                       maxDeltaQ = deltaQ_new,
+                                                       bestCluster = cluster
+                                               END
+                                       END,
+                                       IF s.@cid != bestCluster THEN
+                                               @@totIncidentCluster += (s.@cid -> (-1 * s.@weight)),
+                                               @@totIncidentCluster += (bestCluster -> s.@weight),
+                                               s.@cid = bestCluster
+                                       END,
+                                       s.@weightToCluster.clear();
+                        loop = loop + 1;
+                END;
+                last_modularity = @@modularity;
+                @@modularity = 0;
+                T1 = SELECT s
+                     FROM Start:s-(:e)-:t
+                     WHERE s.@cid == t.@cid
+                     ACCUM @@modularity += 1 - s.@weight * t.@weight / (@@totalWeight);
+                @@modularity = @@modularity / @@totalWeight;
+                PRINT iteration AS Phase1Iter, @@modularity;
+                log(debug > 0, "[redrain]#move", iteration, @@modularity);
+        END;
+
+# Phase 2 --  Merge
+        iteration2 = 0;
+        WHILE (iteration2 < 2 OR @@modularity2 - last_modularity2 > epsilon) LIMIT iter2 DO
+                iteration2 = iteration2 + 1;
+                Start = SELECT s
+                        FROM Start:s
+                        ACCUM s.@uid = s.@cid;
+                # Select the vertices with minimal internal id to represent the coarsened graph
+                Start = SELECT s
+                        FROM Start:s
+                        ACCUM @@representMap += (s.@cid -> s);
+
+                FOREACH (key, value) IN @@representMap DO
+                        @@representSet += value;
+                END;
+                represent = {@@representSet};
+                @@representMap.clear();
+                @@representSet.clear();
+                log(debug > 0, "[redrain]#2_merge", represent.size()); #@@clusterSizes.size());
+
+            # Get @cweight from totalIncident
+                represent = SELECT s
+                            FROM represent:s
+                            ACCUM s.@cweight = @@totIncidentCluster.get(s.@uid),
+                                  @@clusterSizes += (s.@cid -> 1);
+
+                log(debug > 1, "[redrain]#2_merge", @@weightToClusterMap.size());
+                iteration = 0;
+                last_modularity = 0;
+                @@modularity = 0;
+
+                WHILE (iteration < 2 OR @@modularity - last_modularity > epsilon) limit iter1 DO
+                        iteration = iteration + 1;
+
+                        # Calculate.weight incident from vertex to cluster in coarsened graph; change every interation
+                        S = SELECT s
+                            FROM Start:s -(:e)-:t
+                            WHERE s.@cid != t.@cid AND @@totIncidentCluster.get(s.@uid) > 0 AND @@totIncidentCluster.get(t.@cid) > 0   #@@totIncidentCluster keeps changing, can be 0
+                            ACCUM @@weightToClusterMap += (s.@uid -> (t.@cid -> 1));  # from s, incident to some clusters. Not consider the same cluster
+                        represent = SELECT s
+                                    FROM represent:s
+                                    POST-ACCUM INT bestCluster = s.@cid,
+                                               FLOAT maxDeltaQ = 0.0,
+                                               FLOAT deltaQ_new = 0.0,
+                                               FOREACH (cluster, weightToC) IN @@weightToClusterMap.get(s.@uid) DO
+                                                       FLOAT incident = @@totIncidentCluster.get(cluster),
+                                                       IF @@clusterSizes.get(s.@cid) == 1 AND @@clusterSizes.get(cluster) == 1 AND s.@cid < cluster THEN
+                                                               CONTINUE
+                                                       END,
+                                                       deltaQ_new = weightToC - 2 * incident * s.@cweight/ @@totalWeight, #total weight should be the same
+                                                       IF deltaQ_new > maxDeltaQ OR abs(deltaQ_new - maxDeltaQ) < epsilon AND cluster < bestCluster THEN      # new cluster is smaller then the current best cluster
+                                                               maxDeltaQ = deltaQ_new,
+                                                               bestCluster = cluster
+                                                       END
+                                               END,
+                                               IF s.@cid != bestCluster THEN
+                                                       @@totIncidentCluster += (s.@cid -> (-1 * s.@cweight)),
+                                                       @@totIncidentCluster += (bestCluster -> s.@cweight),
+                                                       @@moveComm += (s.@uid -> bestCluster),
+                                                       @@clusterSizes += (s.@cid -> -1),
+                                                       @@clusterSizes += (bestCluster -> 1),
+                                                       s.@cid = bestCluster
+                                               END;
+                        log(debug > 1, "[redrain]#2_merge", @@weightToClusterMap.size());
+                        @@weightToClusterMap.clear();
+
+                        log(debug > 1, "[redrain]#2_move:", @@moveComm.size());
+                        # move nodes
+                        S = SELECT s
+                            FROM Start:s
+                            WHERE @@moveComm.containsKey(s.@uid)
+                            POST-ACCUM FOREACH v IN @@moveComm.get(s.@uid) DO
+                                               s.@cid = v
+                                       END;
+                        @@moveComm.clear();
+
+                        last_modularity = @@modularity;
+                        @@modularity = 0;
+
+                        S = SELECT s
+                            FROM Start:s-(:e)-:t
+                            WHERE s.@cid == t.@cid
+                            ACCUM @@modularity += 1 - s.@weight * t.@weight / (@@totalWeight);
+                            @@modularity = @@modularity / @@totalWeight;
+                            PRINT iteration AS Phase1Iter, @@modularity;
+                        log(debug > 0, "[redrain]#2_move", iteration, @@modularity);
+                END;
+
+                S = SELECT s
+                    FROM represent:s
+                    ACCUM s.@cweight = 0;
+                @@clusterSizes.clear();
+
+                last_modularity2 = @@modularity2;
+                @@modularity2 = @@modularity;
+                PRINT iteration2 AS Phase2Iter, @@modularity2;
+                log(debug > 0, "[redrain]#2_merge", iteration2, @@modularity2);
+
+        END;
+
+
+# Phase 3 -- Refinement
+        iteration = 0;
+        @@modularity = 0;
+        WHILE (iteration < 2 OR @@modularity - last_modularity > epsilon) LIMIT iter3 DO
+                iteration = iteration + 1;
+                S = SELECT s
+                    FROM Start:s -(:e)-> :t
+                    WHERE abs(s.@weight - @@totIncidentCluster.get(s.@cid)) > epsilon OR abs(t.@weight - @@totIncidentCluster.get(t.@cid)) > epsilon OR (abs(s.@weight - @@totIncidentCluster.get(s.@cid)) < epsilon AND abs(t.@weight - @@totIncidentCluster.get(t.@cid)) < epsilon AND s.@cid > t.@cid)   # at least one cluster not only itself, or use smaller label
+                    ACCUM s.@weightToCluster += (t.@cid -> 1)
+                    POST-ACCUM
+                            INT bestCluster = s.@cid,
+                            FLOAT maxDeltaQ = 0.0,
+                            FLOAT deltaQ_new = 0.0,
+                            FOREACH (cluster, weightToC) IN s.@weightToCluster DO   #would be better if this can be distributed
+                                    FLOAT incident = @@totIncidentCluster.get(cluster),
+                                    deltaQ_new = weightToC - 2 * incident * s.@weight/ @@totalWeight,
+                                    IF deltaQ_new > maxDeltaQ OR (abs(deltaQ_new - maxDeltaQ) < epsilon AND cluster < bestCluster) THEN   # when deltaQ_new is equal to maxDeltaQ, and the cluster label is smaller, also change
+                                            maxDeltaQ = deltaQ_new,
+                                            bestCluster = cluster
+                                    END
+                            END,
+                            IF s.@cid != bestCluster THEN
+                                    @@totIncidentCluster += (s.@cid -> (-1 * s.@weight)),
+                                    @@totIncidentCluster += (bestCluster -> s.@weight),
+                                    s.@cid = bestCluster
+                            END,
+                            s.@weightToCluster.clear();
+
+                last_modularity = @@modularity;
+                @@modularity = 0;
+                T1 = SELECT s
+                     FROM Start:s-(:e)-:t
+                     WHERE s.@cid == t.@cid
+                     ACCUM @@modularity += 1 - s.@weight * t.@weight / (@@totalWeight);
+                @@modularity = @@modularity / @@totalWeight;
+        END;
+
+
+        Print Start.size();
+        Start = {ANY};
+        Start = SELECT s FROM Start:s
+                POST-ACCUM @@clusterSizes += (s.@cid -> 1)
+                           ;
+        log(TRUE, @@clusterSizes.size());
+
+        IF outputLevel ==0 THEN
+                FOREACH (cluster, csize) IN @@clusterSizes DO
+                        @@clusterMap += (csize -> 1);
+                END;
+                FOREACH (csize, number) IN @@clusterMap DO
+                        @@clusterDist += ClusterNum(csize, number);
+                END;
+                PRINT @@clusterDist.size();
+        ELSE
+                FOREACH (cluster, csize) IN @@clusterSizes DO
+                        @@clusterMembers += (csize -> cluster);
+                END;
+                PRINT @@clusterMembers.size();
+        END;
+}
+
+INSTALL QUERY Louvain
+
+# 创建K-Neighbor查询
+CREATE OR REPLACE DISTRIBUTED QUERY kNeighbor(VERTEX<Person> S, INT depth) for graph social{
+
+    OrAccum          @visited = false;
+    SumAccum<int>    @@loop=0;
+  SumAccum<int> @@count = 0;
+
+    Start = {S};
+    Start = SELECT v
+            FROM Start:v
+            ACCUM v.@visited = true;
+
+    WHILE (@@loop < depth) DO
+        Start = SELECT v
+                FROM Start:u - (Friend:e)->:v
+                WHERE v.@visited != true
+                POST-ACCUM v.@visited = true;
+        @@count += Start.size();
+        @@loop += 1;
+   END;
+
+   PRINT @@count as vertexCount;
+
+}
+
+INSTALL QUERY kNeighbor
+
+
+
+# 创建最短路径查询
+CREATE OR REPLACE DISTRIBUTED QUERY Shortest_OUT(VERTEX<Person> S, VERTEX<Person> T , INT maxDepth) FOR GRAPH social {
+  OrAccum @@stop = false;       // global variable controlling whether to continue the search
+  OrAccum  @seenS = false;      // a vertex has been seen by S
+  OrAccum  @seenT = false;      // a vertex has been seen by T
+  OrAccum @meet = false;        // vertex flag indicating whether it is 'meeting' point
+  SumAccum<int>   @length = 0;  // vertex runtime attribute: # steps from origin vertex S
+  INT curDepth = 0;
+
+  Starts = {S};
+  Ends = {T};
+
+  //initialize S, T vertices
+  Starts = SELECT v         // _ means StartSet can contain any vertex type
+             FROM Starts:v
+             ACCUM v.@seenS=true;
+  Ends = SELECT t         // _ means StartSet can contain any vertex type
+             FROM Ends:t
+             ACCUM t.@seenT=true;
+  WHILE @@stop == false and curDepth < maxDepth DO
+    curDepth = curDepth + 1;
+    Starts  = SELECT v
+        FROM Starts:s-(Friend:e)->:v
+        WHERE v.@seenS!=true   // from T frontier to outside
+        ACCUM
+            CASE WHEN v.@seenT == true
+                THEN @@stop += true,
+                    v.@meet = true,
+                    v.@length = s.@length + v.@length + 1
+            WHEN v.@seenT != true
+                THEN v.@seenS = true,
+                    v.@length = s.@length + 1
+            END;
+    curDepth = curDepth + 1;
+    IF @@stop == true OR curDepth >= maxDepth THEN BREAK; END;
+    Ends  = SELECT s
+        FROM Ends:v-(Friend_Reverse:e)->:s
+        WHERE s.@seenT!=true   // from T frontier to outside
+        ACCUM
+            CASE WHEN s.@seenS == true
+                THEN @@stop += true,
+                    s.@meet = true,
+                    s.@length = s.@length + v.@length + 1
+            WHEN s.@seenS != true
+                THEN s.@seenT = true,
+                    s.@length = v.@length + 1
+            END;
+  END;
+
+  StartSet = Starts UNION Ends;
+
+  // print out the final result stored at the vertex who marked
+  // as meet vertex
+  StartSet = SELECT v
+             FROM StartSet:v
+             WHERE v.@meet == true
+             LIMIT 5;
+
+  #PRINT StartSet.@resultLength, StartSet.@pathResults;           # JSON Output v1
+  PRINT StartSet [StartSet.@length as length]; # JSON Output v2
+}
+
+INSTALL QUERY Shortest_OUT

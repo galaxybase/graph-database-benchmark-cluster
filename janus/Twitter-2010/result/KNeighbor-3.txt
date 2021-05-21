@@ -1,0 +1,26 @@
+[2021-03-05 12:13:11] [INFO]	-- Start K-neighbor3
+[2021-03-05 13:13:26] [DEBUG]	1	Schedule: 10.00%	Time: 1h 0m 14s 657ms 512us 577ns	Sample: [1496151]	Result Execute timeout!
+[2021-03-05 14:13:46] [DEBUG]	2	Schedule: 20.00%	Time: 1h 0m 20s 619ms 467us 865ns	Sample: [5975362]	Result Execute timeout!
+[2021-03-05 15:13:50] [DEBUG]	3	Schedule: 30.00%	Time: 1h 0m 3s 188ms 455us 151ns	Sample: [37022393]	Result Execute timeout!
+[2021-03-05 16:14:10] [DEBUG]	4	Schedule: 40.00%	Time: 1h 0m 20s 535ms 41us 548ns	Sample: [8709]	Result Execute timeout!
+[2021-03-05 17:14:50] [DEBUG]	5	Schedule: 50.00% 	Time: 1h 0m 40s 502ms 75us 2ns 	sample: [1496151] 	Result Execute timeout!
+[2021-03-05 18:15:00] [DEBUG]	6	Schedule: 60.00% 	Time: 1h 0m 10s 974ms 225us 27ns 	sample: [5975362] 	Result Execute timeout!
+[2021-03-05 19:15:49] [DEBUG]	7	Schedule: 70.00% 	Time: 1h 0m 49s 291ms 338us 1ns 	sample: [37022393] 	Result Execute timeout!
+[2021-03-05 20:16:42] [DEBUG]	8	Schedule: 80.00% 	Time: 1h 0m 53s 163ms 514us 26ns 	sample: [8709] 	Result Execute timeout!
+[2021-03-05 21:17:00] [DEBUG]	9	Schedule: 90.00% 	Time: 1h 0m 18s 677ms 802us 8ns 	sample: [24698239] 	Result Execute timeout!
+[2021-03-05 22:17:36] [DEBUG]	10	Schedule: 100.00% 	Time: 1h 0m 36s 644ms 477us 4ns 	sample: [25130276] 	Result Execute timeout!
+[2021-03-04 20:59:55] [INFO]    -- Result Statistics
+[2021-03-04 20:59:55] [INFO]    minTime: 1h 0m 3s 188ms 455us 151ns(3603188.45ms)
+[2021-03-04 20:59:55] [INFO]	maxTime: 1h 0m 53s 163ms 514us 26ns(3653163.51ms)
+[2021-03-04 20:59:55] [INFO]	AvgTime: 1h 0m 26s 825ms 391us 17ns(3626825.39ms)
+[2021-03-04 20:59:55] [INFO]	P99: 1h 0m 53s 86ms 810us 25ns(3653086.81ms)
+[2021-03-04 20:59:55] [INFO]	P999: 1h 0m 53s 146ms 200us 852ns(3653146.20ms)
+[2021-03-04 20:59:55] [INFO]	Throughput: 0.00
+[2021-03-04 20:59:55] [INFO]	SuccessNum: 0
+[2021-03-04 20:59:55] [INFO]	SuccessRate: 0.00%
+[2021-03-04 20:59:55] [INFO]    ErrorNum: 0
+[2021-03-04 20:59:55] [INFO]    ErrorRate: 0.00%
+[2021-03-04 20:59:55] [INFO]    TimeoutNum: 10
+[2021-03-04 20:59:55] [INFO]    TimeoutRate: 100.00%
+[2021-03-04 20:59:55] [INFO]    ResultCount Average: 0.00
+[2021-03-04 20:59:55] [INFO]    -- End K-neighbor3

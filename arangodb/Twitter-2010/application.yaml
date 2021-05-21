@@ -1,0 +1,80 @@
+#############Twtter2010数据集测试配置#############
+# 图数据库类型
+graphType: ArangoDB
+# 图名称
+graphName: Twitter2010
+# 超时时间,单位：s
+timeout: 3600
+# 遇到错误时跳过测试项
+errorStop: false
+# 超时不停止
+timeoutStop: false
+# 数据库所在包名
+dataBaseClass: com.galaxybase.benchmark.arango.database.ArangoGraph
+# 自动以参数
+parameters:
+  # arango部署服务器IP
+  ip: localhost
+  # 请求端口
+  port: 8529
+  # username
+  username: root
+  # password
+  password: admin
+
+# 默认样本文件
+sample: sample/Twitter-2010-sp-sample.txt
+samples:
+  # KN 样本集
+  bfs: sample/Twitter-2010-kn-sample.txt
+  # ShortestPath 样本集
+  sp: sample/Twitter-2010-sp-sample.txt
+test:
+  # PageRank
+  - testClass: com.galaxybase.benchmark.arango.item.PageRank
+    count: 1
+    loop: 1
+    sample: sp
+
+
+
+  # ShortestPath
+  - testClass: com.galaxybase.benchmark.arango.item.ShortestPath
+    count: 100
+    loop: 1
+    sample: sp
+
+
+
+  # KN 1度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor1
+    count: 100
+    loop: 1
+    sample: bfs
+    timeout: 180
+  # KN 2度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor2
+    count: 100
+    loop: 1
+    sample: bfs
+    timeout: 180
+  # KN 3度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor3
+    count: 10
+    loop: 1
+    sample: bfs
+  # KN 4度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor4
+    count: 10
+    loop: 1
+    sample: bfs
+  # KN 5度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor5
+    count: 10
+    loop: 1
+    sample: bfs
+  # KN 6度查询
+  - testClass: com.galaxybase.benchmark.arango.item.KNeighbor6
+    count: 10
+    loop: 1
+    sample: bfs

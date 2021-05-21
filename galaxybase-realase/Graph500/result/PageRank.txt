@@ -1,0 +1,15 @@
+[2021-02-04 19:51:18] [INFO]	-- Start PageRank
+[2021-02-04 19:51:28] [INFO]	-- Result Statistics
+[2021-02-04 19:51:28] [INFO]	minTime: 10s 668ms 20us 786ns(10668.02ms)
+[2021-02-04 19:51:28] [INFO]	maxTime: 10s 668ms 20us 786ns(10668.02ms)
+[2021-02-04 19:51:28] [INFO]	AvgTime: 10s 668ms 20us 786ns(10668.02ms)
+[2021-02-04 19:51:28] [INFO]	P99: 10s 668ms 20us 786ns(10668.02ms)
+[2021-02-04 19:51:28] [INFO]	P999: 10s 668ms 20us 786ns(10668.02ms)
+[2021-02-04 19:51:28] [INFO]	Throughput: 0.09
+[2021-02-04 19:51:28] [INFO]	SuccessNum: 1
+[2021-02-04 19:51:28] [INFO]	SuccessRate: 100.00%
+[2021-02-04 19:51:28] [INFO]	ErrorNum: 0
+[2021-02-04 19:51:28] [INFO]	ErrorRate: 0.00%
+[2021-02-04 19:51:28] [INFO]	TimeoutNum: 0
+[2021-02-04 19:51:28] [INFO]	TimeoutRate: 0.00%
+[2021-02-04 19:51:28] [INFO]	-- End PageRank
